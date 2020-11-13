@@ -11,5 +11,5 @@ Route::get('/', function () {
 //admin
 
 Route::get('/administrador', function () {
-    return view('MasterPage.admin');
+    return view('admin.index');
 });
