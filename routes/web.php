@@ -20,6 +20,10 @@ Route::get('/blog', function () {
     return view('cliente.blog');
 });
 
+Route::get('/detalleblog', function () {
+    return view('cliente.detalleblog');
+});
+
 Route::get('/detalleproyecto', function () {
     return view('cliente.detalleproject');
 });
