@@ -125,11 +125,11 @@
         <footer class="style-2 light">
             <div class="container">
                 <div class="row align-items-middle">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <img src="{{ asset('cliente/images/logo-dark.png')}}" class="logo-small" alt=""><br>
                     </div>
 
-                    <div class="col-md-5">
+                    <div class="col-md-6 footerespacio">
                         &copy; Sofía Coná 2020 – Desarrollado por  <span class="id-color">Búho
                             Solutions</span>
                     </div>
@@ -138,6 +138,7 @@
                         <div class="social-icons">
                             <a href="#"><i class="fa fa-whatsapp fa-lg"></i></a>
                             <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                            <a href="#"><i class="fa fa-user fa-lg"></i></a>
 
                         </div>
                     </div>

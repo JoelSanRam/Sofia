@@ -61,7 +61,7 @@
                         <a class="simple-ajax-popup-align-top" href="project-details-1.html">
                             <span class="overlay">
                                 <span class="pf_title">
-                                    <span class="project-name">Eco Green Interior</span>
+                                    <span class="project-name">Interior ecológico</span>
                                 </span>
                             </span>
                         </a>
@@ -77,7 +77,7 @@
                         <a class="simple-ajax-popup-align-top" href="project-details-2.html">
                             <span class="overlay">
                                 <span class="pf_title">
-                                    <span class="project-name">Modern Elegance Suite</span>
+                                    <span class="project-name">Suite elegante</span>
                                 </span>
                             </span>
                         </a>
@@ -94,7 +94,7 @@
                         <a class="simple-ajax-popup-align-top" href="project-details-3.html">
                             <span class="overlay">
                                 <span class="pf_title">
-                                    <span class="project-name">Apartment Renovation</span>
+                                    <span class="project-name">Departamento renovado</span>
                                 </span>
                             </span>
                         </a>
@@ -111,7 +111,7 @@
                         <a class="simple-ajax-popup-align-top" href="project-details-youtube.html">
                             <span class="overlay">
                                 <span class="pf_title">
-                                    <span class="project-name">Youtube Video</span>
+                                    <span class="project-name">Youtube Videos</span>
                                 </span>
                             </span>
                         </a>
@@ -127,7 +127,7 @@
                         <a class="simple-ajax-popup-align-top" href="project-details-vimeo.html">
                             <span class="overlay">
                                 <span class="pf_title">
-                                    <span class="project-name">Vimeo Video</span>
+                                    <span class="project-name">Videocafetera</span>
                                 </span>
                             </span>
                         </a>
@@ -143,7 +143,7 @@
                         <a class="simple-ajax-popup-align-top" href="project-details.html">
                             <span class="overlay">
                                 <span class="pf_title">
-                                    <span class="project-name">Restaurant In Texas</span>
+                                    <span class="project-name">Restaurante en Mérida</span>
                                 </span>
                             </span>
                         </a>
@@ -160,7 +160,7 @@
                         <a class="simple-ajax-popup-align-top" href="project-details.html">
                             <span class="overlay">
                                 <span class="pf_title">
-                                    <span class="project-name">Office On Space</span>
+                                    <span class="project-name">Oficina en el espacio</span>
                                 </span>
                             </span>
                         </a>
@@ -178,7 +178,7 @@
                         <a class="simple-ajax-popup-align-top">
                             <span class="overlay">
                                 <span class="pf_title">
-                                    <span class="project-name">Summer House</span>
+                                    <span class="project-name">Casa de verano</span>
                                 </span>
                             </span>
                         </a>

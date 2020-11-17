@@ -5,11 +5,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Blog Single</h1>
+                <h1>Blog sencillo</h1>
                 <ul class="crumb">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Inicio</a></li>
                     <li class="sep">/</li>
-                    <li>Blog Single</li>
+                    <li>Detalle de artículo</li>
                 </ul>
             </div>
         </div>
@@ -34,7 +34,7 @@
                             </div>
 
                             <div class="post-text">
-                                <h3><a href="#">5 Things That Take a Room from Good to Great</a></h3>
+                                <h3><a href="#">TITULO DEL ARTICULO</a></h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
@@ -56,7 +56,7 @@
                             </div>
                         </div>
 
-                        <div class="post-meta"><span><i class="fa fa-user id-color"></i>By: <a href="#">Lynda Wu</a></span> <span><i class="fa fa-tag id-color"></i><a href="#">News</a>, <a href="#">Events</a></span> <span><i class="fa fa-comment id-color"></i><a href="#">10 Comments</a></span></div>
+
 
                         <div class="spacer-single"></div>
 
@@ -71,7 +71,7 @@
 
 
                 <div class="widget widget-text">
-                    <h4>About Us</h4>
+                    <h4>Acerca de mi</h4>
                     <div class="small-border"></div>
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
                     ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
