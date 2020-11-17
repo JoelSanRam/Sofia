@@ -22,19 +22,6 @@
     <div class="container">
         <div class="row">
             <div id="sidebar" class="col-md-4">
-                <div class="widget widget-post">
-                    <h4>Recent Posts</h4>
-                    <div class="small-border"></div>
-                    <ul>
-                        <li><a href="#">5 Things That Take a Room from Good to Great</a></li>
-                        <li><a href="#">Functional and Stylish Wall-to-Wall Shelves</a></li>
-                        <li><a href="#">9 Unique and Unusual Ways to Display Your TV</a></li>
-                        <li><a href="#">The 5 Secrets to Pulling Off Simple, Minimal Design</a></li>
-                        <li><a href="#">How to Make a Huge Impact With Multiples</a></li>
-                        <li><a href="#">Our Favorite Home Decor Trends of the Year</a></li>
-
-                    </ul>
-                </div>
 
                 <div class="widget widget-text">
                     <h4>About Us</h4>
@@ -44,25 +31,7 @@
                     Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
                     magni
                 </div>
-                <div class="widget widget_tags">
-                    <h4>Tags</h4>
-                    <div class="small-border"></div>
-                    <ul>
-                        <li><a href="#link">Art</a></li>
-                        <li><a href="#link">Application</a></li>
-                        <li><a href="#link">Design</a></li>
-                        <li><a href="#link">Entertainment</a></li>
-                        <li><a href="#link">Internet</a></li>
-                        <li><a href="#link">Marketing</a></li>
-                        <li><a href="#link">Multipurpose</a></li>
-                        <li><a href="#link">Music</a></li>
-                        <li><a href="#link">Print</a></li>
-                        <li><a href="#link">Programming</a></li>
-                        <li><a href="#link">Responsive</a></li>
-                        <li><a href="#link">Website</a></li>
-                    </ul>
-                </div>
-
+                
             </div>
 
             <div class="col-md-8">

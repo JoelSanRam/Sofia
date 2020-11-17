@@ -255,14 +255,9 @@
 				<div class="container">
 					<div class="row">
 
-						<div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
-                            	<h2 class="style-2 id-color">What Client Says</h2>
-                                <h2>The design is <span class="id-color">awesome</span>, modern and minimalist! <span class="id-color">John Archi</span> is our best partner for our construction work.</h2>
-                                <img src="{{ asset('cliente/images-architect/people/1.jpg')}}" class="img-circle mb10" alt=""><br>
-                                <strong>Celine, Four Seasons Director</strong>
-                            </div>
+						
 
-						<div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
+						<div class="col-md-6 wow fadeInRight" data-wow-delay=".4s">
 							<h3>Project Brief</h3>
 							<p>
 								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
@@ -274,7 +269,7 @@
 							</p>
 						</div>
 
-						<div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
+						<div class="col-md-6 wow fadeInRight" data-wow-delay=".6s">
 								<div class="project-details text-light" data-bgcolor="#18191B">
 
 									<h3>Project Details</h3>
