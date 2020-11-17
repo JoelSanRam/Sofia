@@ -32,7 +32,7 @@
 
     <!-- color scheme -->
 	<link rel="stylesheet" href="{{ asset('cliente/css/colors/yellow.css')}}" type="text/css" id="colors">
-    <link rel="stylesheet" href="css/color.css" type="text/css">
+    <link rel="stylesheet" href="{{ asset('cliente/css/color.css')}}" type="text/css">
 
     <!-- load fonts -->
     <link rel="stylesheet" href="{{ asset('cliente/fonts/font-awesome/css/font-awesome.css')}}" type="text/css">
@@ -98,13 +98,13 @@
 								<ul id="mainmenu">
 									<li><a href="index-arts.html">Inicio<span></span></a></li>
 
-									<li><a href="project-contained-3-cols.html">Proyectos</a></li>
+									<li><a href="project-contained-3-cols.html">Obras</a></li>
 
-                                    <li><a href="contact-map-api.html">Contacto</a></li>
+                                    <li><a href="contact-map-api.html">Blog</a></li>
 
-                                    <li><a href="blog-left-sidebar-light.html">Blog</a></li>
+                                    <li><a href="blog-left-sidebar-light.html">Contacto</a></li>
 
-                                    <li><a href="08_project-details.html">Detalle de Proyecto</a></li>
+
 								</ul>
 							</nav>
 

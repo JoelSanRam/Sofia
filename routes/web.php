@@ -30,6 +30,6 @@ Route::get('/administrador', function () {
     return view('admin.index');
 });
 
-Auth::routes();
+
 
 Route::get('/home', 'HomeController@index')->name('home');
