@@ -43,6 +43,12 @@
     <link rel="stylesheet" href="{{ asset('cliente/rs-plugin/css/settings.css')}}" type="text/css">
     <link rel="stylesheet" href="{{ asset('cliente/css/rev-settings.css')}}" type="text/css">
 
+    <!-- RS5.0 Stylesheet -->
+    <link rel="stylesheet" href="{{ asset('cliente/revolution/css/settings.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('cliente/revolution/css/layers.cs')}}s" type="text/css">
+    <link rel="stylesheet" href="{{ asset('cliente/revolution/css/navigation.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('cliente/css/rev-settings.css')}}" type="text/css">
+
 	<!-- custom font -->
 	<link rel="stylesheet" href="{{ asset('cliente/css/font-style-2.css')}}" type="text/css">
 </head>
@@ -115,16 +121,16 @@
         @yield('cliente')
        <!-- content close-->
 
-            <!-- footer begin -->
+        <!-- footer begin -->
         <footer class="style-2 light">
             <div class="container">
                 <div class="row align-items-middle">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <img src="{{ asset('cliente/images/logo-dark.png')}}" class="logo-small" alt=""><br>
                     </div>
 
-                    <div class="col-md-6">
-                        &copy; Copyright 2020 - Sofía Coná 2020 – Desarrollado por  <span class="id-color">Búho
+                    <div class="col-md-5">
+                        &copy; Sofía Coná 2020 – Desarrollado por  <span class="id-color">Búho
                             Solutions</span>
                     </div>
 
@@ -166,12 +172,22 @@
     <script src="{{ asset('cliente/js/jquery.stellar.min.js')}}"></script>
 	<script src="{{ asset('cliente/js/enquire.min.js')}}"></script>
     <script src="{{ asset('cliente/js/designesia.js')}}"></script>
+    <script src="{{ asset('cliente/js/jquery.event.move.js')}}"></script>
+    <script src="{{ asset('cliente/js/jquery.twentytwenty.js')}}"></script>
 
     <!-- SLIDER REVOLUTION SCRIPTS  -->
     <script type="text/javascript" src="{{ asset('cliente/rs-plugin/js/jquery.themepunch.plugins.min.js')}}"></script>
     <script type="text/javascript" src="{{ asset('cliente/rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
 
-
+    <!-- RS5.0 Extensions Files -->
+    <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.video.min.js')}}"></script>
+    <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
+    <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
+    <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.navigation.min.js')}}"></script>
+    <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.actions.min.js')}}"></script>
+    <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
+    <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.migration.min.js')}}"></script>
+    <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script>
 
 </body>
 </html>
