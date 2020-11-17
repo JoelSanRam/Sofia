@@ -84,7 +84,7 @@
                         <!-- logo begin -->
                         <div id="logo">
                             <a href="index.html">
-                                <img class="logo" src="{{ asset('cliente/images/logo-dark.png')}}" alt="">
+                                <img class="logo logofinal" src="{{ asset('cliente/images/logo negro-02.svg')}}" alt="">
                             </a>
                         </div>
                         <!-- logo close -->
@@ -126,7 +126,7 @@
             <div class="container">
                 <div class="row align-items-middle">
                     <div class="col-md-3">
-                        <img src="{{ asset('cliente/images/logo-dark.png')}}" class="logo-small" alt=""><br>
+                        <img src="{{ asset('cliente/images/logo negro-02.svg')}}" class="logo-small logofinal" alt=""><br>
                     </div>
 
                     <div class="col-md-6 footerespacio">
