@@ -6,11 +6,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Projects</h1>
+                <h1>Obras</h1>
                 <ul class="crumb">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Inicio</a></li>
                     <li class="sep">/</li>
-                    <li>Projects</li>
+                    <li>Obras</li>
                 </ul>
             </div>
         </div>
@@ -32,115 +32,115 @@
 
             <!-- gallery item -->
             <div class="col-md-4 col-sm-6 col-xs-12 item mb30 residential">
-                <div class="picframe">
-                    <a class="simple-ajax-popup-align-top" href="project-details-1.html">
+                <div class="picframe galeriatamanio">
+                    <a class="" href="project-details-1.html">
                         <span class="overlay">
                             <span class="pf_text">
-                                <span class="project-name">Eco Green Interior</span>
+                                <span class="project-name">Flamencas</span>
                             </span>
                         </span>
                     </a>
-                    <img src="{{ asset('cliente/images/portfolio/pf%20(1).jpg')}}" alt="" />
+                    <img src="{{ asset('cliente/images-architect/flamencas_detalle.png')}}" alt="" />
                 </div>
             </div>
             <!-- close gallery item -->
 
             <!-- gallery item -->
             <div class="col-md-4 col-sm-6 col-xs-12 item mb30 hospitaly">
-                <div class="picframe">
+                <div class="picframe galeriatamanio">
                     <a class="simple-ajax-popup-align-top" href="project-details-2.html">
                         <span class="overlay">
                             <span class="pf_text">
-                                <span class="project-name">Modern Elegance Suite</span>
+                                <span class="project-name">Flores azules</span>
                             </span>
                         </span>
                     </a>
 
-                    <img src="{{ asset('cliente/images/portfolio/pf%20(2).jpg')}}" alt="" />
+                    <img src="{{ asset('cliente/images-architect/floresazules.png')}}" alt="" />
                 </div>
             </div>
             <!-- close gallery item -->
 
             <!-- gallery item -->
             <div class="col-md-4 col-sm-6 col-xs-12 item mb30 hospitaly">
-                <div class="picframe">
+                <div class="picframe galeriatamanio">
                     <a class="simple-ajax-popup-align-top" href="project-details-3.html">
                         <span class="overlay">
                             <span class="pf_text">
-                                <span class="project-name">Apartment Renovation</span>
+                                <span class="project-name">Flores negro</span>
                             </span>
                         </span>
                     </a>
 
-                    <img src="{{ asset('cliente/images/portfolio/pf%20(3).jpg')}}" alt="" />
+                    <img src="{{ asset('cliente/images-architect/floresnegras_sfondo.png')}}" alt="" />
                 </div>
             </div>
             <!-- close gallery item -->
 
             <!-- gallery item -->
             <div class="col-md-4 col-sm-6 col-xs-12 item mb30 residential">
-                <div class="picframe">
+                <div class="picframe galeriatamanio">
                     <a class="simple-ajax-popup-align-top" href="project-details-youtube.html">
                         <span class="overlay">
                             <span class="pf_text">
-                                <span class="project-name">Youtube Video</span>
+                                <span class="project-name">Lluvia de oro</span>
                             </span>
                         </span>
                     </a>
-                    <img src="{{ asset('cliente/images/portfolio/pf%20(4).jpg')}}" alt="" />
+                    <img src="{{ asset('cliente/images-architect/lluviadeoro_sfondo.png')}}" alt="" />
                 </div>
             </div>
             <!-- close gallery item -->
 
             <!-- gallery item -->
             <div class="col-md-4 col-sm-6 col-xs-12 item mb30 office">
-                <div class="picframe">
+                <div class="picframe galeriatamanio">
                     <a class="simple-ajax-popup-align-top" href="project-details-vimeo.html">
                         <span class="overlay">
                             <span class="pf_text">
-                                <span class="project-name">Vimeo Video</span>
+                                <span class="project-name">No es un juego</span>
                             </span>
                         </span>
                     </a>
-                    <img src="{{ asset('cliente/images/portfolio/pf%20(5).jpg')}}" alt="" />
+                    <img src="{{ asset('cliente/images-architect/noesunjuego.png')}}" alt="" />
                 </div>
             </div>
             <!-- close gallery item -->
 
             <!-- gallery item -->
             <div class="col-md-4 col-sm-6 col-xs-12 item mb30 commercial">
-                <div class="picframe">
+                <div class="picframe galeriatamanio">
                     <a class="simple-ajax-popup-align-top" href="project-details.html">
                         <span class="overlay">
                             <span class="pf_text">
-                                <span class="project-name">Restaurant In Texas</span>
+                                <span class="project-name">Plantas</span>
                             </span>
                         </span>
                     </a>
-                    <img src="{{ asset('cliente/images/portfolio/pf%20(6).jpg')}}" alt="" />
+                    <img src="{{ asset('cliente/images-architect/cajaplanta_sfondo.png')}}" alt="" />
                 </div>
             </div>
             <!-- close gallery item -->
 
             <!-- gallery item -->
             <div class="col-md-4 col-sm-6 col-xs-12 item mb30 residential">
-                <div class="picframe">
+                <div class="picframe galeriatamanio">
                     <a class="simple-ajax-popup-align-top" href="project-details.html">
                         <span class="overlay">
                             <span class="pf_text">
-                                <span class="project-name">Summer House</span>
+                                <span class="project-name">Saudade</span>
                             </span>
                         </span>
                     </a>
 
-                    <img src="{{ asset('cliente/images/portfolio/pf%20(7).jpg')}}" alt="" />
+                    <img src="{{ asset('cliente/images-architect/saudade_sfondo.png')}}" alt="" />
                 </div>
             </div>
             <!-- close gallery item -->
 
             <!-- gallery item -->
             <div class="col-md-4 col-sm-6 col-xs-12 item mb30 office">
-                <div class="picframe">
+                <div class="picframe galeriatamanio">
                     <a class="simple-ajax-popup-align-top" href="project-details.html">
                         <span class="overlay">
                             <span class="pf_text">
@@ -149,14 +149,14 @@
                         </span>
                     </a>
 
-                    <img src="{{ asset('cliente/images/portfolio/pf%20(8).jpg')}}" alt="" />
+                    <img src="{{ asset('cliente/images-architect/flamencas_detalle.png')}}" alt="" />
                 </div>
             </div>
             <!-- close gallery item -->
 
             <!-- gallery item -->
             <div class="col-md-4 col-sm-6 col-xs-12 item mb30 office">
-                <div class="picframe">
+                <div class="picframe galeriatamanio">
                     <a class="simple-ajax-popup-align-top" href="project-details-youtube.html">
                         <span class="overlay">
                             <span class="pf_text">
@@ -165,14 +165,14 @@
                         </span>
                     </a>
 
-                    <img src="{{ asset('cliente/images/portfolio/pf%20(9).jpg')}}" alt="" />
+                    <img src="{{ asset('cliente/images-architect/flamencas_detalle.png')}}" alt="" />
                 </div>
             </div>
             <!-- close gallery item -->
 
             <!-- gallery item -->
             <div class="col-md-4 col-sm-6 col-xs-12 item mb30 residential">
-                <div class="picframe">
+                <div class="picframe galeriatamanio">
                     <a class="simple-ajax-popup-align-top" href="project-details-vimeo.html">
                         <span class="overlay">
                             <span class="pf_text">
@@ -181,14 +181,14 @@
                         </span>
                     </a>
 
-                    <img src="{{ asset('cliente/images/portfolio/pf%20(10).jpg')}}" alt="" />
+                    <img src="{{ asset('cliente/images-architect/flamencas_detalle.png')}}" alt="" />
                 </div>
             </div>
             <!-- close gallery item -->
 
             <!-- gallery item -->
             <div class="col-md-4 col-sm-6 col-xs-12 item mb30 hospitaly">
-                <div class="picframe">
+                <div class="picframe galeriatamanio">
                     <a class="simple-ajax-popup-align-top" href="project-details.html">
                         <span class="overlay">
                             <span class="pf_text">
@@ -197,14 +197,14 @@
                         </span>
                     </a>
 
-                    <img src="{{ asset('cliente/images/portfolio/pf%20(11).jpg')}}" alt="" />
+                    <img src="{{ asset('cliente/images-architect/flamencas_detalle.png')}}" alt="" />
                 </div>
             </div>
             <!-- close gallery item -->
 
             <!-- gallery item -->
             <div class="col-md-4 col-sm-6 col-xs-12 item mb30 commercial">
-                <div class="picframe">
+                <div class="picframe galeriatamanio">
                     <a class="simple-ajax-popup-align-top" href="project-details-youtube.html">
                         <span class="overlay">
                             <span class="pf_text">
@@ -213,7 +213,7 @@
                         </span>
                     </a>
 
-                    <img src="{{ asset('cliente/images/portfolio/pf%20(12).jpg')}}" alt="" />
+                    <img src="{{ asset('cliente/images-architect/flamencas_detalle.png')}}" alt="" />
                 </div>
             </div>
             <!-- close gallery item -->

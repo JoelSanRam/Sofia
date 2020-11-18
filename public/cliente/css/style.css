@@ -193,7 +193,7 @@ overflow:visible;
 	}
 
 	header.autoshow{
-	top:-80px;
+	top:0px;
 	}
 
 	header.autoshow.scrollOn,header.autoshow.scrollOff{
@@ -210,7 +210,7 @@ overflow:visible;
 	}
 
 	header.autoshow.scrollOff{
-	top:-80px;
+	top:0px;
 	}
 
 	header div#logo {
@@ -5287,6 +5287,7 @@ background:url(../images/close-2.png) center no-repeat;
 font-size:12px;
 font-weight:bold;
 display:block;
+margin-top: -140px;
 }
 
 span.overlay {
@@ -8256,4 +8257,8 @@ ul#slide-list{
 
     .logofinal{
         height: 40px;
+    }
+
+    .galeriatamanio{
+        height: 300px;
     }

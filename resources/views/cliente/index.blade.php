@@ -10,10 +10,10 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="spacer-double"></div>
-                        <h2 class="style-3">Arts <strong class="id-color">&amp;</strong> Home</h2>
-                        <p class="lead">We are team based on Los Angeles. Our expertise on Interior Design. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                        <h2 class="style-3">Arte <strong class="id-color">&amp;</strong> Letras</h2>
+                        <p class="lead"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
                         <div class="spacer-single"></div>
-                        <a href="contact.html" class="btn-line black btn-big scroll-to">Hire Us Now</a>
+                        <a href="contact.html" class="btn-line black btn-big scroll-to">Más información</a>
                         <div class="spacer-double"></div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
 
                     <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 
-                    <a href="contact.html" class="btn-custom">Read more</a>
+                    <a href="contact.html" class="btn-custom">Leer más</a>
                 </div>
 
                 <div class="clearfix"></div>
