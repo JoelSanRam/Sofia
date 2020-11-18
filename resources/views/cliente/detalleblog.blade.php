@@ -23,6 +23,9 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="blog-read">
+                    <div class="post-image">
+                        <img src="{{ asset('cliente/images/blog/pic-blog-1.jpg')}}" alt="" />
+                    </div>
                         <div class="post-content">
                             <div class="post-image">
                                 <img src="images/blog/pic-blog-1.jpg" alt="" />
@@ -76,7 +79,18 @@
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
                     ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                     Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                    magni
+                    magni <br><br>
+                    <div class="info-text">
+                        {{-- <a href="#" class="btn-custom btn-fullwidth text-light text-center"><b>Compartir</b></a> --}}
+                        <div class="col-md-8 text-right iconoespacio">
+                            <div class="">
+                                <a href="#"><i class="fa fa-whatsapp fa-3x iconoestilo"></i></a>
+                                <a href="#"><i class="fa fa-instagram fa-3x iconoestilo"></i></a>
+                                <a href="#"><i class="fa fa-facebook fa-3x iconoestilo"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
 

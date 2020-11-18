@@ -8262,3 +8262,11 @@ ul#slide-list{
     .galeriatamanio{
         height: 300px;
     }
+
+    .iconoespacio{
+        letter-spacing: 10px;
+    }
+
+    .iconoestilo:hover{
+        background-color: #FAB702;
+    }
