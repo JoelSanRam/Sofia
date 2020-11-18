@@ -38,10 +38,14 @@
                                 @csrf
                                 @method('DELETE')
 
-                                <a href="{{ route('obra-details', $item->id) }}" class="btn btn-success">Ver</a>
-                                <a href="{{ route('obra-view-update', $item->id) }}" class="btn btn-warning">Editar</a>
+                                <a href="{{ route('obra-details', $item->id) }}" class="btn btn-success">
+                                    <span class="flaticon-view"></span>
+                                </a>
+                                <a href="{{ route('obra-view-update', $item->id) }}" class="btn btn-warning">
+                                    <span class="flaticon-edit"></span>
+                                </a>
 
-                                <button type="submit" class="btn btn-danger">Borrar</button>
+                                <button type="submit" class="btn btn-danger"><span class="flaticon-garbage"></button>
                             </form>
                         </td>
                     </tr>

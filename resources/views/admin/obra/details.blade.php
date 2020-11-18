@@ -45,81 +45,53 @@
                 </tr>
                 <tr>
                     <th>Imagen de Perfil</th>
-                    <td>{{ $obra->cover_image }}</td>
-                </tr>
-
-                   
-                {{--<tr>
-                    <th>Imagen de Perfil</th>
                     <td>
-                        @if($property->profile_picture == '')
+                        @if($obra->cover_image == '')
                             No se ha selecionado una foto de perfil
                         @else
-                        <img src="{{ asset('images/'.$property->profile_picture) }}" width="100" height="100" class="img-fluid" alt="">
+                            <img class="img-fluid image-fit" src="{{ asset('obras/' . $obra->cover_image) }}" width="150" height="150">
                         @endif
                     </td>
-                </tr>--}}
-
+                </tr>
             </tbody>
         </table>
     </div>
 </div>
 
 <div class="col-lg-12">
-    {{--<div class="my_dashboard_review mt30">
+    <div class="my_dashboard_review mt30">
         <div class="row">
             <div class="col-lg-12">
-                <h4 class="mb30">Property media</h4>
+                <h4 class="mb30">Imagenes Cargadas</h4>
             </div>
             <div class="col-lg-12">
                 <ul class="mb0">
-                    <li class="list-inline-item">
-                        <div class="portfolio_item">
-                            <img class="img-fluid" src="images/property/fp1.jpg" alt="fp1.jpg">
-                            <div class="edu_stats_list" data-toggle="tooltip" data-placement="top" title="Delete" data-original-title="Delete"><a href="#"><span class="flaticon-garbage"></span></a></div>
-                        </div>
-                    </li>
-                    <li class="list-inline-item">
-                        <div class="portfolio_item">
-                            <img class="img-fluid" src="images/property/fp2.jpg" alt="fp2.jpg">
-                            <div class="edu_stats_list" data-toggle="tooltip" data-placement="top" title="Delete" data-original-title="Delete"><a href="#"><span class="flaticon-garbage"></span></a></div>
-                        </div>
-                    </li>
-                    <li class="list-inline-item">
-                        <div class="portfolio_item">
-                            <img class="img-fluid" src="images/property/fp3.jpg" alt="fp3.jpg">
-                            <div class="edu_stats_list" data-toggle="tooltip" data-placement="top" title="Delete" data-original-title="Delete"><a href="#"><span class="flaticon-garbage"></span></a></div>
-                        </div>
-                    </li>
+                    @if(count($images) > 0)
+                        @foreach($images as $image)
+                            <li class="list-inline-item">
+                                <div class="portfolio_item">
+                                    <img class="img-fluid image-fit" src="{{ asset('obras/' . $image->filename) }}">
+                                    <div class="edu_stats_list" data-toggle="tooltip" data-placement="top" >
+                                        <a href="{{ route('obra-image-delete', $image->id) }}" title="Eliminar">
+                                            <span class="flaticon-garbage"></span>
+                                        </a>
+                                    </div>
+                                    <div class="edu_stats_list mt-5" data-toggle="tooltip" data-placement="top" >
+                                        <a href="{{ route('obra-image-cover', $image->id) }}" title="Imagen de Portada">
+                                            <span class="flaticon-heart"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        @endforeach
+                    @else
+                        <p>No hay imagenes agregadas</p>
+                    @endif
+                    
                 </ul>
             </div>
-            <div class="col-lg-12">
-                <div class="portfolio_upload">
-                    <input type="file" name="myfile" />
-                    <div class="icon"><span class="flaticon-download"></span></div>
-                    <p>Drag and drop images here</p>
-                </div>
-            </div>
-            <div class="col-xl-6">
-                <div class="resume_uploader mb30">
-                    <h4>Attachments</h4>
-                    <form class="form-inline">
-                        <input class="upload-path">
-                        <label class="upload">
-                            <input type="file">
-                            Select Attachment
-                        </label>
-                    </form>
-                </div>
-            </div>
-            <div class="col-xl-12">
-                <div class="my_profile_setting_input">
-                    <button class="btn btn1 float-left">Back</button>
-                    <button class="btn btn2 float-right">Next</button>
-                </div>
-            </div>
         </div>
-    </div>--}}
+    </div>
     {{ json_encode($images) }}
 </div>
 

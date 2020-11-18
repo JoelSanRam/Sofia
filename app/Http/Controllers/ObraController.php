@@ -136,7 +136,23 @@ class ObraController extends Controller
             } 
 
         } catch (\Exception $e) {
-            \Session::flash('message', 'No se puede eliminar el imagen');
+            \Session::flash('message', 'No se puede eliminar la imagen');
+        }
+
+        return redirect()->back();
+    }
+
+    public function coverImage($id)
+    {
+        try {
+            $image = Image::find($id);
+            $obra = Obra::find($image->obra_id);
+            $obra->cover_image = $image->filename;
+            $obra->save();
+            \Session::flash('message', 'Imagen establecida como portada');
+
+        } catch (Exception $e) {
+            \Session::flash('message', 'Ocurrio un error, al realizar la accion');
         }
 
         return redirect()->back();

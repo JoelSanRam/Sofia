@@ -42,8 +42,8 @@ Route::post('/dashboard/obra/create/post', 'ObraController@store')->name('obra-p
 Route::get('/dashboard/obra/view-update/{id}', 'ObraController@edit')->name('obra-view-update');
 Route::put('/dashboard/obra/update/{id}', 'ObraController@update')->name('obra-update');
 Route::delete('/dashboard/obra/delete/{id}', 'ObraController@destroy')->name('obra-delete');
+Route::get('/dashboard/image/cover/{id}', 'ObraController@coverImage')->name('obra-image-cover'); // cover image
 Route::get('/dashboard/image-obra/delete/{id}', 'ObraController@deleteImage')->name('obra-image-delete'); // delete image
-
 
 
 Route::get('/home', 'HomeController@index')->name('home');

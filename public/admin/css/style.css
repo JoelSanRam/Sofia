@@ -16408,3 +16408,7 @@ button.gm-ui-hover-effect:focus {
 .gm-style-iw-d p span{
   margin-right: 10px;
 }
+
+.image-fit {
+  object-fit: cover;
+}
