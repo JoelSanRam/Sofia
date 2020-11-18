@@ -20,6 +20,10 @@ Route::get('/blog', function () {
     return view('cliente.blog');
 });
 
+Route::get('/detalleblog', function () {
+    return view('cliente.detalleblog');
+});
+
 Route::get('/detalleproyecto', function () {
     return view('cliente.detalleproject');
 });
@@ -40,6 +44,6 @@ Route::put('/dashboard/obra/update/{id}', 'ObraController@update')->name('obra-u
 Route::delete('/dashboard/obra/delete/{id}', 'ObraController@destroy')->name('obra-delete');
 Route::get('/dashboard/image-obra/delete/{id}', 'ObraController@deleteImage')->name('obra-image-delete'); // delete image
 
-Auth::routes();
+
 
 Route::get('/home', 'HomeController@index')->name('home');

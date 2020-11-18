@@ -67,7 +67,6 @@
                                 <a href="#"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                 <a href="#"><i class="fa fa-rss"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
                                 <a href="#"><i class="fa fa-envelope-o"></i></a>
                             </div>
                             <!-- social icons close -->
@@ -82,7 +81,7 @@
                         <!-- logo begin -->
                         <div id="logo">
                             <a href="index.html">
-                                <img class="logo" src="{{ asset('cliente/images-architect/logo.png')}}" alt="">
+                                <img class="logo logofinal" src="{{ asset('cliente/images/logo negro-02.svg')}}" alt="">
                             </a>
                         </div>
                         <!-- logo close -->
@@ -92,24 +91,23 @@
                         <!-- small button close -->
 
                         <!-- mainmenu begin -->
-						<nav>
-							<ul id="mainmenu">
-								<li><a href="index-arts.html">Inicio<span></span></a></li>
+							<nav>
+								<ul id="mainmenu">
+									<li><a href="index-arts.html">Inicio<span></span></a></li>
 
-								<li><a href="project-contained-3-cols.html">Proyectos</a></li>
+									<li><a href="project-contained-3-cols.html">Obras</a></li>
 
-								<li><a href="contact-map-api.html">Contacto</a></li>
+                                    <li><a href="contact-map-api.html">Blog</a></li>
 
-								<li><a href="blog-left-sidebar-light.html">Blog</a></li>
+                                    <li><a href="blog-left-sidebar-light.html">Contacto</a></li>
 
-								<li><a href="08_project-details.html">Detalle de Proyecto</a></li>
-							</ul>
-						</nav>
+
+								</ul>
+							</nav>
 
 							<!-- mainmenu close -->
 
                     </div>
-
 
                 </div>
             </div>
@@ -128,7 +126,7 @@
 						<div class="row">
 							<div class="col-md-12 text-center">
 								<div class="spacer-double"></div>
-								<h2 class="style-3">Modern Building</h2>
+								<h2 class="style-3">NOMBRE DEL PROYECTO</h2>
 								<div class="spacer-double"></div>
 							</div>
 						</div>
@@ -144,7 +142,7 @@
 					<div class="row align-items-center no-gutters">
 						<div class="col-md-3 text-center">
 							<div class="spacer-single"></div>
-							<h3 class="no-bottom">Project Gallery</h3>
+							<h3 class="no-bottom">Galería</h3>
 							<div class="spacer-single"></div>
 						</div>
 
@@ -255,20 +253,15 @@
 				<div class="container">
 					<div class="row">
 
-						<div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
-                            	<h2 class="style-2 id-color">What Client Says</h2>
-                                <h2>The design is <span class="id-color">awesome</span>, modern and minimalist! <span class="id-color">John Archi</span> is our best partner for our construction work.</h2>
-                                <img src="{{ asset('cliente/images-architect/people/1.jpg')}}" class="img-circle mb10" alt=""><br>
-                                <strong>Celine, Four Seasons Director</strong>
-                            </div>
 
-						<div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
-							<h3>Project Brief</h3>
+
+						<div class="col-md-8 wow fadeInRight" data-wow-delay=".4s">
+							<h3>Descripción del proyecto</h3>
 							<p>
 								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 							</p>
 							<div class="spacer10"></div>
-							<h3>Our Solution</h3>
+							<h3>Historia del proyecto</h3>
 							<p>
 								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 							</p>
@@ -277,25 +270,25 @@
 						<div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
 								<div class="project-details text-light" data-bgcolor="#18191B">
 
-									<h3>Project Details</h3>
+									<h3>Detalles de la obra</h3>
 
 									<div class="info-text">
-										<span class="title">Date</span>
+										<span class="title">Fecha</span>
 										<span class="val">March 2019</span>
 									</div>
 
 									<div class="info-text">
-										<span class="title">Timeline</span>
+										<span class="title">Tiempo de realización</span>
 										<span class="val">2 years</span>
 									</div>
 
 									<div class="info-text">
-										<span class="title">Client</span>
+										<span class="title">Cliente</span>
 										<span class="val">Four Seasons</span>
 									</div>
 
 									<div class="info-text">
-										<span class="title">Category</span>
+										<span class="title">Categoría</span>
 										<span class="val">News Construction</span>
 									</div>
 
@@ -313,30 +306,31 @@
 
             <!-- footer begin -->
 			<footer class="style-2 light">
-				<div class="container">
-					<div class="row align-items-middle">
-						<div class="col-md-3">
-							<img src="{{ asset('cliente/images/logo-dark.png')}}" class="logo-small" alt=""><br>
-						</div>
+                <div class="container">
+                    <div class="row align-items-middle">
+                        <div class="col-md-3">
+                            <img src="{{ asset('cliente/images/logo negro-02.svg')}}" class="logo-small logofinal" alt=""><br>
+                        </div>
 
-						<div class="col-md-6">
-							&copy; Copyright 2020 - Sofía Coná 2020 – Desarrollado por  <span class="id-color">Búho
-								Solutions</span>
-						</div>
+                        <div class="col-md-6 footerespacio">
+                            &copy; Sofía Coná 2020 – Desarrollado por  <span class="id-color">Búho
+                                Solutions</span>
+                        </div>
 
-						<div class="col-md-3 text-right">
-							<div class="social-icons">
-								<a href="#"><i class="fa fa-whatsapp fa-lg"></i></a>
-								<a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                        <div class="col-md-3 text-right">
+                            <div class="social-icons">
+                                <a href="#"><i class="fa fa-whatsapp fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-user fa-lg"></i></a>
 
-							</div>
-						</div>
-					</div>
-				</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
-				<a href="#" id="back-to-top"></a>
-			</footer>
+                <a href="#" id="back-to-top"></a>
+            </footer>
         <!-- footer close -->
         </div>
     </div>

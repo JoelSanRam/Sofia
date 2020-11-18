@@ -25,18 +25,7 @@
         <div class="spacer-single"></div>
 
         <!-- portfolio filter begin -->
-        <div class="row">
-            <div class="col-md-12">
-                <ul id="filters" class="wow fadeInUp" data-wow-delay="0s">
-                    <li><a href="#" data-filter=".residential">Residential</a></li>
-                    <li><a href="#" data-filter=".hospitaly">Hospitaly</a></li>
-                    <li><a href="#" data-filter=".office">Office</a></li>
-                    <li><a href="#" data-filter=".commercial">Commercial</a></li>
-                    <li class="pull-right"><a href="#" data-filter="*" class="selected">All Projects</a></li>
-                </ul>
 
-            </div>
-        </div>
         <!-- portfolio filter close -->
 
         <div id="gallery" class="row gallery full-gallery de-gallery pf_4_cols wow fadeInUp" data-wow-delay=".3s">

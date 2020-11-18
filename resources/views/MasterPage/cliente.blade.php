@@ -32,7 +32,7 @@
 
     <!-- color scheme -->
 	<link rel="stylesheet" href="{{ asset('cliente/css/colors/yellow.css')}}" type="text/css" id="colors">
-    <link rel="stylesheet" href="css/color.css" type="text/css">
+    <link rel="stylesheet" href="{{ asset('cliente/css/color.css')}}" type="text/css">
 
     <!-- load fonts -->
     <link rel="stylesheet" href="{{ asset('cliente/fonts/font-awesome/css/font-awesome.css')}}" type="text/css">
@@ -84,7 +84,7 @@
                         <!-- logo begin -->
                         <div id="logo">
                             <a href="index.html">
-                                <img class="logo" src="{{ asset('cliente/images/logo-dark.png')}}" alt="">
+                                <img class="logo logofinal" src="{{ asset('cliente/images/logo negro-02.svg')}}" alt="">
                             </a>
                         </div>
                         <!-- logo close -->
@@ -98,13 +98,13 @@
 								<ul id="mainmenu">
 									<li><a href="index-arts.html">Inicio<span></span></a></li>
 
-									<li><a href="project-contained-3-cols.html">Proyectos</a></li>
+									<li><a href="project-contained-3-cols.html">Obras</a></li>
 
-                                    <li><a href="contact-map-api.html">Contacto</a></li>
+                                    <li><a href="contact-map-api.html">Blog</a></li>
 
-                                    <li><a href="blog-left-sidebar-light.html">Blog</a></li>
+                                    <li><a href="blog-left-sidebar-light.html">Contacto</a></li>
 
-                                    <li><a href="08_project-details.html">Detalle de Proyecto</a></li>
+
 								</ul>
 							</nav>
 
@@ -125,11 +125,11 @@
         <footer class="style-2 light">
             <div class="container">
                 <div class="row align-items-middle">
-                    <div class="col-md-4">
-                        <img src="{{ asset('cliente/images/logo-dark.png')}}" class="logo-small" alt=""><br>
+                    <div class="col-md-3">
+                        <img src="{{ asset('cliente/images/logo negro-02.svg')}}" class="logo-small logofinal" alt=""><br>
                     </div>
 
-                    <div class="col-md-5">
+                    <div class="col-md-6 footerespacio">
                         &copy; Sofía Coná 2020 – Desarrollado por  <span class="id-color">Búho
                             Solutions</span>
                     </div>
@@ -138,6 +138,7 @@
                         <div class="social-icons">
                             <a href="#"><i class="fa fa-whatsapp fa-lg"></i></a>
                             <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                            <a href="#"><i class="fa fa-user fa-lg"></i></a>
 
                         </div>
                     </div>
