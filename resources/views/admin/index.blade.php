@@ -1,4 +1,5 @@
 @extends('Masterpage.admin')
+
 @section('admin')
 
 <div class="col-lg-12 mb10">
