@@ -44,6 +44,19 @@ Route::put('/dashboard/obra/update/{id}', 'ObraController@update')->name('obra-u
 Route::delete('/dashboard/obra/delete/{id}', 'ObraController@destroy')->name('obra-delete');
 Route::get('/dashboard/image/cover/{id}', 'ObraController@coverImage')->name('obra-image-cover'); // cover image
 Route::get('/dashboard/image-obra/delete/{id}', 'ObraController@deleteImage')->name('obra-image-delete'); // delete image
+Route::post('/dashboard/image-obra/upload/{id}', 'ObraController@uploadImages')->name('obra-upload-images'); // upload images
 
+
+// routes Posts
+Route::get('/dashboard/posts', 'PostController@index')->name('posts');
+Route::get('/dashboard/post/show/details/{id}', 'PostController@details')->name('post-details');
+Route::get('/dashboard/post/create/view', 'PostController@create')->name('post-create-view');
+Route::post('/dashboard/post/create/post', 'PostController@store')->name('post-post-create');
+Route::get('/dashboard/post/view-update/{id}', 'PostController@edit')->name('post-view-update');
+Route::put('/dashboard/post/update/{id}', 'PostController@update')->name('post-update');
+Route::delete('/dashboard/post/delete/{id}', 'PostController@destroy')->name('post-delete');
+Route::get('/dashboard/post/delete-img/{id}', 'PostController@deleteImage')->name('post-delete-img');
+Route::get('/dashboard/post/upload-img/{id}', 'PostController@uploadImage')->name('post-upload-img');
+Route::post('/dashboard/post/update-img/{id}', 'PostController@uploadImages')->name('post-update-img');
 
 Route::get('/home', 'HomeController@index')->name('home');

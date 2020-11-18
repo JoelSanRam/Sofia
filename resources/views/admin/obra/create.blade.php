@@ -54,16 +54,20 @@
                     <div class="form-row">
                         <div class="my_profile_setting_input col-lg-12 form-group">
                             <div class="custom-file">
-                                <input type="file" class="custom-file-input" name="images[]" id="images" lang="es" multiple>
+                                <input type="file" class="custom-file-input" onchange="uploadImages()" name="images[]" id="images" lang="es" multiple>
                                 <label class="custom-file-label" for="images">Seleccionar Imagenes</label>
                             </div>
                         </div>
                     </div>
 
-                    <div class="form-row">
+                    <div class="form-row mb-3" id="container-img"></div>
+
+                    <div class="form-row justify-content-center">
+                        <div class="my_profile_setting_input col-lg-12 mb-3">
+                            <button type="submit" class="btn btn-success btn-block">Crear</button>
+                        </div>
                         <div class="my_profile_setting_input col-lg-12">
-                            <button class="btn btn1 float-left" href="{{ route('obras') }}">Cancelar</button>
-                            <button type="submit" class="btn btn2 float-right">Crear</button>
+                            <a type="button" class="btn btn-danger btn-block" href="{{ route('posts') }}">Cancelar</a>
                         </div>
                     </div>
 
@@ -72,5 +76,28 @@
         </div>
     </div>
 </div>
+
+<script>
+    function uploadImages(){
+        let images = document.getElementById('images');
+        
+        if(images){
+
+            for (var i = 0; i <= images.files.length - 1; i++) {
+                previewImage(images.files[i])
+            }
+        }
+    }
+
+    function previewImage(img) {
+        let reader = new FileReader();
+        reader.readAsDataURL(img);
+
+        reader.onloadend = function() {
+            let img = `<img src="${reader.result}" width="100" height="100" class="img-preview">`;
+            $("#container-img").append(img);
+        }
+    }   
+</script>
 
 @endsection

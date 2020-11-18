@@ -31,7 +31,13 @@
                         <td>{{ $item->technique }}</td>
                         <td>{{ $item->status }}</td>
                         <td>{{ $item->publish_date }}</td>
-                        <td>{{ $item->cover_image }}</td>
+                        <td class="text-center">
+                            @if($item->cover_image == '')
+                                No se ha selecionado
+                            @else
+                                <img class="img-fluid image-fit" src="{{ asset('obras/' . $item->cover_image) }}" width="100" height="100">
+                            @endif
+                        </td>
                         <td>
                             
                             <form action="{{ route('obra-delete', $item->id) }}" method="POST">

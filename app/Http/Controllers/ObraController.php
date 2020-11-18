@@ -53,10 +53,10 @@ class ObraController extends Controller
                 $fileName = uniqid() . $image->getClientOriginalName();
                 $image->move($path, $fileName);
 
-                $image = new Image();
-                $image->obra_id = $obra->id;
-                $image->filename = $fileName;
-                $image->save();
+                $file = new Image();
+                $file->obra_id = $obra->id;
+                $file->filename = $fileName;
+                $file->save();
             }
         }
 
@@ -153,6 +153,29 @@ class ObraController extends Controller
 
         } catch (Exception $e) {
             \Session::flash('message', 'Ocurrio un error, al realizar la accion');
+        }
+
+        return redirect()->back();
+    }
+
+    public function uploadImages(Request $request, $id)
+    {
+        $this->validate($request, [
+            'images' => 'required',
+        ]);
+
+        if ($request->hasfile('images')) {
+            $obra = Obra::find($id);
+            foreach ($request->file('images') as $image) {
+                $path = public_path() . '/obras';
+                $fileName = uniqid() . $image->getClientOriginalName();
+                $image->move($path, $fileName);
+
+                $file = new Image();
+                $file->obra_id = $obra->id;
+                $file->filename = $fileName;
+                $file->save();
+            }
         }
 
         return redirect()->back();

@@ -16412,3 +16412,9 @@ button.gm-ui-hover-effect:focus {
 .image-fit {
   object-fit: cover;
 }
+
+.img-preview {
+  object-fit: cover;
+  margin: 5px;
+  border-radius: 5px;
+}

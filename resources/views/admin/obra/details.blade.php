@@ -44,7 +44,7 @@
                     <td>{{ $obra->publish_date }}</td>
                 </tr>
                 <tr>
-                    <th>Imagen de Perfil</th>
+                    <th>Imagen de Portada</th>
                     <td>
                         @if($obra->cover_image == '')
                             No se ha selecionado una foto de perfil
@@ -92,7 +92,58 @@
             </div>
         </div>
     </div>
-    {{ json_encode($images) }}
+    <div class="my_dashboard_review mt30">
+        <div class="row">
+            <div class="col-lg-12">
+                <h4 class="mb30">Subir Imagenes</h4>
+            </div>
+            <div class="col-lg-12">
+                <form action="{{ route('obra-upload-images', $obra->id) }}" enctype="multipart/form-data" method="POST">
+                    @csrf
+
+                    <div class="form-row">
+                        <div class="portfolio_upload col-lg-12">
+                            <input type="file" name="images[]" id="images" onchange="uploadImages()" multiple />
+                            <div class="icon"><span class="flaticon-download"></span></div>
+                            <p>Drag and drop images here</p>
+                        </div>
+                    </div>
+
+                    <div class="form-row mb-3" id="container-img"></div>
+
+                    <div class="form-row justify-content-center">
+                        <div class="my_profile_setting_input col-lg-12 mb-3">
+                            <button type="submit" class="btn btn-success btn-block">Subir</button>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
+
+<script>
+    function uploadImages(){
+        let images = document.getElementById('images');
+        
+        if(images){
+
+            for (var i = 0; i <= images.files.length - 1; i++) {
+                previewImage(images.files[i])
+            }
+        }
+    }
+
+    function previewImage(img) {
+        let reader = new FileReader();
+        reader.readAsDataURL(img);
+
+        reader.onloadend = function() {
+            let img = `<img src="${reader.result}" width="100" height="100" class="img-preview">`;
+            $("#container-img").append(img);
+        }
+    }   
+</script>
 
 @endsection

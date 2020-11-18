@@ -1,4 +1,4 @@
-$(function() {
+/*$(function() {
   	$('input[type="file"]').each(function(){
 	    // Refs
 	    var $file = $(this),
@@ -22,4 +22,4 @@ $(function() {
 	      }
 	    });
   	});
-});
+});*/
