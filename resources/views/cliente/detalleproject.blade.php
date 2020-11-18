@@ -81,7 +81,7 @@
                         <!-- logo begin -->
                         <div id="logo">
                             <a href="index.html">
-                                <img class="logo logofinal" src="{{ asset('cliente/images/logo amarillo con negro-05.svg')}}" alt="">
+                                <img class="logo logofinal" src="{{ asset('cliente/images/Recurso 1.svg')}}" alt="">
                             </a>
                         </div>
                         <!-- logo close -->
@@ -119,14 +119,14 @@
         <div id="content" class="no-bottom no-top">
 
             <!-- section begin -->
-            <section id="section-welcome" class="full-height text-light" data-bgimage="url({{ asset('cliente/images-architect/bg/1.jpg')}})">
+            <section id="section-welcome" class="full-height text-light" data-bgimage="url({{ asset('cliente/images-architect/bg/noesunjuego_sombra.png')}})">
 
                 <div class="center-y">
                     <div class="container">
 						<div class="row">
 							<div class="col-md-12 text-center">
 								<div class="spacer-double"></div>
-								<h2 class="style-3">NOMBRE DEL PROYECTO</h2>
+
 								<div class="spacer-double"></div>
 							</div>
 						</div>
@@ -137,7 +137,7 @@
             </section>
             <!-- section close -->
 
-            <section id="section-gallery-carousel" aria-label="section" class="no-top no-bottom text-light bg-color">
+            <section id="section-gallery-carousel" aria-label="section" class="no-top no-bottom text-light bg-color galeriatamanio">
 				<div class="container-fluid">
 					<div class="row align-items-center no-gutters">
 						<div class="col-md-3 text-center">
@@ -152,18 +152,18 @@
 								<a class="btn-prev"></a>
 							</div>
 
-							<div id="gallery-carousel-3" class="owl-carousel owl-theme owl-slide">
+							<div id="gallery-carousel-3" class="owl-carousel owl-theme owl-slide galeriatamanio">
 
 							<!-- gallery item -->
-							<div class="item s2">
-								<div class="picframe">
-									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/portfolio/1.jpg')}}">
+							<div class="item s2 galeriatamanio">
+								<div class="picframe galeriatamanio">
+									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/mark-west-Fg_4Wn1r0bU-unsplash.png')}}">
 										<span class="overlay-v">
 											<span class="pf_text">
-												<span class="project-name"><i class="icon_plus_alt2"></i></span>
+
 											</span>
 										</span>
-										<img src="{{ asset('cliente/images-architect/portfolio/1.jpg')}}" alt="" />
+										<img src="{{ asset('cliente/images-architect/mark-west-Fg_4Wn1r0bU-unsplash.png')}}" alt="" />
 									</a>
 								</div>
 							</div>
@@ -171,14 +171,14 @@
 
 							<!-- gallery item -->
 							<div class="item s2">
-								<div class="picframe">
-									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/portfolio/2.jpg')}}">
+								<div class="picframe galeriatamanio">
+									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/noesunjuego.png')}}">
 										<span class="overlay-v">
 											<span class="pf_text">
-												<span class="project-name"><i class="icon_plus_alt2"></i></span>
+
 											</span>
 										</span>
-										<img src="{{ asset('cliente/images-architect/portfolio/2.jpg')}}" alt="" />
+										<img src="{{ asset('cliente/images-architect/noesunjuego.png')}}" alt="" />
 									</a>
 								</div>
 							</div>
@@ -186,14 +186,14 @@
 
 							<!-- gallery item -->
 							<div class="item s2">
-								<div class="picframe">
-									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/portfolio/3.jpg')}}">
+								<div class="picframe galeriatamanio">
+									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/noesunjuego_sfondo.png')}}">
 										<span class="overlay-v">
 											<span class="pf_text">
-												<span class="project-name"><i class="icon_plus_alt2"></i></span>
+
 											</span>
 										</span>
-										<img src="{{ asset('cliente/images-architect/portfolio/3.jpg')}}" alt="" />
+										<img src="{{ asset('cliente/images-architect/noesunjuego_sfondo.png')}}" alt="" />
 									</a>
 								</div>
 							</div>
@@ -201,47 +201,21 @@
 
 							<!-- gallery item -->
 							<div class="item s2">
-								<div class="picframe">
-									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/portfolio/4.jpg')}}">
+								<div class="picframe galeriatamanio">
+									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/bg/noesunjuego_sombra.png')}}">
 										<span class="overlay-v">
 											<span class="pf_text">
-												<span class="project-name"><i class="icon_plus_alt2"></i></span>
+
 											</span>
 										</span>
-										<img src="{{ asset('cliente/images-architect/portfolio/4.jpg')}}" alt="" />
+										<img src="{{ asset('cliente/images-architect/bg/noesunjuego_sombra.png')}}" alt="" />
 									</a>
 								</div>
 							</div>
 							<!-- close gallery item -->
 
 							<!-- gallery item -->
-							<div class="item s2">
-								<div class="picframe">
-									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/portfolio/5.jpg')}}">
-										<span class="overlay-v">
-											<span class="pf_text">
-												<span class="project-name"><i class="icon_plus_alt2"></i></span>
-											</span>
-										</span>
-										<img src="{{ asset('cliente/images-architect/portfolio/5.jpg')}}" alt="" />
-									</a>
-								</div>
-							</div>
-							<!-- close gallery item -->
 
-							<!-- gallery item -->
-							<div class="item s2">
-								<div class="picframe">
-									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/portfolio/6.jpg')}}">
-										<span class="overlay-v">
-											<span class="pf_text">
-												<span class="project-name"><i class="icon_plus_alt2"></i></span>
-											</span>
-										</span>
-										<img src="{{ asset('cliente/images-architect/portfolio/6.jpg')}}" alt="" />
-									</a>
-								</div>
-							</div>
 							<!-- close gallery item -->
 						</div>
 					</div>
@@ -251,9 +225,44 @@
 
 			<section>
 				<div class="container">
+                    <h2 class="style-3">NOMBRE DEL PROYECTO</h2>
 					<div class="row">
 
+                        <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
+                            <div class="project-details text-light" data-bgcolor="#18191B">
 
+                                <h3>Detalles de la obra</h3>
+
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="info-text">
+                                            <span class="title">Fecha</span>
+                                            <span class="val">Marzo 2020</span>
+                                        </div>
+
+                                        <div class="info-text">
+                                            <span class="title">Medidas</span>
+                                            <span class="val">100 x 100 cms</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="info-text">
+                                            <span class="title">Técnica</span>
+                                            <span class="val">Acrílico sobre tela</span>
+                                        </div>
+
+                                        <div class="info-text">
+                                            <span class="title">Status</span>
+                                            <span class="val">Disponible</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="info-text">
+                                    <a href="#" class="btn-custom btn-fullwidth text-light text-center"><b>Compartir</b></a>
+                                </div>
+                        </div>
+                    </div>
 
 						<div class="col-md-8 wow fadeInRight" data-wow-delay=".4s">
 							<h3>Descripción del proyecto</h3>
@@ -267,36 +276,7 @@
 							</p>
 						</div>
 
-						<div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
-								<div class="project-details text-light" data-bgcolor="#18191B">
 
-									<h3>Detalles de la obra</h3>
-
-									<div class="info-text">
-										<span class="title">Fecha</span>
-										<span class="val">March 2019</span>
-									</div>
-
-									<div class="info-text">
-										<span class="title">Tiempo de realización</span>
-										<span class="val">2 years</span>
-									</div>
-
-									<div class="info-text">
-										<span class="title">Cliente</span>
-										<span class="val">Four Seasons</span>
-									</div>
-
-									<div class="info-text">
-										<span class="title">Categoría</span>
-										<span class="val">News Construction</span>
-									</div>
-
-									<div class="info-text">
-										<a href="#" class="btn-custom btn-fullwidth text-light text-center">Project URL</a>
-									</div>
-							</div>
-						</div>
 					</div>
 				</div>
 			</section>
@@ -309,7 +289,7 @@
                 <div class="container">
                     <div class="row align-items-middle">
                         <div class="col-md-3">
-                            <img src="{{ asset('cliente/images/logo amarillo con negro-05.svg')}}" class="logo-small logofinal" alt=""><br>
+                            <img src="{{ asset('cliente/images/Recurso 1.svg')}}" class="logo-small logofinal" alt=""><br>
                         </div>
 
                         <div class="col-md-6 footerespacio">
