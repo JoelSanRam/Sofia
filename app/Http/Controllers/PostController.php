@@ -47,6 +47,7 @@ class PostController extends Controller
 
                 $post->image = $fileName;
                 $post->save();
+                \Session::flash('message', 'Registro Exitoso');
             }
 
         } catch (\Exception $e) {
@@ -76,6 +77,7 @@ class PostController extends Controller
             $post->body = $request->body;
             $post->publish_date = $request->publish_date;
             $post->save();
+            \Session::flash('message', 'Actualizacion Exitosa');
 
         } catch (\Exception $e) {
             \Session::flash('message', 'Ocurrio un error, al actualizar el registro');
@@ -86,30 +88,23 @@ class PostController extends Controller
 
     public function destroy($id)
     {
-        $post = Post::find($id);
+    	try {
+    		$post = Post::find($id);
             $path = public_path() . '/posts/' . $post->image;
             
             if ($post->image != '') {
                 if (unlink($path)) {
                     $post->delete();
+                    \Session::flash('message', 'Registro Eliminado');
                 } 
             } else {
                 $post->delete();
+                \Session::flash('message', 'Registro Eliminado');
             } 
 
-    	/*try {
-    		$post = Post::find($id);
-    		$path = public_path() . '/posts/' . $post->image;
-    		
-  			if (unlink($path)) {
-  				$post->delete();
-  			} else {
-  				$post->delete();
-  			}
-    		
     	} catch (\Exception $e) {
             \Session::flash('message', 'Ocurrio un error, no se pudo eliminar el registro');
-        }*/
+        }
 
     	return redirect()->route('posts');
     }
@@ -124,6 +119,7 @@ class PostController extends Controller
                 $post->image = '';
                 $post->save();
             }
+            \Session::flash('message', 'Imagen Eliminada');
 
         } catch (\Exception $e) {
             \Session::flash('message', 'Ocurrio un error, no se pudo eliminar la imagen');
@@ -155,6 +151,9 @@ class PostController extends Controller
                 $post->image = $fileName;
                 $post->save();
             }
+
+            \Session::flash('message', 'Imagen subida con exito');
+
         } catch (\Exception $e) {
             \Session::flash('message', 'Ocurrio un error, no se pudo subir la imagen');
         }

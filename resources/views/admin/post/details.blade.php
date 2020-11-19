@@ -25,7 +25,7 @@
                 </tr>
                 <tr>
                     <th>Cuerpo</th>
-                    <td>{{ $post->body }}</td>
+                    <td>{!! $post->body !!}</td>
                 </tr>
                 <tr>
                     <th>Fecha</th>

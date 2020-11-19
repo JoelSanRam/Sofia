@@ -12,14 +12,29 @@
     <div class="my_dashboard_review">
         <div class="row mx-auto">
             <div class="col-lg-12">
+                <div class="col-md-6 my-3">
+                    @if(Session::has('message'))
+                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            <strong>{!! Session::get('message') !!}</strong>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                    @endif
+                </div>
                 <form action="{{ route('post-update-img', $post->id) }}" enctype="multipart/form-data" method="POST">
                     @csrf
 
                     <div class="form-row">
                         <div class="my_profile_setting_input col-lg-12 form-group">
                             <div class="custom-file">
-                                <input type="file" class="custom-file-input" onchange="uploadImage()" name="image" id="image" lang="es">
+                                <input type="file" class="custom-file-input @error('image') is-invalid @enderror" onchange="uploadImage()" name="image" id="image" lang="es">
                                 <label class="custom-file-label" for="image">Seleccionar Imagen de Portada</label>
+                                @error('image')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
                         </div>
                     </div>

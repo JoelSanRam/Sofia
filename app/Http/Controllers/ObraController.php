@@ -38,26 +38,32 @@ class ObraController extends Controller
     		'images' => 'required',
     	]);
 
-    	$obra = new Obra();
-    	$obra->name = $request->name;
-    	$obra->description = $request->description;
-    	$obra->dimension = $request->dimension;
-    	$obra->technique = $request->technique;
-    	$obra->status = $request->status;
-    	$obra->publish_date = $request->publish_date;
-    	$obra->save();
+        try {
+            $obra = new Obra();
+            $obra->name = $request->name;
+            $obra->description = $request->description;
+            $obra->dimension = $request->dimension;
+            $obra->technique = $request->technique;
+            $obra->status = $request->status;
+            $obra->publish_date = $request->publish_date;
+            $obra->save();
 
-        if ($request->hasfile('images')) {
-            foreach ($request->file('images') as $image) {
-                $path = public_path() . '/obras';
-                $fileName = uniqid() . $image->getClientOriginalName();
-                $image->move($path, $fileName);
+            if ($request->hasfile('images')) {
+                foreach ($request->file('images') as $image) {
+                    $path = public_path() . '/obras';
+                    $fileName = uniqid() . $image->getClientOriginalName();
+                    $image->move($path, $fileName);
 
-                $file = new Image();
-                $file->obra_id = $obra->id;
-                $file->filename = $fileName;
-                $file->save();
+                    $file = new Image();
+                    $file->obra_id = $obra->id;
+                    $file->filename = $fileName;
+                    $file->save();
+                }
+                \Session::flash('message', 'Registro Exitoso');
             }
+
+        } catch (\Throwable $th) {
+            \Session::flash('message', 'Error al crear el registro');
         }
 
     	return redirect()->route('obras');
@@ -71,23 +77,39 @@ class ObraController extends Controller
 
     public function update(Request $request, $id)
     {
-    	$this->validate($request, [
-    		'name' => 'required',
-    		'description' => 'required',
-    		'dimension' => 'required',
-    		'technique' => 'required',
-    		'status' => 'required',
-    		'publish_date' => 'required',
-    	]);
+        $this->validate($request, [
+            'name' => 'required',
+            'description' => 'required',
+            'dimension' => 'required',
+            'technique' => 'required',
+            'status' => 'required',
+            'publish_date' => 'required',
+        ]);
 
-    	$obra = Obra::find($id);
-    	$obra->name = $request->name;
-    	$obra->description = $request->description;
-    	$obra->dimension = $request->dimension;
-    	$obra->technique = $request->technique;
-    	$obra->status = $request->status;
-    	$obra->publish_date = $request->publish_date;
-    	$obra->save();
+        $obra = Obra::find($id);
+            $obra->name = $request->name;
+            $obra->description = $request->description;
+            $obra->dimension = $request->dimension;
+            $obra->technique = $request->technique;
+            $obra->status = $request->status;
+            $obra->publish_date = $request->publish_date;
+            $obra->save();
+
+
+    	/*try {
+            $obra = Obra::find($id);
+            $obra->name = $request->name;
+            $obra->description = $request->description;
+            $obra->dimension = $request->dimension;
+            $obra->technique = $request->technique;
+            $obra->status = $request->status;
+            $obra->publish_date = $request->publish_date;
+            $obra->save();
+            \Session::flash('message', 'Actualizacion Exitosa');
+
+        } catch (\Exception $e) {
+            \Session::flash('message', 'Ocurrio un error, al actualizar el registro');
+        }*/
 
     	return redirect()->route('obras');
     }
@@ -98,7 +120,7 @@ class ObraController extends Controller
     		$obra = Obra::find($id);
             $images = Image::where('obra_id', $id)->get();
 
-            if (count($images) > 0) {
+            if (count($images) > 0) { // posible bug
                 foreach ($images as $image) {
                     $path = public_path() . '/obras/' . $image->filename;
                     unlink($path);
@@ -164,18 +186,25 @@ class ObraController extends Controller
             'images' => 'required',
         ]);
 
-        if ($request->hasfile('images')) {
-            $obra = Obra::find($id);
-            foreach ($request->file('images') as $image) {
-                $path = public_path() . '/obras';
-                $fileName = uniqid() . $image->getClientOriginalName();
-                $image->move($path, $fileName);
+        try {
+            if ($request->hasfile('images')) {
+                $obra = Obra::find($id);
+                foreach ($request->file('images') as $image) {
+                    $path = public_path() . '/obras';
+                    $fileName = uniqid() . $image->getClientOriginalName();
+                    $image->move($path, $fileName);
 
-                $file = new Image();
-                $file->obra_id = $obra->id;
-                $file->filename = $fileName;
-                $file->save();
+                    $file = new Image();
+                    $file->obra_id = $obra->id;
+                    $file->filename = $fileName;
+                    $file->save();
+                }
+
+                \Session::flash('message', 'Imagenes subidas con exito');
             }
+
+        } catch (Exception $e) {
+            \Session::flash('message', 'Ocurrio un error, al subir las imagenes');
         }
 
         return redirect()->back();

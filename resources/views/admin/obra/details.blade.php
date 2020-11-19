@@ -10,6 +10,14 @@
 </div>
 
 <div class="col-lg-6 mx-auto">
+    @if(Session::has('message'))
+        <div class="alert alert-warning alert-dismissible fade show my-3" role="alert">
+            <strong>{!! Session::get('message') !!}</strong>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+    @endif
     <div class="table-responsive">
         <table class="table table-bordered">
             <thead>
@@ -105,7 +113,7 @@
                         <div class="portfolio_upload col-lg-12">
                             <input type="file" name="images[]" id="images" onchange="uploadImages()" multiple />
                             <div class="icon"><span class="flaticon-download"></span></div>
-                            <p>Drag and drop images here</p>
+                            <p>Arrastra y suelta tus imagenes aqui</p>
                         </div>
                     </div>
 
@@ -113,7 +121,7 @@
 
                     <div class="form-row justify-content-center">
                         <div class="my_profile_setting_input col-lg-12 mb-3">
-                            <button type="submit" class="btn btn-success btn-block">Subir</button>
+                            <button type="submit" class="btn btn-success btn-block">Subir Imagenes</button>
                         </div>
                     </div>
                     

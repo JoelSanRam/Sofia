@@ -14,13 +14,18 @@
 	<!-- Responsive stylesheet -->
 	<link rel="stylesheet" href="{{ asset('admin/css/responsive.css')}}">
 	<!-- Title -->
-	<title>FindHouse - Real Estate HTML Template</title>
+	<title>Dashboard</title>
 	<!-- Favicon -->
 	<link href="{{ asset('admin/images/favicon.ico')}}" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
 	<link href="{{ asset('admin/images/favicon.ico')}}" sizes="128x128" rel="shortcut icon" />
 
 	<!-- DataTables JS -->
 	<link rel="stylesheet" href="{{ asset('admin/DataTables/datatables.min.css')}}">
+
+	<!-- CKEditor 4 -->
+
+	<script type="text/javascript" src="{{ asset('admin/ckeditor/ckeditor.js')}}"></script>
+
 
 </head>
 <body>
@@ -50,7 +55,7 @@
 		        <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
 		        <ul id="respMenu" class="ace-responsive-menu text-right" data-menu-style="horizontal">
 		            <li class="last">
-		                <a href="page-contact.html"><span class="title">Contact</span></a>
+		                <a href="page-contact.html"><span class="title">Cerrar Sesion</span></a>
 		            </li>		        
 		        </ul>
 		    </nav>
@@ -73,10 +78,7 @@
 		</div><!-- /.mobile-menu -->
 		<nav id="menu" class="stylehome1">
 			<ul>
-				<li><a href="page-contact.html">Contact</a></li>
-				<li><a href="page-login.html"><span class="flaticon-user"></span> Login</a></li>
-				<li><a href="page-register.html"><span class="flaticon-edit"></span> Register</a></li>
-				<li class="cl_btn"><a class="btn btn-block btn-lg btn-thm circle" href="#"><span class="flaticon-plus"></span> Create Listing</a></li>
+				<li><a href="page-contact.html">Cerrar Sesion</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -84,31 +86,25 @@
     <div class="dashboard_sidebar_menu dn-992">
 	    <ul class="sidebar-menu">
 	   		<li class="header"><img src="{{ asset('admin/images/header-logo2.png')}}" alt="header-logo2.png">FindHouse</li>
-	   		<li class="title"><span>Main</span></li>
-	    	<li class="treeview"><a href="page-dashboard.html"><i class="flaticon-layers"></i><span> Dashboard</span></a></li>
-	      	<li class="treeview"><a href="page-message.html"><i class="flaticon-envelope"></i><span> Message</span></a></li>
-	   		<li class="title"><span>Manage Listings</span></li>
+	   		<li class="title"><span>Menu</span></li>
+	    	<li class="treeview"><a href="page-dashboard.html"><i class="flaticon-layers"></i><span>Inicio</span></a></li>
+	   		<li class="title"><span>Secciones</span></li>
 	      	<li class="treeview">
-		        <a href="page-my-properties.html"><i class="flaticon-home"></i> <span>My Properties</span><i class="fa fa-angle-down pull-right"></i></a>
+		        <a href="page-my-properties.html"><i class="flaticon-layers"></i> <span>Mis Obras</span><i class="fa fa-angle-down pull-right"></i></a>
 		        <ul class="treeview-menu">
-		        	<li><a href="#"><i class="fa fa-circle"></i> General Elements</a></li>
-		        	<li><a href="#"><i class="fa fa-circle"></i> Advanced Elements</a></li>
-		        	<li><a href="#"><i class="fa fa-circle"></i> Editors</a></li>
+		        	<li><a href="{{ route('obras') }}"><i class="fa fa-circle"></i>Listado de Obras</a></li>
+		        	<li><a href="{{ route('obra-create-view') }}"><i class="fa fa-circle"></i>Nueva Obra</a></li>
 		        </ul>
 	      	</li>
-	      	<li><a href="page-my-favorites.html"><i class="flaticon-heart"></i> <span> My Favorites</span></a></li>
-	      	<li><a href="page-my-savesearch.html"><i class="flaticon-magnifying-glass"></i> <span>Saved Search</span></a></li>
 	     	<li class="treeview">
-		        <a href="page-my-review.html"><i class="flaticon-chat"></i><span> Reviews</span><i class="fa fa-angle-down pull-right"></i></a>
+		        <a href="page-my-review.html"><i class="flaticon-layers"></i><span>Mis Publicaciones</span><i class="fa fa-angle-down pull-right"></i></a>
 		        <ul class="treeview-menu">
-		        	<li><a href="#"><i class="fa fa-circle"></i> My Reviews</a></li>
-		        	<li><a href="#"><i class="fa fa-circle"></i> Visitor Reviews</a></li>
+		        	<li><a href="{{ route('posts') }}"><i class="fa fa-circle"></i>Listado de Publicaciones</a></li>
+		        	<li><a href="{{ route('post-create-view') }}"><i class="fa fa-circle"></i>Nueva Publicacion</a></li>
 		        </ul>
 	      	</li>
-	   		<li class="title"><span>Manage Account</span></li>
-		    <li><a href="page-my-packages.html"><i class="flaticon-box"></i> <span>My Package</span></a></li>
-		    <li><a href="page-my-profile.html"><i class="flaticon-user"></i> <span>My Profile</span></a></li>
-		    <li><a href="page-login.html"><i class="flaticon-logout"></i> <span>Logout</span></a></li>
+	   		<li class="title"><span>Cuenta</span></li>
+		    <li><a href="page-login.html"><i class="flaticon-logout"></i> <span>Cerrar Sesion</span></a></li>
 	    </ul>
     </div>
 
@@ -122,18 +118,11 @@
 						<div class="col-lg-12">
 							<div class="dashboard_navigationbar dn db-992">
 								<div class="dropdown">
-									<button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars pr10"></i> Dashboard Navigation</button>
+									<button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars pr10"></i>Menu</button>
 									<ul id="myDropdown" class="dropdown-content">
-										<li><a href="page-dashboard.html"><span class="flaticon-layers"></span> Dashboard</a></li>
-										<li><a href="page-message.html"><span class="flaticon-envelope"></span> Message</a></li>
-										<li><a href="page-my-properties.html"><span class="flaticon-home"></span> My Properties</a></li>
-										<li><a href="page-my-favorites.html"><span class="flaticon-heart"></span> My Favorites</a></li>
-										<li><a href="page-my-savesearch.html"><span class="flaticon-magnifying-glass"></span> Saved Search</a></li>
-										<li><a href="page-my-review.html"><span class="flaticon-chat"></span> My Reviews</a></li>
-										<li><a href="page-my-packages.html"><span class="flaticon-box"></span> My Package</a></li>
-										<li><a href="page-my-profile.html"><span class="flaticon-user"></span> My Profile</a></li>
-										<li class="active"><a href="page-add-new-property.html"><span class="flaticon-filter-results-button"></span> Add New Listing</a></li>
-										<li><a href="page-login.html"><span class="flaticon-logout"></span> Logout</a></li>
+										<li><a href="{{ route('obras') }}"><span class="flaticon-layers">Mis Obras</span></a></li>
+										<li><a href="{{ route('posts') }}"><span class="flaticon-layers">Mis Publicaciones</span></a></li>
+										<li><a href="page-login.html"><span class="flaticon-logout"></span>Cerrar Sesion</a></li>
 									</ul>
 								</div>
 							</div>
