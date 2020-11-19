@@ -136,6 +136,7 @@
 
                     <div class="col-md-3 text-right">
                         <div class="social-icons">
+                            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
                             <a href="#"><i class="fa fa-whatsapp fa-lg"></i></a>
                             <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
                             <a href="#"><i class="fa fa-user fa-lg"></i></a>

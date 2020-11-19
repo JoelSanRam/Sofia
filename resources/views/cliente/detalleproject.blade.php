@@ -259,7 +259,15 @@
                                 </div>
                                 <br>
                                 <div class="info-text">
-                                    <a href="#" class="btn-custom btn-fullwidth text-light text-center"><b>Compartir</b></a>
+                                    {{-- <a href="#" class="btn-custom btn-fullwidth text-light text-center"><b>Compartir</b></a> --}}
+                                    <div class="col-md-8 text-right iconoespacio">
+                                        <div class="">
+                                            <a href="#"><i class="fa fa-whatsapp fa-3x iconoestilo"></i></a>
+                                            <a href="#"><i class="fa fa-instagram fa-3x iconoestilo"></i></a>
+                                            <a href="#"><i class="fa fa-facebook fa-3x iconoestilo"></i></a>
+
+                                        </div>
+                                    </div>
                                 </div>
                         </div>
                     </div>
@@ -270,10 +278,7 @@
 								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 							</p>
 							<div class="spacer10"></div>
-							<h3>Historia del proyecto</h3>
-							<p>
-								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-							</p>
+
 						</div>
 
 
@@ -299,6 +304,7 @@
 
                         <div class="col-md-3 text-right">
                             <div class="social-icons">
+                                <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
                                 <a href="#"><i class="fa fa-whatsapp fa-lg"></i></a>
                                 <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
                                 <a href="#"><i class="fa fa-user fa-lg"></i></a>
