@@ -245,7 +245,7 @@
                                             <span class="val">100 x 100 cms</span>
                                         </div>
                                     </div>
-                                    <div class="col-sm-5">
+                                    <div class="col-sm-5 acomodotexto">
                                         <div class="info-text">
                                             <span class="title">Técnica</span>
                                             <span class="val">Acrílico sobre tela</span>
@@ -260,12 +260,16 @@
                                 <br>
                                 <div class="info-text">
                                     {{-- <a href="#" class="btn-custom btn-fullwidth text-light text-center"><b>Compartir</b></a> --}}
-                                    <div class="col-md-8 text-right iconoespacio">
-                                        <div class="">
-                                            <a href="#"><i class="fa fa-whatsapp fa-3x iconoestilo"></i></a>
-                                            <a href="#"><i class="fa fa-instagram fa-3x iconoestilo"></i></a>
-                                            <a href="#"><i class="fa fa-facebook fa-3x iconoestilo"></i></a>
-
+                                    <div class="col-md-12 text-right iconoespacio">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <label class="compartir compartirobra">Compartir obra</label>
+                                            </div>
+                                            <div class="col-md-8 iconoespacioobra">
+                                                <a href="#"><i class="fa fa-whatsapp fa-lg iconoestilo"></i></a>
+                                                <a href="#"><i class="fa fa-twitter fa-lg iconoestilo"></i></a>
+                                                <a href="#"><i class="fa fa-facebook fa-lg iconoestilo"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
