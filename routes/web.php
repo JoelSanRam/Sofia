@@ -56,7 +56,7 @@ Route::get('/dashboard/post/view-update/{id}', 'PostController@edit')->name('pos
 Route::put('/dashboard/post/update/{id}', 'PostController@update')->name('post-update');
 Route::delete('/dashboard/post/delete/{id}', 'PostController@destroy')->name('post-delete');
 Route::get('/dashboard/post/delete-img/{id}', 'PostController@deleteImage')->name('post-delete-img');
-Route::get('/dashboard/post/upload-img/{id}', 'PostController@uploadImage')->name('post-upload-img');
-Route::post('/dashboard/post/update-img/{id}', 'PostController@uploadImages')->name('post-update-img');
+Route::get('/dashboard/post/upload/imagen/{id}', 'PostController@uploadImage')->name('post-upload-img'); //view
+Route::post('/dashboard/post/update/imagen/{id}', 'PostController@updateImage')->name('post-update-img'); //load data
 
 Route::get('/home', 'HomeController@index')->name('home');

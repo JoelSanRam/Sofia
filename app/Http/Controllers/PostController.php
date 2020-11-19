@@ -86,7 +86,18 @@ class PostController extends Controller
 
     public function destroy($id)
     {
-    	try {
+        $post = Post::find($id);
+            $path = public_path() . '/posts/' . $post->image;
+            
+            if ($post->image != '') {
+                if (unlink($path)) {
+                    $post->delete();
+                } 
+            } else {
+                $post->delete();
+            } 
+
+    	/*try {
     		$post = Post::find($id);
     		$path = public_path() . '/posts/' . $post->image;
     		
@@ -98,7 +109,7 @@ class PostController extends Controller
     		
     	} catch (\Exception $e) {
             \Session::flash('message', 'Ocurrio un error, no se pudo eliminar el registro');
-        }
+        }*/
 
     	return redirect()->route('posts');
     }
