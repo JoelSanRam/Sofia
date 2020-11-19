@@ -225,15 +225,15 @@
 
 			<section>
 				<div class="container">
-                    <h2 class="style-3">NOMBRE DEL PROYECTO</h2>
+                    <h2 class="style-3 titulopequenioobra">NOMBRE DEL PROYECTO</h2>
 					<div class="row">
 
                         <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
                             <div class="project-details text-light" data-bgcolor="#18191B">
 
-                                <h3>Detalles de la obra</h3>
+                                <h3 class="detallemovil">Detalles de la obra</h3>
 
-                                <div class="row">
+                                <div class="row rowdetallemovil">
                                     <div class="col-sm-5">
                                         <div class="info-text">
                                             <span class="title">Fecha</span>

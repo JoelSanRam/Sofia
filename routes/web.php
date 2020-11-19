@@ -28,6 +28,10 @@ Route::get('/detalleproyecto', function () {
     return view('cliente.detalleproject');
 });
 
+Route::get('/login', function () {
+    return view('cliente.login');
+});
+
 //admin
 
 Route::get('/dashboard', function () {

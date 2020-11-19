@@ -2736,7 +2736,7 @@ left: 0;
 	letter-spacing:10px;
 	}
 	h2.style-3{
-	font-size:64px;
+
 	font-weight:400;
 	text-transform:uppercase;
 	letter-spacing:20px;
@@ -8300,6 +8300,20 @@ ul#slide-list{
         margin-left: 190px;
     }
 
+    @media screen and (max-width: 480px) {
+        .compartirblog{
+            margin-left: -20px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .espacioblog{
+            margin-right: 0px;
+            margin-left: 0px;
+            margin: 0px;
+        }
+    }
+
     .tituloblog{
         margin-left: -25px;
         margin-right: 25px;
@@ -8311,4 +8325,38 @@ ul#slide-list{
 
     .acomodotexto{
         margin-left: auto;
+    }
+
+    @media screen and (max-width: 480px) {
+        .compartirobra{
+            margin-right: 60px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .iconoespacioobra{
+            margin-left: -50px;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .detallemovil{
+        text-align: center;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .rowdetallemovil{
+            text-align: center;
+        }
+    }
+
+    .titulopequenioobra{
+        font-size:64px;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 480px) {
+        .titulopequenioobra{
+            font-size: 23px;
+            text-align: center;
+        }
     }
