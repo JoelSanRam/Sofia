@@ -37,7 +37,23 @@
                             </div>
 
                             <div class="post-text">
-                                <h3><a href="#">TITULO DEL ARTICULO</a></h3>
+                                <div class="info-text">
+                                    {{-- <a href="#" class="btn-custom btn-fullwidth text-light text-center"><b>Compartir</b></a> --}}
+                                    <div class="col-md-12 text-right iconoespacio">
+                                        <div class="row">
+                                            <div class="col-md-4 tituloblog"><h3><a href="#">TITULO DEL ARTICULO</a></h3></div>
+                                            <div class="col-md-4 compartirblog espacioblog">
+                                                <label class="compartir margencompartirblog">Compartir artículo</label>
+                                            </div>
+                                            <div class="col-md-3 compartirblog">
+                                                <a href="#"><i class="fa fa-whatsapp fa-lg iconoestilo"></i></a>
+                                                <a href="#"><i class="fa fa-twitter fa-lg iconoestilo"></i></a>
+                                                <a href="#"><i class="fa fa-facebook fa-lg iconoestilo"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
@@ -80,17 +96,7 @@
                     ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                     Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
                     magni <br><br>
-                    <div class="info-text">
-                        {{-- <a href="#" class="btn-custom btn-fullwidth text-light text-center"><b>Compartir</b></a> --}}
-                        <div class="col-md-8 text-right iconoespacio">
-                            <div class="">
-                                <a href="#"><i class="fa fa-whatsapp fa-3x iconoestilo"></i></a>
-                                <a href="#"><i class="fa fa-instagram fa-3x iconoestilo"></i></a>
-                                <a href="#"><i class="fa fa-facebook fa-3x iconoestilo"></i></a>
 
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
 
