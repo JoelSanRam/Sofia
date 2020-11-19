@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Archi - Creative Interior Design Template</title>
+    <title>Sofía Coná | Detalle de obra</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Archi is best selling interior design website template with responsive stunning design">
     <meta name="keywords" content="architecture,building,business,bootstrap,creative,exterior design,furniture design,gallery,garden design,house,interior design,landscape design,multipurpose,onepage,portfolio,studio">
