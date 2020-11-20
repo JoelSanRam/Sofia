@@ -52,7 +52,7 @@
         <h2 class="style-6 ultimasobrasindex">Mis últimos <strong class="id-color"></strong> proyectos</h2>
     </div>
     <section class="no-top no-bottom">
-        <div class="grid" data-col="4" data-gridspace="30" data-ratio="466/700">
+        <div class="grid" data-col="3" data-gridspace="10" data-ratio="466/700">
             <div class="grid-sizer"></div>
             <div class="grid-item residential">
                 <!-- gallery item -->
