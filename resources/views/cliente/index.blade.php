@@ -49,7 +49,7 @@
     <!-- section close -->
 
     <div class="titulo">
-        <h2 class="style-6">Mis últimos <strong class="id-color"></strong> proyectos</h2>
+        <h2 class="style-6 ultimasobrasindex">Mis últimos <strong class="id-color"></strong> proyectos</h2>
     </div>
     <section class="no-top no-bottom">
         <div class="grid" data-col="4" data-gridspace="30" data-ratio="466/700">

@@ -8303,6 +8303,7 @@ ul#slide-list{
     @media screen and (max-width: 480px) {
         .compartirblog{
             margin-left: -20px;
+            letter-spacing: 10px;
         }
     }
 
@@ -8310,13 +8311,19 @@ ul#slide-list{
         .espacioblog{
             margin-right: 0px;
             margin-left: 0px;
-            margin: 0px;
+            margin-bottom: -10px;
         }
     }
 
     .tituloblog{
         margin-left: -25px;
         margin-right: 25px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .tituloblog{
+            margin-right: 87px;
+        }
     }
 
     .iconoespacioobra{
@@ -8336,8 +8343,28 @@ ul#slide-list{
     @media screen and (max-width: 480px) {
         .iconoespacioobra{
             margin-left: -50px;
+            margin-bottom: 0px;
         }
     }
+
+    @media screen and (max-width: 480px) {
+        .container .col-md-8{
+            margin-bottom: 0px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .container .col-md-4{
+            margin-bottom: 0px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .container .col-md-3{
+            margin-bottom: 0px;
+        }
+    }
+
     @media screen and (max-width: 480px) {
         .detallemovil{
         text-align: center;
@@ -8358,5 +8385,19 @@ ul#slide-list{
         .titulopequenioobra{
             font-size: 23px;
             text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .ultimasobrasindex{
+            font-size: 33px;
+
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .padingdetalleobra{
+            padding-bottom: 0px;
+
         }
     }
