@@ -5,20 +5,16 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
 //cliente
-Route::get('/', 'DataController@index');
-Route::get('/contacto', 'DataController@contacto');
-Route::get('/proyectos', 'DataController@proyectos');
-Route::get('/blog', 'DataController@blog');
-Route::get('/blog/detalles/{id}', 'DataController@detallesBlog');
-Route::get('/proyecto/detalles/{id}', 'DataController@detallesProject');
+Route::get('/', 'DataController@index')->name('home');
+Route::get('/contacto', 'DataController@contacto')->name('contacto');
+Route::get('/proyectos', 'DataController@proyectos')->name('proyectos');
+Route::get('/blog', 'DataController@blog')->name('blog');
+Route::get('/proyecto/detalles/{id}', 'DataController@detallesProject')->name('detallesProject');
+Route::get('/blog/detalles/{id}', 'DataController@detallesBlog')->name('detallesBlog');
 
 // email
 Route::post('/post/send/email/sofia/cona', 'EmailController@sendMail')->name('send-mail');
 
-
-/*Route::get('/login', function () {
-    return view('cliente.login');
-});*/
 
 //admin
 Route::middleware('auth')->group(function () {

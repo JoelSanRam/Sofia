@@ -7,7 +7,7 @@
             <div class="col-md-12">
                 <h1>Blog sencillo</h1>
                 <ul class="crumb">
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="{{ route('home') }}">Inicio</a></li>
                     <li class="sep">/</li>
                     <li>Detalle de artículo</li>
                 </ul>
@@ -24,7 +24,7 @@
             <div class="col-md-8">
                 <div class="blog-read">
                     <div class="post-image">
-                        <img src="{{ asset('cliente/images/blog/pic-blog-1.jpg')}}" alt="" />
+                        <img src="{{ asset('posts/' . $item->image) }}" alt="" />
                     </div>
                         <div class="post-content">
                             <div class="post-image">
@@ -32,8 +32,8 @@
                             </div>
 
                             <div class="date-box">
-                                <div class="day">26</div>
-                                <div class="month">FEB</div>
+                                <div class="day">{{ $item->day }}</div>
+                                <div class="month">{{ substr(strtoupper($item->month), 0, 3) }}</div>
                             </div>
 
                             <div class="post-text">
@@ -41,37 +41,29 @@
                                     {{-- <a href="#" class="btn-custom btn-fullwidth text-light text-center"><b>Compartir</b></a> --}}
                                     <div class="col-md-12 text-right iconoespacio">
                                         <div class="row">
-                                            <div class="col-md-4 tituloblog"><h3><a href="#">TITULO DEL ARTICULO</a></h3></div>
+                                            <div class="col-md-4 tituloblog"><h3><a href="#">{{ $item->title }}</a></h3></div>
                                             <div class="col-md-4 compartirblog espacioblog">
                                                 <label class="compartir margencompartirblog">Compartir artículo</label>
                                             </div>
                                             <div class="col-md-3 compartirblog">
-                                                <a href="#"><i class="fa fa-whatsapp fa-lg iconoestilo"></i></a>
-                                                <a href="#"><i class="fa fa-twitter fa-lg iconoestilo"></i></a>
-                                                <a href="#"><i class="fa fa-facebook fa-lg iconoestilo"></i></a>
+                                                <a href="whatsapp://send?text={{ route('detallesBlog', $item->id) }}">
+                                                    <i class="fa fa-whatsapp fa-lg iconoestilo"></i>
+                                                </a>
+                                                <a href="https://twitter.com/share?ref_src={{ route('detallesBlog', $item->id) }}" >
+                                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                                    <i class="fa fa-twitter fa-lg iconoestilo"></i>
+                                                </a>
+                                                <a href="#">
+                                                    <i class="fa fa-facebook fa-lg iconoestilo"></i>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
-
-                                    <blockquote class="s1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</blockquote>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+                                <p>
+                                    {!! $item->body !!}
+                                </p>
                             </div>
                             <div class="col-md-4 compartirblog espacioblog">
                                 <label class="compartir margencompartirblog">Compartir artículo</label>

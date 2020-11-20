@@ -9,12 +9,6 @@
     <meta name="keywords" content="architecture,building,business,bootstrap,creative,exterior design,furniture design,gallery,garden design,house,interior design,landscape design,multipurpose,onepage,portfolio,studio">
     <meta name="author" content="">
 
-
-    <!--[if lt IE 9]>
-	<script src="js/html5shiv.js"></script>
-	<![endif]-->
-
-
     <!-- CSS Files
     ================================================== -->
     <link rel="stylesheet" href="{{ asset('cliente/css/bootstrap.css')}}" type="text/css">
@@ -93,15 +87,13 @@
                         <!-- mainmenu begin -->
 							<nav>
 								<ul id="mainmenu">
-									<li><a href="index-arts.html">Inicio<span></span></a></li>
+									<li><a href="{{ route('home') }}">Inicio<span></span></a></li>
 
-									<li><a href="project-contained-3-cols.html">Obras</a></li>
+                                    <li><a href="{{ route('proyectos') }}">Obras</a></li>
 
-                                    <li><a href="contact-map-api.html">Blog</a></li>
+                                    <li><a href="{{ route('blog') }}">Blog</a></li>
 
-                                    <li><a href="blog-left-sidebar-light.html">Contacto</a></li>
-
-
+                                    <li><a href="{{ route('contacto') }}">Contacto</a></li>
 								</ul>
 							</nav>
 
@@ -119,7 +111,7 @@
         <div id="content" class="no-bottom no-top">
 
             <!-- section begin -->
-            <section id="section-welcome" class="full-height text-light" data-bgimage="url({{ asset('cliente/images-architect/bg/noesunjuego_sombra.png')}})">
+            <section id="section-welcome" class="full-height text-light" data-bgimage="url({{ asset('obras/' . $item->cover_image) }})">
 
                 <div class="center-y">
                     <div class="container">
@@ -154,21 +146,22 @@
 
 							<div id="gallery-carousel-3" class="owl-carousel owl-theme owl-slide galeriatamanio">
 
-							<!-- gallery item -->
+							@foreach($images as $image)
 							<div class="item s2 galeriatamanio">
 								<div class="picframe galeriatamanio">
-									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/mark-west-Fg_4Wn1r0bU-unsplash.png')}}">
+									<a class="image-popup-no-margins" href="{{ asset('obras/' . $image->filename) }}" >
 										<span class="overlay-v">
 											<span class="pf_text">
 
 											</span>
 										</span>
-										<img src="{{ asset('cliente/images-architect/mark-west-Fg_4Wn1r0bU-unsplash.png')}}" alt="" />
+										<img src="{{ asset('obras/' . $image->filename) }}" />
 									</a>
 								</div>
 							</div>
-							<!-- close gallery item -->
+							@endforeach
 
+                            {{--
 							<!-- gallery item -->
 							<div class="item s2">
 								<div class="picframe galeriatamanio">
@@ -213,10 +206,8 @@
 								</div>
 							</div>
 							<!-- close gallery item -->
-
-							<!-- gallery item -->
-
-							<!-- close gallery item -->
+                            --}}
+							
 						</div>
 					</div>
 				</div>
@@ -225,7 +216,7 @@
 
 			<section>
 				<div class="container">
-                    <h2 class="style-3 titulopequenioobra">NOMBRE DEL PROYECTO</h2>
+                    <h2 class="style-3 titulopequenioobra">{{ $item->name }}</h2>
 					<div class="row">
 
                         <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
@@ -237,23 +228,23 @@
                                     <div class="col-sm-5">
                                         <div class="info-text">
                                             <span class="title">Fecha</span>
-                                            <span class="val">Marzo 2020</span>
+                                            <span class="val">{{ $item->publish_date }}</span>
                                         </div>
 
                                         <div class="info-text">
                                             <span class="title">Medidas</span>
-                                            <span class="val">100 x 100 cms</span>
+                                            <span class="val">{{ $item->dimension }}</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-5 acomodotexto">
                                         <div class="info-text">
                                             <span class="title">Técnica</span>
-                                            <span class="val">Acrílico sobre tela</span>
+                                            <span class="val">{{ $item->technique }}</span>
                                         </div>
 
                                         <div class="info-text">
                                             <span class="title">Status</span>
-                                            <span class="val">Disponible</span>
+                                            <span class="val">{{ $item->status }}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -279,7 +270,7 @@
 						<div class="col-md-8 wow fadeInRight" data-wow-delay=".4s">
 							<h3>Descripción del proyecto</h3>
 							<p>
-								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+								{{ $item->description }}
 							</p>
 							<div class="spacer10"></div>
 
@@ -289,8 +280,6 @@
 					</div>
 				</div>
 			</section>
-
-
 
 
             <!-- footer begin -->

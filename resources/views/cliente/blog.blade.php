@@ -7,7 +7,7 @@
             <div class="col-md-12">
                 <h1>Blog</h1>
                 <ul class="crumb">
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="{{ route('home') }}">Inicio</a></li>
                     <li class="sep">/</li>
                     <li>Blog</li>
                 </ul>
@@ -36,30 +36,32 @@
 
             <div class="col-md-8">
                 <ul class="blog-list">
+                    @foreach($items as $item)
                     <li>
                         <div class="post-content">
                             <div class="post-image">
-                                <img src="{{ asset('cliente/images/blog/pic-blog-1.jpg')}}" alt="" />
+                                <img src="{{ asset('posts/' . $item->image) }}" alt="{{ $item->title }}" />
                             </div>
 
 
                             <div class="date-box">
-                                <div class="day">26</div>
-                                <div class="month">FEB</div>
+                                <div class="day">{{ $item->day }}</div>
+                                <div class="month">{{ substr(strtoupper($item->month), 0, 3) }}</div>
                             </div>
 
                             <div class="post-text">
-                                <h3><a href="#">TITULO DEL ARTICULO</a></h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+                                <h3><a href="{{ route('detallesBlog', $item->id) }}">{{ $item->title }}</a></h3>
+                                <p>
+                                    {!! $item->body !!}
+                                </p>
                             </div>
 
-                            <a href="blog-single.html" class="btn-more">Leer más</a>
+                            <a href="{{ route('detallesBlog', $item->id) }}" class="btn-more">Leer más</a>
                         </div>
                     </li>
+                    @endforeach
 
+                    {{-- 
                     <li>
                         <div class="post-content">
                             <div class="post-image">
@@ -131,7 +133,7 @@
                             <a href="blog-single.html" class="btn-more">Leer más</a>
                         </div>
                     </li>
-
+                    --}}
 
                 </ul>
 

@@ -8,7 +8,7 @@
             <div class="col-md-12">
                 <h1>Obras</h1>
                 <ul class="crumb">
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="{{ route('home') }}">Inicio</a></li>
                     <li class="sep">/</li>
                     <li>Obras</li>
                 </ul>
@@ -30,23 +30,23 @@
 
         <div id="gallery" class="row gallery full-gallery de-gallery pf_4_cols wow fadeInUp" data-wow-delay=".3s">
 
-            <!-- gallery item -->
-            <div class="col-md-4 col-sm-6 col-xs-12 item mb30 residential">
-                <div class="picframe galeriatamanio">
-                    <a class="" href="project-details-1.html">
-                        <span class="overlay">
-                            <span class="pf_text">
-                                <span class="project-name">Flamencas</span>
+            @foreach($items as $item)
+                <div class="col-md-4 col-sm-6 col-xs-12 item mb30 residential">
+                    <div class="picframe galeriatamanio">
+                        <a class="" href="{{ route('detallesProject', $item->id) }}">
+                            <span class="overlay">
+                                <span class="pf_text">
+                                    <span class="project-name">{{ $item->name }}</span>
+                                </span>
                             </span>
-                        </span>
-                    </a>
-                    <img src="{{ asset('cliente/images-architect/flamencas_detalle.png')}}" alt="" />
+                        </a>
+                        <img src="{{ asset('obras/' . $item->cover_image) }}" alt="{{ $item->name }}" />
+                    </div>
                 </div>
-            </div>
-            <!-- close gallery item -->
+            @endforeach
 
             <!-- gallery item -->
-            <div class="col-md-4 col-sm-6 col-xs-12 item mb30 hospitaly">
+            {{--<div class="col-md-4 col-sm-6 col-xs-12 item mb30 hospitaly">
                 <div class="picframe galeriatamanio">
                     <a class="simple-ajax-popup-align-top" href="project-details-2.html">
                         <span class="overlay">
@@ -215,7 +215,7 @@
 
                     <img src="{{ asset('cliente/images-architect/flamencas_detalle.png')}}" alt="" />
                 </div>
-            </div>
+            </div>--}}
             <!-- close gallery item -->
 
         </div>

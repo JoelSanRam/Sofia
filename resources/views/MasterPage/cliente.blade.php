@@ -96,13 +96,13 @@
                         <!-- mainmenu begin -->
 							<nav>
 								<ul id="mainmenu">
-									<li><a href="index-arts.html">Inicio<span></span></a></li>
+									<li><a href="{{ route('home') }}">Inicio<span></span></a></li>
 
-									<li><a href="project-contained-3-cols.html">Obras</a></li>
+									<li><a href="{{ route('proyectos') }}">Obras</a></li>
 
-                                    <li><a href="contact-map-api.html">Blog</a></li>
+                                    <li><a href="{{ route('blog') }}">Blog</a></li>
 
-                                    <li><a href="blog-left-sidebar-light.html">Contacto</a></li>
+                                    <li><a href="{{ route('contacto') }}">Contacto</a></li>
 
 
 								</ul>
@@ -139,7 +139,7 @@
                             <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
                             <a href="#"><i class="fa fa-whatsapp fa-lg"></i></a>
                             <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
-                            <a href="#"><i class="fa fa-user fa-lg"></i></a>
+                            <a href="{{ route('dashboard') }}"><i class="fa fa-user fa-lg"></i></a>
 
                         </div>
                     </div>
