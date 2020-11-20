@@ -1559,11 +1559,11 @@ border:solid 1px #ddd;
 	width: 98%;
 	}
 
-	#contact_form{
+	#contactForm{
 	margin-top:20px;
 	}
 	
-	#contact_form input[type=text],#contact_form textarea,#contact_form input[type=email],#contact_form input[type=number],#search{
+	#contactForm input[type=text],#contactForm textarea,#contactForm input[type=email],#contactForm input[type=number],#search{
 	padding:10px;
 	margin-bottom:20px;
 	color:#fff;
@@ -1573,7 +1573,7 @@ border:solid 1px #ddd;
 	height:auto;
 	}
 
-	.de_light #contact_form input[type=text],.de_light #contact_form textarea,.de_light #contact_form input[type=email], .de_light #search
+	.de_light #contactForm input[type=text],.de_light #contactForm textarea,.de_light #contactForm input[type=email], .de_light #search
 		{
 		border:solid 1px #ddd;
 		background:#f5f5f5;	
@@ -1583,21 +1583,21 @@ border:solid 1px #ddd;
 	
 	
 	
-	#contact_form input[placeholder],#contact_form textarea[placeholder]{
+	#contactForm input[placeholder],#contactForm textarea[placeholder]{
 	color:#eee;
 	}
 	
-	#contact_form input[type=submit].btn-line{
+	#contactForm input[type=submit].btn-line{
 	background:none;
 	padding:8px 20px;
 	}
 	
-	#contact_form input[type=submit].btn-line:hover{
+	#contactForm input[type=submit].btn-line:hover{
 	background:#111;
 	border-color:#111;
 	}
 	
-	#contact_form textarea{
+	#contactForm textarea{
 	height:178px;
 	}
 	
@@ -4164,8 +4164,8 @@ de_tab .de_nav li span,
 .de-gallery .overlay .icon i,
 .de-gallery .overlay .icon i:hover,
 header.smaller:not(.header-bottom),
-#contact_form input[type=submit],
-#contact_form input[type=submit]:hover,
+#contactForm input[type=submit],
+#contactForm input[type=submit]:hover,
 .product img,
 .product img:hover,
 .mfp-close,.mfp-close:hover,

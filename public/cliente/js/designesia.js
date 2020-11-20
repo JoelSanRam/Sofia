@@ -1234,7 +1234,7 @@ jQuery(document).ready(function () {
 
         var rq_step = 1;
 
-        jQuery('#request_form .btn-right').click(function () {
+        /*jQuery('#request_form .btn-right').click(function () {
 
             var rq_name = $('#rq_name').val();
             var rq_email = $('#rq_email').val();
@@ -1251,7 +1251,7 @@ jQuery(document).ready(function () {
                 jQuery("#rq_step_2").fadeIn();
             }
 
-        });
+        });*/
 
         // --------------------------------------------------
         // tabs

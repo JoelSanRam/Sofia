@@ -12869,7 +12869,7 @@ a.btn.btn_error{
   line-height: 1.714;
   margin-bottom: 30px;
 }
-.form_grid .contact_form input{
+.form_grid .contactForm input{
   border: 1px solid #ebebeb;
   border-radius: 8px;
   background-color: #ffffff;
@@ -12880,7 +12880,7 @@ a.btn.btn_error{
   margin-bottom: 20px;
   padding-left: 20px;
 }
-.form_grid .contact_form textarea.form-control{
+.form_grid .contactForm textarea.form-control{
   background-color: #ffffff;
   border: 1px solid #ebebeb;
   border-radius: 8px;
@@ -12891,7 +12891,7 @@ a.btn.btn_error{
   margin-bottom: 25px;
   padding: 20px;
 }
-.form_grid .contact_form button{
+.form_grid .contactForm button{
   border-radius: 8px;
   background-color: #ff5a5f;
   -webkit-box-shadow:0px 1px 4px 0px rgba(255, 90, 95, 0.3);
@@ -12940,11 +12940,11 @@ a.btn.btn_error{
 .contact_localtion .content_list p{
   margin-bottom: 30px;
 }
-.contact_form_social_area{
+.contactForm_social_area{
   margin-bottom: 0;
   position: relative;  
 }
-.contact_form_social_area li{
+.contactForm_social_area li{
   background-color: #f7f7f7;
   border-radius: 8px;
   height: 45px;
@@ -12952,10 +12952,10 @@ a.btn.btn_error{
   text-align: center;
   width: 45px;
 }
-.contact_form_social_area li:hover{
+.contactForm_social_area li:hover{
   cursor: pointer;
 }
-.contact_form_social_area li a{
+.contactForm_social_area li a{
   font-size: 14px;
   color: #484848;
   line-height: 1.2;

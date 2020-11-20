@@ -13,17 +13,20 @@
 	<link rel="stylesheet" href="{{ asset('admin/css/dashbord_navitaion.css')}}">
 	<!-- Responsive stylesheet -->
 	<link rel="stylesheet" href="{{ asset('admin/css/responsive.css')}}">
+
+	<!-- Login -->
+	<link rel="stylesheet" href="{{ asset('admin/login.css')}}">
+
 	<!-- Title -->
-	<title>Dashboard</title>
+	<title>Sofía Coná | Dashboard</title>
 	<!-- Favicon -->
-	<link href="{{ asset('admin/images/favicon.ico')}}" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
-	<link href="{{ asset('admin/images/favicon.ico')}}" sizes="128x128" rel="shortcut icon" />
+	<link href="{{ asset('admin/logos/favicon.svg')}}" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
+	<link href="{{ asset('admin/logos/favicon.svg')}}" sizes="128x128" rel="shortcut icon" />
 
 	<!-- DataTables JS -->
 	<link rel="stylesheet" href="{{ asset('admin/DataTables/datatables.min.css')}}">
 
 	<!-- CKEditor 4 -->
-
 	<script type="text/javascript" src="{{ asset('admin/ckeditor/ckeditor.js')}}"></script>
 
 
@@ -32,6 +35,7 @@
 <div class="wrapper">
 	<div class="preloader"></div>
 
+	@auth
 	<!-- Main Header Nav -->
 	<header class="header-nav menu_style_home_one style2 menu-fixed main-menu">
 		<div class="container-fluid p0">
@@ -49,13 +53,19 @@
 		        <a href="#" class="navbar_brand float-left dn-smd">
 		            <img class="logo1 img-fluid" src="{{ asset('admin/images/header-logo2.png')}}" alt="header-logo.png">
 		            <img class="logo2 img-fluid" src="{{ asset('admin/images/header-logo2.png')}}" alt="header-logo2.png">
-		            <span>FindHouse</span>
+		            <span>Sofía Coná</span>
 		        </a>
 		        <!-- Responsive Menu Structure-->
 		        <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
 		        <ul id="respMenu" class="ace-responsive-menu text-right" data-menu-style="horizontal">
 		            <li class="last">
-		                <a href="page-contact.html"><span class="title">Cerrar Sesion</span></a>
+		                <a href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                        	<span class="flaticon-logout"></span> Cerrar Sesion
+                		</a>
+
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
 		            </li>		        
 		        </ul>
 		    </nav>
@@ -67,27 +77,35 @@
 		<div class="mobile-menu">
 			<div class="header stylehome1">
 				<div class="main_logo_home2 text-center">
-		            <img class="nav_logo_img img-fluid mt20" src="{{ asset('admin/images/header-logo2.png')}}" alt="header-logo2.png">
-		            <span class="mt20">FindHouse</span>
+		            <img class="nav_logo_img img-fluid mt20" width="150" height="150" src="{{ asset('admin/logos/logo_amarillo_con_negro_05.svg')}}" alt="header-logo2.png">
 				</div>
 				<ul class="menu_bar_home2">
-	                <li class="list-inline-item list_s"><a href="page-register.html"><span class="flaticon-user"></span></a></li>
+	                <li class="list-inline-item list_s"><a href="#"></a></li>
 					<li class="list-inline-item"><a href="#menu"><span></span></a></li>
 				</ul>
 			</div>
 		</div><!-- /.mobile-menu -->
 		<nav id="menu" class="stylehome1">
 			<ul>
-				<li><a href="page-contact.html">Cerrar Sesion</a></li>
+				<li>
+					<a href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                    	<span class="flaticon-logout"></span> Cerrar Sesion
+            		</a>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                    </form>
+				</li>
 			</ul>
 		</nav>
 	</div>
 
+	
     <div class="dashboard_sidebar_menu dn-992">
 	    <ul class="sidebar-menu">
-	   		<li class="header"><img src="{{ asset('admin/images/header-logo2.png')}}" alt="header-logo2.png">FindHouse</li>
+	   		<li class="header"><img src="{{ asset('admin/logos/logo_amarillo_con_blanco_04.svg')}}" alt="Sofia Cona"></li>
 	   		<li class="title"><span>Menu</span></li>
-	    	<li class="treeview"><a href="page-dashboard.html"><i class="flaticon-layers"></i><span>Inicio</span></a></li>
+	    	<li class="treeview"><a href="{{ route('dashboard') }}"><i class="flaticon-layers"></i><span>Inicio</span></a></li>
 	   		<li class="title"><span>Secciones</span></li>
 	      	<li class="treeview">
 		        <a href="page-my-properties.html"><i class="flaticon-layers"></i> <span>Mis Obras</span><i class="fa fa-angle-down pull-right"></i></a>
@@ -104,29 +122,47 @@
 		        </ul>
 	      	</li>
 	   		<li class="title"><span>Cuenta</span></li>
-		    <li><a href="page-login.html"><i class="flaticon-logout"></i> <span>Cerrar Sesion</span></a></li>
+		    <li>
+		    	<a href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                	<span class="flaticon-logout"></span> Cerrar Sesion
+        		</a>
+
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+		    </li>
 	    </ul>
     </div>
+    @endauth
+
 
 	<!-- Our Dashbord -->
 	<section class="our-dashbord dashbord bgc-f7 pb50">
 		<div class="container-fluid ovh">
 			<div class="row">
 				<div class="col-lg-3 col-xl-2 dn-992 pl0"></div>
-				<div class="col-lg-9 col-xl-10 maxw100flex-992">
+				<div class="@auth col-lg-9 col-xl-10 maxw100flex-992 @endauth @guest col-lg-12 col-xl-12 maxw100flex-992 @endguest">
 					<div class="row">
+						@auth
 						<div class="col-lg-12">
 							<div class="dashboard_navigationbar dn db-992">
 								<div class="dropdown">
 									<button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars pr10"></i>Menu</button>
 									<ul id="myDropdown" class="dropdown-content">
 										<li><a href="{{ route('obras') }}"><span class="flaticon-layers">Mis Obras</span></a></li>
-										<li><a href="{{ route('posts') }}"><span class="flaticon-layers">Mis Publicaciones</span></a></li>
-										<li><a href="page-login.html"><span class="flaticon-logout"></span>Cerrar Sesion</a></li>
+										<li><a href="{{ route('posts') }}"><span class="flaticon-layers">Mis Publicaciones</span></a></li>										</li>
+											<a href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+	                                        	<span class="flaticon-logout"></span>Cerrar Sesion
+	                                		</a>
+
+			                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+			                                    @csrf
+			                                </form>
 									</ul>
 								</div>
 							</div>
 						</div>
+						@endauth
 						<div class="col-lg-12">
 							<div id="contenido">
 	                            @yield('admin')

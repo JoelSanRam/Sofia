@@ -27,7 +27,8 @@
 
             <div class="col-md-8">
                 <h3>Envíame un mensaje</h3>
-                <form name="contactForm" id='contact_form' method="post" action='email.php'>
+                <form id="contactForm" method="POST">
+                    @csrf
                     <div class="row">
                         <div class="col-md-4">
                             <div id='name_error' class='error'>Nombre completo</div>

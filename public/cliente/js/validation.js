@@ -46,15 +46,16 @@ $(document).ready(function(){
                // Disable submit button just after the form processed 1st time successfully.
                 $('#send_message').attr({'disabled' : 'true', 'value' : 'Sending...' });
                 
-				/* Post Ajax function of jQuery to get all the data from the submission of the form as soon as the form sends the values to email.php*/
-                $.post("email.php", $("#contact_form").serialize(),function(result){
+				//Post Ajax function of jQuery to get all the data from the submission of the form as soon as the form sends the values to email.php
+                $.post("/post/send/email/sofia/cona", $("#contactForm").serialize(),function(result){
                     //Check the result set from email.php file.
-                    if(result == 'sent'){
+                    if(result == "success"){
                         //If the email is sent successfully, remove the submit button
                          $('#submit').remove();
+                         $('#contactForm').trigger("reset");
                         //Display the success message
                         $('#mail_success').fadeIn(500);
-                    }else{
+                    } else if(result == "danger") {
                         //Display the error message
                         $('#mail_fail').fadeIn(500);
                         // Enable the submit button again
