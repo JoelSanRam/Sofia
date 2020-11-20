@@ -229,7 +229,7 @@
 					<div class="row">
 
                         <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
-                            <div class="project-details text-light" data-bgcolor="#18191B">
+                            <div class="project-details text-light padingdetalleobra" data-bgcolor="#18191B">
 
                                 <h3 class="detallemovil">Detalles de la obra</h3>
 
