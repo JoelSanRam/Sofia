@@ -254,7 +254,7 @@
                 </div>
 
                 <div class="col-md-4 text-right">
-                    <a href="contact.html" class="btn-line btn-big wow fadeInUp">Más información</a>
+                    <a href="{{ route('contacto') }}" class="btn-line btn-big wow fadeInUp">Más información</a>
                 </div>
             </div>
         </div>
