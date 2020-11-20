@@ -29,7 +29,9 @@ class PostController extends Controller
     	$this->validate($request, [
     		'title' => 'required',
     		'body' => 'required',
-    		'publish_date' => 'required',
+            'day' => 'required',
+    		'month' => 'required',
+            'year' => 'required',
     		'image' => 'required',
     	]);
 
@@ -37,7 +39,9 @@ class PostController extends Controller
             $post = new Post();
             $post->title = $request->title;
             $post->body = $request->body;
-            $post->publish_date = $request->publish_date;
+            $post->day = $request->day;
+            $post->month = $request->month;
+            $post->year = $request->year;
 
             if ($request->hasfile('image')) {
                 $path = public_path() . '/posts';
@@ -68,14 +72,18 @@ class PostController extends Controller
     	$this->validate($request, [
     		'title' => 'required',
     		'body' => 'required',
-    		'publish_date' => 'required',
+    		'day' => 'required',
+            'month' => 'required',
+            'year' => 'required',
     	]);
 
         try {
             $post = Post::find($id);
             $post->title = $request->title;
             $post->body = $request->body;
-            $post->publish_date = $request->publish_date;
+            $post->day = $request->day;
+            $post->month = $request->month;
+            $post->year = $request->year;
             $post->save();
             \Session::flash('message', 'Actualizacion Exitosa');
 

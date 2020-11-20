@@ -52,10 +52,36 @@
                     </div>
 
                     <div class="form-row">
-                        <div class="my_profile_setting_input col-lg-12 form-group">
-                            <label for="publish_date">Fecha</label>
-                            <input type="date" class="form-control @error('publish_date') is-invalid @enderror" name="publish_date" id="publish_date" >
-                            @error('publish_date')
+                        <div class="my_profile_setting_input col-lg-4 form-group">
+                            <label for="day">Dia</label>
+                            <select class="form-control @error('day') is-invalid @enderror" name="day" id="day" >
+                                <option value="">Seleccionar</option>
+                            </select>
+                            @error('day')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+
+                        <div class="my_profile_setting_input col-lg-4 form-group">
+                            <label for="month">Mes</label>
+                            <select class="form-control @error('month') is-invalid @enderror" name="month" id="month" >
+                                <option value="">Seleccionar</option>
+                            </select>
+                            @error('month')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+
+                        <div class="my_profile_setting_input col-lg-4 form-group">
+                            <label for="year">Año</label>
+                            <select class="form-control @error('year') is-invalid @enderror" name="year" id="year" >
+                                <option value="">Seleccionar</option>
+                            </select>
+                            @error('year')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
                                 </span>
@@ -96,8 +122,47 @@
     </div>
 </div>
 
+
 <script>
     CKEDITOR.replace('editor1');
+
+    getDays();
+    getMonths();
+    getYears();
+
+    function getDays(){
+        let select = document.querySelector('#day');
+        for (var i = 1; i <= 31; i++) {
+            let opt = document.createElement('option');
+            opt.appendChild(document.createTextNode(i));
+            select.appendChild(opt);
+        }
+    }
+
+    function getMonths(){
+        const arrayMonths = [
+        "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+        ];
+
+        let select = document.querySelector('#month');
+        for (var i = 0; i <= arrayMonths.length - 1; i++) {
+            let opt = document.createElement('option');
+            opt.appendChild(document.createTextNode(arrayMonths[i]));
+            select.appendChild(opt);
+        }
+    }
+
+    function getYears(){
+        var dateYear = new Date();
+        var year = dateYear.getFullYear();
+        let select = document.querySelector('#year');
+
+        for (var i = 2000; i <= year; i++) {
+            let opt = document.createElement('option');
+            opt.appendChild(document.createTextNode(i));
+            select.appendChild(opt);
+        }
+    }
     
     function uploadImages(){
         let file = document.querySelector('input[type=file]').files[0];
