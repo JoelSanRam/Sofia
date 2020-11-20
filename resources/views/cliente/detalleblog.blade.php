@@ -43,18 +43,22 @@
                                         <div class="row">
                                             <div class="col-md-4 tituloblog"><h3><a href="#">TITULO DEL ARTICULO</a></h3></div>
                                             <div class="col-md-4 compartirblog espacioblog">
-                                                <label class="compartir margencompartirblog">Compartir artículo</label>
+                                                <div class="a2a_kit a2a_kit_size_16 a2a_default_style" data-a2a-icon-color="#FAB702">
+                                                    <label class="compartir margencompartirblog">Compartir artículo</label>
+                                                    <a class="a2a_button_facebook"></a>
+                                                    <a class="a2a_button_twitter"></a>
+                                                    <a class="a2a_button_whatsapp"></a> 
+                                                    
+                                               
+                                                </div>
                                             </div>
-                                            <div class="col-md-3 compartirblog">
-                                                <a href="#"><i class="fa fa-whatsapp fa-lg iconoestilo"></i></a>
-                                                <a href="#"><i class="fa fa-twitter fa-lg iconoestilo"></i></a>
-                                                <a href="#"><i class="fa fa-facebook fa-lg iconoestilo"></i></a>
-                                            </div>
+                                            <div class="col-md4"></div>
+                                            
                                         </div>
                                     </div>
                                 </div>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                                     in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -73,14 +77,17 @@
                                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                                     in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
                             </div>
-                            <div class="col-md-4 compartirblog espacioblog">
+                            <div class="col-md-4  espacioblog" background-color:#00FF00>
                                 <label class="compartir margencompartirblog">Compartir artículo</label>
+                                <div class="a2a_kit a2a_kit_size_16 a2a_default_style" data-a2a-icon-color="#FAB702">
+                                    <a class="a2a_button_facebook"></a>
+                                    <a class="a2a_button_twitter"></a>
+                                    <a class="a2a_button_whatsapp"></a>  
+                               
+                                </div>
                             </div>
-                            <div class="col-md-3 compartirblog">
-                                <a href="#"><i class="fa fa-whatsapp fa-lg iconoestilo"></i></a>
-                                <a href="#"><i class="fa fa-twitter fa-lg iconoestilo"></i></a>
-                                <a href="#"><i class="fa fa-facebook fa-lg iconoestilo"></i></a>
-                            </div>
+                            
+                    
                         </div>
 
 
@@ -111,6 +118,7 @@
             </div>
         </div>
     </div>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
 </div>
 
 @endsection
