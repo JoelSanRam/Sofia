@@ -8285,7 +8285,7 @@ ul#slide-list{
     }
 
     .margencompartirblog{
-        margin-left: 30px;
+        margin-left: -190px;
     }
 
     .compartirblog{
@@ -8297,7 +8297,7 @@ ul#slide-list{
 
     .espacioblog{
 
-        margin-left: 690px;
+        margin-left: 820px;
     }
 
     @media screen and (max-width: 480px) {
@@ -8310,7 +8310,7 @@ ul#slide-list{
     @media screen and (max-width: 480px) {
         .espacioblog{
             margin-right: 0px;
-            margin-left: 100px;
+            margin-left: 240px;
             margin-bottom: -10px;
         }
     }
