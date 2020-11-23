@@ -40,7 +40,7 @@
                     <li>
                         <div class="post-content">
                             <div class="post-image">
-                                <img src="{{ asset('posts/' . $item->image) }}" alt="{{ $item->title }}" />
+                                <img src="{{ asset('posts/' . $item->image) }}" alt="{{ $item->title }}" style="height: 300px;" />
                             </div>
 
 
@@ -61,7 +61,7 @@
                     </li>
                     @endforeach
 
-                    {{-- 
+                    {{--
                     <li>
                         <div class="post-content">
                             <div class="post-image">

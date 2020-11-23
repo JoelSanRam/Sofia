@@ -24,7 +24,7 @@
             <div class="col-md-8">
                 <div class="blog-read">
                     <div class="post-image">
-                        <img src="{{ asset('posts/' . $item->image) }}" alt="" />
+                        <img src="{{ asset('posts/' . $item->image) }}" alt="" style="height: 300px"/>
                     </div>
                         <div class="post-content">
                             <div class="post-image">
@@ -42,34 +42,9 @@
                                     <div class="col-md-12 text-right iconoespacio">
                                         <div class="row">
                                             <div class="col-md-4 tituloblog"><h3><a href="#">{{ $item->title }}</a></h3></div>
-                                            <div class="col-md-4 compartirblog espacioblog">
 
-                                                <label class="compartir margencompartirblog">Compartir artículo</label>
-                                            </div>
-                                            <div class="col-md-3 compartirblog">
-                                                <a href="whatsapp://send?text={{ route('detallesBlog', $item->id) }}">
-                                                    <i class="fa fa-whatsapp fa-lg iconoestilo"></i>
-                                                </a>
-                                                <a href="https://twitter.com/share?ref_src={{ route('detallesBlog', $item->id) }}" >
-                                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                                    <i class="fa fa-twitter fa-lg iconoestilo"></i>
-                                                </a>
-                                                <a href="#">
-                                                    <i class="fa fa-facebook fa-lg iconoestilo"></i>
-                                                </a>
-
-                                                <div class="a2a_kit a2a_kit_size_16 a2a_default_style" data-a2a-icon-color="#FAB702">
-                                                    <label class="compartir margencompartirblog">Compartir artículo</label>
-                                                    <a class="a2a_button_facebook"></a>
-                                                    <a class="a2a_button_twitter"></a>
-                                                    <a class="a2a_button_whatsapp"></a> 
-                                                    
-                                               
-                                                </div>
-
-                                            </div>
                                             <div class="col-md4"></div>
-                                            
+
                                         </div>
                                     </div>
                                 </div>
@@ -79,17 +54,18 @@
                                     {!! $item->body !!}
                                 </p>
                             </div>
-                            <div class="col-md-4  espacioblog" background-color:#00FF00>
-                                <label class="compartir margencompartirblog">Compartir artículo</label>
-                                <div class="a2a_kit a2a_kit_size_16 a2a_default_style" data-a2a-icon-color="#FAB702">
-                                    <a class="a2a_button_facebook"></a>
-                                    <a class="a2a_button_twitter"></a>
-                                    <a class="a2a_button_whatsapp"></a>  
-                               
-                                </div>
+                           <div class="row">
+                                <div class="col-md-12  espacioblog" background-color:#00FF00>
+                                    <div class="a2a_kit a2a_kit_size_16 a2a_default_style" data-a2a-icon-color="#FAB702">
+                                        <label class="compartir margencompartirblog">Compartir artículo</label>
+                                        <a class="a2a_button_facebook "></a>
+                                        <a class="a2a_button_twitter "></a>
+                                        <a class="a2a_button_whatsapp "></a>
+                                    </div>
                             </div>
-                            
-                    
+                           </div>
+
+
                         </div>
 
 

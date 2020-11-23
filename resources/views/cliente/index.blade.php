@@ -58,14 +58,14 @@
                 <!-- gallery item -->
                 <div class="item ">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="project-details-1.html">
+                        <a class="" href="project-details-1.html">
                             <span class="overlay">
                                 <span class="pf_title">
-                                    <span class="project-name">Interior ecológico</span>
+                                    <span class="project-name"></span>
                                 </span>
                             </span>
                         </a>
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/pf%20(1).jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 6-20.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -77,12 +77,12 @@
                         <a class="simple-ajax-popup-align-top" href="project-details-2.html">
                             <span class="overlay">
                                 <span class="pf_title">
-                                    <span class="project-name">Suite elegante</span>
+                                    <span class="project-name"></span>
                                 </span>
                             </span>
                         </a>
 
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/pf%20(2).jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 7-20.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -94,12 +94,12 @@
                         <a class="simple-ajax-popup-align-top" href="project-details-3.html">
                             <span class="overlay">
                                 <span class="pf_title">
-                                    <span class="project-name">Departamento renovado</span>
+                                    <span class="project-name"></span>
                                 </span>
                             </span>
                         </a>
 
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/pf%20(3).jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 1-20.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -111,11 +111,11 @@
                         <a class="simple-ajax-popup-align-top" href="project-details-youtube.html">
                             <span class="overlay">
                                 <span class="pf_title">
-                                    <span class="project-name">Youtube Videos</span>
+                                    <span class="project-name"></span>
                                 </span>
                             </span>
                         </a>
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/pf%20(4).jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 3-20.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -127,11 +127,11 @@
                         <a class="simple-ajax-popup-align-top" href="project-details-vimeo.html">
                             <span class="overlay">
                                 <span class="pf_title">
-                                    <span class="project-name">Videocafetera</span>
+                                    <span class="project-name"></span>
                                 </span>
                             </span>
                         </a>
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/pf%20(5).jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 2-20.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -143,11 +143,11 @@
                         <a class="simple-ajax-popup-align-top" href="project-details.html">
                             <span class="overlay">
                                 <span class="pf_title">
-                                    <span class="project-name">Restaurante en Mérida</span>
+                                    <span class="project-name"></span>
                                 </span>
                             </span>
                         </a>
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/pf%20(6).jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 4-20.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -160,12 +160,12 @@
                         <a class="simple-ajax-popup-align-top" href="project-details.html">
                             <span class="overlay">
                                 <span class="pf_title">
-                                    <span class="project-name">Oficina en el espacio</span>
+                                    <span class="project-name"></span>
                                 </span>
                             </span>
                         </a>
 
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/pf%20(8).jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 8-20.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -178,12 +178,12 @@
                         <a class="simple-ajax-popup-align-top">
                             <span class="overlay">
                                 <span class="pf_title">
-                                    <span class="project-name">Casa de verano</span>
+                                    <span class="project-name"></span>
                                 </span>
                             </span>
                         </a>
 
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/pf%20(7).jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 5-20.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->

@@ -8285,7 +8285,7 @@ ul#slide-list{
     }
 
     .margencompartirblog{
-        margin-right: 30px;
+        margin-left: 30px;
     }
 
     .compartirblog{
@@ -8296,21 +8296,21 @@ ul#slide-list{
     }
 
     .espacioblog{
-        margin-right: -130px;
-        margin-left: 190px;
+
+        margin-left: 690px;
     }
 
     @media screen and (max-width: 480px) {
         .compartirblog{
-            margin-left: -20px;
-            letter-spacing: 10px;
+            margin-right: 2px;
+
         }
     }
 
     @media screen and (max-width: 480px) {
         .espacioblog{
             margin-right: 0px;
-            margin-left: 0px;
+            margin-left: 100px;
             margin-bottom: -10px;
         }
     }
@@ -8322,7 +8322,8 @@ ul#slide-list{
 
     @media screen and (max-width: 480px) {
         .tituloblog{
-            margin-right: 87px;
+            margin-right: 0px;
+            text-align: center;
         }
     }
 

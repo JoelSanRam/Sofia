@@ -41,7 +41,11 @@
     <link rel="stylesheet" href="{{ asset('cliente/css/rev-settings.css')}}" type="text/css">
 
 	<!-- custom font -->
-	<link rel="stylesheet" href="{{ asset('cliente/css/font-style-2.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('cliente/css/font-style-2.css')}}" type="text/css">
+
+    	<!-- Favicon -->
+	<link href="{{ asset('admin/logos/favicon.svg')}}" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
+	<link href="{{ asset('admin/logos/favicon.svg')}}" sizes="128x128" rel="shortcut icon" />
 </head>
 
 <body id="homepage" class="de_light">
@@ -207,7 +211,7 @@
 							</div>
 							<!-- close gallery item -->
                             --}}
-							
+
 						</div>
 					</div>
 				</div>
