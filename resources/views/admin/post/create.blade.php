@@ -38,8 +38,20 @@
                     </div>
 
                     <div class="form-row">
+                        <div class="my_profile_setting_input col-lg-12 form-group">
+                            <label for="header">Encabezado</label>
+                            <textarea type="text" class="form-control @error('header') is-invalid @enderror" rows="4" name="header" id="header" ></textarea>
+                            @error('header')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+                    </div>
+
+                    <div class="form-row">
                         <div class="my_profile_setting_textarea col-lg-12 form-group">
-                            <label for="description">Cuerpo</label>
+                            <label for="editor1">Cuerpo</label>
                             <textarea id="editor1" name="body" rows="5" cols="5">
                                 Some Text.
                             </textarea>

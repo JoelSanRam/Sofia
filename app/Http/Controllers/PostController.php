@@ -28,6 +28,7 @@ class PostController extends Controller
     {
     	$this->validate($request, [
     		'title' => 'required',
+            'header' => 'required',
     		'body' => 'required',
             'day' => 'required',
     		'month' => 'required',
@@ -38,6 +39,7 @@ class PostController extends Controller
     	try {
             $post = new Post();
             $post->title = $request->title;
+            $post->header = $request->header;
             $post->body = $request->body;
             $post->day = $request->day;
             $post->month = $request->month;
@@ -71,6 +73,7 @@ class PostController extends Controller
     {
     	$this->validate($request, [
     		'title' => 'required',
+            'header' => 'required',
     		'body' => 'required',
     		'day' => 'required',
             'month' => 'required',
@@ -80,6 +83,7 @@ class PostController extends Controller
         try {
             $post = Post::find($id);
             $post->title = $request->title;
+            $post->header = $request->header;
             $post->body = $request->body;
             $post->day = $request->day;
             $post->month = $request->month;

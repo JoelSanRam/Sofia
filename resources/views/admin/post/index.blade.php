@@ -37,7 +37,7 @@
                 @foreach($posts as $item)
                     <tr>
                         <td>{{ $item->title }}</th>
-                        <td>{{ $item->publish_date }}</td>
+                        <td>{{ $item->day }}/{{ $item->month }}/{{ $item->year }}</td>
                         <td class="text-center">
                             @if($item->image == '')
                                 No se ha selecionado

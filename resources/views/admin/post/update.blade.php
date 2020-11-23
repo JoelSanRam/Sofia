@@ -39,6 +39,18 @@
                     </div>
 
                     <div class="form-row">
+                        <div class="my_profile_setting_input col-lg-12 form-group">
+                            <label for="header">Encabezado</label>
+                            <textarea type="text" class="form-control @error('header') is-invalid @enderror" rows="4" name="header" id="header" >{{ $post->header }}</textarea>
+                            @error('header')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+                    </div>
+
+                    <div class="form-row">
                         <div class="my_profile_setting_textarea col-lg-12 form-group">
                             <label for="description">Cuerpo</label>
                             <textarea id="editor1" name="body" rows="5" cols="5">
@@ -55,7 +67,8 @@
                     <div class="form-row">
                         <div class="my_profile_setting_input col-lg-4 form-group">
                             <label for="day">Dia</label>
-                            <select class="form-control @error('day') is-invalid @enderror" name="day" id="day" value="{{ $post->day }}">
+                            <select class="form-control @error('day') is-invalid @enderror" name="day" id="day">
+                                <option>{{ $post->day }}</option>
                                 <option value="">Seleccionar</option>
                             </select>
                             @error('day')
@@ -67,7 +80,8 @@
 
                         <div class="my_profile_setting_input col-lg-4 form-group">
                             <label for="month">Mes</label>
-                            <select class="form-control @error('month') is-invalid @enderror" name="month" id="month" value="{{ $post->month }}">
+                            <select class="form-control @error('month') is-invalid @enderror" name="month" id="month">
+                                <option>{{ $post->month }}</option>
                                 <option value="">Seleccionar</option>
                             </select>
                             @error('month')
@@ -79,7 +93,8 @@
 
                         <div class="my_profile_setting_input col-lg-4 form-group">
                             <label for="year">Año</label>
-                            <select class="form-control @error('year') is-invalid @enderror" name="year" id="year" value="{{ $post->year }}">
+                            <select class="form-control @error('year') is-invalid @enderror" name="year" id="year">
+                                <option>{{ $post->year }}</option>
                                 <option value="">Seleccionar</option>
                             </select>
                             @error('year')

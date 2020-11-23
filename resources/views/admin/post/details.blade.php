@@ -24,12 +24,16 @@
                     <td>{{ $post->title }}</td>
                 </tr>
                 <tr>
+                    <th>Encabezado</th>
+                    <td>{{ $post->header }}</td>
+                </tr>
+                <tr>
                     <th>Cuerpo</th>
                     <td>{!! $post->body !!}</td>
                 </tr>
                 <tr>
                     <th>Fecha</th>
-                    <td>{{ $post->publish_date }}</td>
+                    <td>{{ $post->day }}/{{ $post->month }}/{{ $post->year }}</td>
                 </tr>
                 <tr>
                 <tr>

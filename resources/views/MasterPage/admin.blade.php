@@ -77,7 +77,7 @@
 		<div class="mobile-menu">
 			<div class="header stylehome1">
 				<div class="main_logo_home2 text-center">
-		            <img class="nav_logo_img img-fluid mt20" width="150" height="150" src="{{ asset('admin/logos/logo_amarillo_con_negro_05.svg')}}" alt="header-logo2.png">
+		            <img class="nav_logo_img img-fluid mt20" width="130" height="130" src="{{ asset('admin/logos/logo_amarillo_con_negro_05.svg')}}" alt="header-logo2.png">
 				</div>
 				<ul class="menu_bar_home2">
 	                <li class="list-inline-item list_s"><a href="#"></a></li>
@@ -103,19 +103,21 @@
 	
     <div class="dashboard_sidebar_menu dn-992">
 	    <ul class="sidebar-menu">
-	   		<li class="header"><img src="{{ asset('admin/logos/logo_amarillo_con_blanco_04.svg')}}" alt="Sofia Cona"></li>
+	   		<li class="header">
+	   			<img src="{{ asset('admin/logos/logo_amarillo_con_blanco_04.svg')}}" alt="Sofia Cona">
+	   		</li>
 	   		<li class="title"><span>Menu</span></li>
 	    	<li class="treeview"><a href="{{ route('dashboard') }}"><i class="flaticon-layers"></i><span>Inicio</span></a></li>
 	   		<li class="title"><span>Secciones</span></li>
 	      	<li class="treeview">
-		        <a href="page-my-properties.html"><i class="flaticon-layers"></i> <span>Mis Obras</span><i class="fa fa-angle-down pull-right"></i></a>
+		        <a href="#"><i class="flaticon-layers"></i> <span>Mis Obras</span><i class="fa fa-angle-down pull-right"></i></a>
 		        <ul class="treeview-menu">
 		        	<li><a href="{{ route('obras') }}"><i class="fa fa-circle"></i>Listado de Obras</a></li>
 		        	<li><a href="{{ route('obra-create-view') }}"><i class="fa fa-circle"></i>Nueva Obra</a></li>
 		        </ul>
 	      	</li>
 	     	<li class="treeview">
-		        <a href="page-my-review.html"><i class="flaticon-layers"></i><span>Mis Publicaciones</span><i class="fa fa-angle-down pull-right"></i></a>
+		        <a href="#"><i class="flaticon-layers"></i><span>Mis Publicaciones</span><i class="fa fa-angle-down pull-right"></i></a>
 		        <ul class="treeview-menu">
 		        	<li><a href="{{ route('posts') }}"><i class="fa fa-circle"></i>Listado de Publicaciones</a></li>
 		        	<li><a href="{{ route('post-create-view') }}"><i class="fa fa-circle"></i>Nueva Publicacion</a></li>
@@ -172,7 +174,7 @@
 					<div class="row mt50">
 						<div class="col-lg-12">
 							<div class="copyright-widget text-center">
-								<p>© 2020 Find House. Made with love.</p>
+								&copy; Sofía Coná 2020 – Desarrollado por  <span class="id-color">Búho Solutions</span>
 							</div>
 						</div>
 					</div>
