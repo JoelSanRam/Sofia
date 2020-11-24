@@ -41,22 +41,6 @@
 		<div class="container-fluid p0">
 		    <!-- Ace Responsive Menu -->
 		    <nav>
-		        <!-- Menu Toggle btn-->
-		        <div class="menu-toggle">
-		            <img class="nav_logo_img img-fluid" src="{{ asset('admin/images/header-logo.png')}}" alt="header-logo.png">
-		            <button type="button" id="menu-btn">
-		                <span class="icon-bar"></span>
-		                <span class="icon-bar"></span>
-		                <span class="icon-bar"></span>
-		            </button>
-		        </div>
-		        <a href="#" class="navbar_brand float-left dn-smd">
-		            <img class="logo1 img-fluid" src="{{ asset('admin/images/header-logo2.png')}}" alt="header-logo.png">
-		            <img class="logo2 img-fluid" src="{{ asset('admin/images/header-logo2.png')}}" alt="header-logo2.png">
-		            <span>Sofía Coná</span>
-		        </a>
-		        <!-- Responsive Menu Structure-->
-		        <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
 		        <ul id="respMenu" class="ace-responsive-menu text-right" data-menu-style="horizontal">
 		            <li class="last">
 		                <a href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
@@ -77,7 +61,7 @@
 		<div class="mobile-menu">
 			<div class="header stylehome1">
 				<div class="main_logo_home2 text-center">
-		            <img class="nav_logo_img img-fluid mt20" width="130" height="130" src="{{ asset('admin/logos/logo_amarillo_con_negro_05.svg')}}" alt="header-logo2.png">
+		            <img class="nav_logo_img img-responsive-nav mt20" src="{{ asset('admin/logos/logo_amarillo_con_negro_05.svg')}}" alt="header-logo2.png">
 				</div>
 				<ul class="menu_bar_home2">
 	                <li class="list-inline-item list_s"><a href="#"></a></li>
@@ -174,7 +158,7 @@
 					<div class="row mt50">
 						<div class="col-lg-12">
 							<div class="copyright-widget text-center">
-								&copy; Sofía Coná 2020 – Desarrollado por  <span class="id-color">Búho Solutions</span>
+								<span style="font-size: 17px; text-align: center; display: block; color: #000;">&copy; Sofía Coná 2020 – Desarrollado por  <a style="color: #000;" href="https://www.buho-solutions.com/">Búho Solutions</a></span>
 							</div>
 						</div>
 					</div>

@@ -37,7 +37,7 @@
 	.sasw_list .max_area{float: right;}
 	.h1ads_1st_list.half_style li.custome_fields_half:nth-child(2){width: 58%;}
 	.sidebar-menu{width: 230px;}
-	.sidebar-menu li.header{padding-left: 15px;}
+	.sidebar-menu li.header{padding-left: 0px;}
 	.our-dashbord.dashbord .container-fluid{padding-left: 3%;padding-right: 15px;}
 	.ff_one .detais{margin-top: 0;}
 
@@ -1172,4 +1172,10 @@
 	.header.stylehome1 .main_logo_home2.home8 span{font-size: 10px;margin-left: 5px;}
 	.logo-widget.home8 span{font-size: 16px;}
 	.courses_single_container .cs_row_three .course_content .details .cc_tab h4.panel-title{padding: 10px 4px;}
+}
+
+.img-responsive-nav {
+    max-width: 100%;
+    width: 50%;
+    height: 50%;
 }

@@ -49,7 +49,9 @@
                                     </div>
                                 </div>
 
-
+                                <p>
+                                    {{ $item->header }}
+                                </p>
                                 <p>
                                     {!! $item->body !!}
                                 </p>
@@ -62,25 +64,16 @@
                                         <a class="a2a_button_twitter "></a>
                                         <a class="a2a_button_whatsapp "></a>
                                     </div>
-                            </div>
+                                </div>
                            </div>
-
-
                         </div>
 
-
-
-                        <div class="spacer-single"></div>
-
-
+                    <div class="spacer-single"></div>
 
                 </div>
-
-
             </div>
 
             <div id="sidebar" class="col-md-4">
-
 
                 <div class="widget widget-text">
                     <h4>Acerca de mi</h4>
@@ -91,7 +84,6 @@
                     magni <br><br>
 
                 </div>
-
 
             </div>
         </div>
