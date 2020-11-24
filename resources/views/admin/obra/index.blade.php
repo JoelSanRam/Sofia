@@ -47,7 +47,11 @@
                             @if($item->cover_image == '')
                                 No se ha selecionado
                             @else
-                                <img class="img-fluid image-fit" src="{{ asset('obras/' . $item->cover_image) }}" width="100" height="100">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-4">
+                                        <img class="img-fluid" src="{{ asset('obras/' . $item->cover_image) }}">
+                                    </div>
+                                </div>
                             @endif
                         </td>
                         <td>

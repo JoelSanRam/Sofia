@@ -42,7 +42,11 @@
                             @if($item->image == '')
                                 No se ha selecionado
                             @else
-                                <img class="img-fluid image-fit" src="{{ asset('posts/' . $item->image) }}" width="100" height="100">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4">
+                                    <img id="image-fit" src="{{ asset('posts/' . $item->image) }}">
+                                </div>
+                            </div>
                             @endif
                         </td>
                         <td>

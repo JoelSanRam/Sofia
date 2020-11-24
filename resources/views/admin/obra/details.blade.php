@@ -57,7 +57,11 @@
                         @if($obra->cover_image == '')
                             No se ha selecionado una foto de perfil
                         @else
-                            <img class="img-fluid image-fit" src="{{ asset('obras/' . $obra->cover_image) }}" width="150" height="150">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="{{ asset('obras/' . $obra->cover_image) }}" width="150px" height="150px">
+                                </div>
+                            </div>
                         @endif
                     </td>
                 </tr>

@@ -86,17 +86,7 @@ class ObraController extends Controller
             'publish_date' => 'required',
         ]);
 
-        $obra = Obra::find($id);
-            $obra->name = $request->name;
-            $obra->description = $request->description;
-            $obra->dimension = $request->dimension;
-            $obra->technique = $request->technique;
-            $obra->status = $request->status;
-            $obra->publish_date = $request->publish_date;
-            $obra->save();
-
-
-    	/*try {
+    	try {
             $obra = Obra::find($id);
             $obra->name = $request->name;
             $obra->description = $request->description;
@@ -105,11 +95,12 @@ class ObraController extends Controller
             $obra->status = $request->status;
             $obra->publish_date = $request->publish_date;
             $obra->save();
+            
             \Session::flash('message', 'Actualizacion Exitosa');
 
         } catch (\Exception $e) {
             \Session::flash('message', 'Ocurrio un error, al actualizar el registro');
-        }*/
+        }
 
     	return redirect()->route('obras');
     }

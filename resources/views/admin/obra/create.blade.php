@@ -140,7 +140,7 @@
         reader.readAsDataURL(img);
 
         reader.onloadend = function() {
-            let img = `<img src="${reader.result}" width="100" height="100" class="img-preview">`;
+            let img = `<img src="${reader.result}" class="img-preview">`;
             $("#container-img").append(img);
         }
     }   
