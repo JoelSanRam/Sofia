@@ -1,4 +1,4 @@
-@extends('Masterpage.admin')
+@extends('MasterPage.admin')
 
 @section('admin')
 
