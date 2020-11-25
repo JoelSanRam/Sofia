@@ -148,22 +148,22 @@
 								<a class="btn-prev"></a>
 							</div>
 
-							<div id="gallery-carousel-3" class="owl-carousel owl-theme owl-slide galeriatamanio">
+							<div id="gallery-carousel-3" class="popup-gallery owl-carousel owl-theme owl-slide">
 
-							@foreach($images as $image)
-							<div class="item s2 galeriatamanio">
-								<div class="picframe galeriatamanio">
-									<a class="image-popup-no-margins" href="{{ asset('obras/' . $image->filename) }}" >
-										<span class="overlay-v">
-											<span class="pf_text">
+    							@foreach($images as $image)
+        							<div class="item s2 galeriatamanio">
+        								<div class="picframe galeriatamanio">
+        									<a href="{{ asset('obras/' . $image->filename) }}" >
+        										<span class="overlay-v">
+        											<span class="pf_text">
 
-											</span>
-										</span>
-										<img src="{{ asset('obras/' . $image->filename) }}" />
-									</a>
-								</div>
-							</div>
-							@endforeach
+        											</span>
+        										</span>
+        										<img src="{{ asset('obras/' . $image->filename) }}" />
+        									</a>
+        								</div>
+        							</div>
+    							@endforeach
 
                             {{--
 							<!-- gallery item -->
