@@ -8286,7 +8286,7 @@ ul#slide-list{
 
     .compartirobra{
         margin-left: -15px;
-        margin-right: 15px;
+        margin-right: 0px;
         padding-left: 0px
     }
 
@@ -8345,7 +8345,7 @@ ul#slide-list{
     }
 
     .iconoespacioobra{
-        margin-left: -50px;
+        margin-left: -15px;
     }
 
     .acomodotexto{
@@ -8354,13 +8354,13 @@ ul#slide-list{
 
     @media screen and (max-width: 480px) {
         .compartirobra{
-            margin-right: 60px;
+            margin-left: 53px;
         }
     }
 
     @media screen and (max-width: 480px) {
         .iconoespacioobra{
-            margin-left: -50px;
+            margin-left: 75px;
             margin-bottom: 0px;
         }
     }

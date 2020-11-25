@@ -255,16 +255,18 @@
                                 <br>
                                 <div class="info-text">
                                     {{-- <a href="#" class="btn-custom btn-fullwidth text-light text-center"><b>Compartir</b></a> --}}
-                                    <div class="col-md-12 text-right iconoespacio">
+                                    <div class="col-md-12  iconoespacio">
                                         <div class="row">
-                                            <div class="col-md-5">
+                                            <div class="col-md-6">
                                                 <label class="compartir compartirobra">Compartir obra</label>
+                                                <div class="a2a_kit a2a_kit_size_16 a2a_default_style iconoespacioobra" data-a2a-icon-color="#FAB702">
+
+                                                    <a class="a2a_button_facebook "></a>
+                                                    <a class="a2a_button_twitter "></a>
+                                                    <a class="a2a_button_whatsapp "></a>
+                                                </div>
                                             </div>
-                                            <div class="col-md-7 iconoespacioobra">
-                                                <a href="#"><i class="fa fa-whatsapp fa-lg iconoestilo"></i></a>
-                                                <a href="#"><i class="fa fa-twitter fa-lg iconoestilo"></i></a>
-                                                <a href="#"><i class="fa fa-facebook fa-lg iconoestilo"></i></a>
-                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -320,6 +322,8 @@
 
     <!-- Javascript Files
     ================================================== -->
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+
     <script src="{{ asset('cliente/js/jquery.min.js')}}"></script>
     <script src="{{ asset('cliente/js/jpreLoader.js')}}"></script>
     <script src="{{ asset('cliente/js/bootstrap.min.js')}}"></script>
