@@ -148,7 +148,7 @@
 								<a class="btn-prev"></a>
 							</div>
 
-							<div id="gallery-carousel-3" class="popup-gallery owl-carousel owl-theme owl-slide">
+							<div id="gallery-carousel-3" class="zoom-gallery owl-carousel owl-theme owl-slide">
 
     							@foreach($images as $image)
         							<div class="item s2 galeriatamanio">
@@ -164,53 +164,6 @@
         								</div>
         							</div>
     							@endforeach
-
-                            {{--
-							<!-- gallery item -->
-							<div class="item s2">
-								<div class="picframe galeriatamanio">
-									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/noesunjuego.png')}}">
-										<span class="overlay-v">
-											<span class="pf_text">
-
-											</span>
-										</span>
-										<img src="{{ asset('cliente/images-architect/noesunjuego.png')}}" alt="" />
-									</a>
-								</div>
-							</div>
-							<!-- close gallery item -->
-
-							<!-- gallery item -->
-							<div class="item s2">
-								<div class="picframe galeriatamanio">
-									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/noesunjuego_sfondo.png')}}">
-										<span class="overlay-v">
-											<span class="pf_text">
-
-											</span>
-										</span>
-										<img src="{{ asset('cliente/images-architect/noesunjuego_sfondo.png')}}" alt="" />
-									</a>
-								</div>
-							</div>
-							<!-- close gallery item -->
-
-							<!-- gallery item -->
-							<div class="item s2">
-								<div class="picframe galeriatamanio">
-									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/bg/noesunjuego_sombra.png')}}">
-										<span class="overlay-v">
-											<span class="pf_text">
-
-											</span>
-										</span>
-										<img src="{{ asset('cliente/images-architect/bg/noesunjuego_sombra.png')}}" alt="" />
-									</a>
-								</div>
-							</div>
-							<!-- close gallery item -->
-                            --}}
 
 						</div>
 					</div>
