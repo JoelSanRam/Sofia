@@ -5366,6 +5366,7 @@ display: table-cell;
 font-size:11px;
 text-transform:uppercase;
 letter-spacing:5px;
+margin-top: auto;
 }
 
 .de-gallery .overlay .icon {
@@ -8272,7 +8273,7 @@ ul#slide-list{
     }
 
     .galeriatamanio{
-        height: 300px;
+        height: 245px;
     }
 
     .iconoespacio{

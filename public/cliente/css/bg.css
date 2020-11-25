@@ -1,6 +1,6 @@
-/* 
+/*
 	Section Background (bg.css)
-	
+
 	Table of Content
 	- general settings for section & subheader
 	- general background image for subheader
@@ -12,7 +12,7 @@
 
 /* general  for subheader */
 #subheader{
-background:url(../images/background/subheader.jpg)top fixed;
+background:url(../images/background/Recurso10-20.jpg)top fixed;
 }
 
 /* background settings for page subheader */
@@ -125,4 +125,3 @@ background:url(../images/background/subheader.jpg)top fixed;
 	}
 }
 
-	

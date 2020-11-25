@@ -8,7 +8,7 @@
             <div class="col-md-12">
                 <h1>Obras</h1>
                 <ul class="crumb">
-                    <li><a href="{{ route('home') }}">Inicio</a></li>
+                    <li><a href="{{ route('home') }}" style="color: white">Inicio</a></li>
                     <li class="sep">/</li>
                     <li>Obras</li>
                 </ul>
