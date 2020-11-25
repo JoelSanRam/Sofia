@@ -39,12 +39,11 @@
                             <div class="post-text">
                                 <div class="info-text">
                                     {{-- <a href="#" class="btn-custom btn-fullwidth text-light text-center"><b>Compartir</b></a> --}}
-                                    <div class="col-md-12 text-right iconoespacio">
+                                    <div class="col-md-12">
                                         <div class="row">
-                                            <div class="col-md-4 tituloblog"><h3><a href="#">{{ $item->title }}</a></h3></div>
-
-                                            <div class="col-md4"></div>
-
+                                            <div class="col-md-12 tituloblog">
+                                                <h3><a href="#">{{ $item->title }}</a></h3>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

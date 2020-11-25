@@ -8329,8 +8329,8 @@ ul#slide-list{
     }
 
     .tituloblog{
-        margin-left: -25px;
-        margin-right: 25px;
+        margin-left: -15px;
+        text-align: left;
     }
 
     @media screen and (max-width: 480px) {
