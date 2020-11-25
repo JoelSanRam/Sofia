@@ -54,17 +54,19 @@
                                 <p>
                                     {!! $item->body !!}
                                 </p>
-                            </div>
-                           <div class="row">
-                                <div class="col-md-12  espacioblog" background-color:#00FF00>
-                                    <div class="a2a_kit a2a_kit_size_16 a2a_default_style" data-a2a-icon-color="#FAB702">
+                                <div class="row ">
+                                    <div class="col-md-12  espacioblog" background-color:#00FF00>
                                         <label class="compartir margencompartirblog">Compartir artículo</label>
-                                        <a class="a2a_button_facebook "></a>
-                                        <a class="a2a_button_twitter "></a>
-                                        <a class="a2a_button_whatsapp "></a>
+                                        <div class="a2a_kit a2a_kit_size_16 a2a_default_style" data-a2a-icon-color="#FAB702">
+
+                                            <a class="a2a_button_facebook "></a>
+                                            <a class="a2a_button_twitter "></a>
+                                            <a class="a2a_button_whatsapp "></a>
+                                        </div>
                                     </div>
-                                </div>
-                           </div>
+                               </div>
+                            </div>
+
                         </div>
 
                     <div class="spacer-single"></div>
