@@ -8298,7 +8298,7 @@ ul#slide-list{
     }
 
     .margencompartirblog{
-        margin-left: -190px;
+        margin-left: 0px;
     }
 
     .compartirblog{
@@ -8310,7 +8310,11 @@ ul#slide-list{
 
     .espacioblog{
 
-        margin-left: 710px;
+        margin-left: 0px;
+    }
+
+    .rowderecha{
+        text-align: left;
     }
 
     @media screen and (max-width: 480px) {
@@ -8323,14 +8327,14 @@ ul#slide-list{
     @media screen and (max-width: 480px) {
         .espacioblog{
             margin-right: 0px;
-            margin-left: 240px;
+            margin-left: 0px;
             margin-bottom: -10px;
         }
     }
 
     .tituloblog{
-        margin-left: -25px;
-        margin-right: 25px;
+        margin-left: -15px;
+        text-align: left;
     }
 
     @media screen and (max-width: 480px) {
