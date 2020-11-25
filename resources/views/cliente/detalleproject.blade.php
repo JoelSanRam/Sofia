@@ -257,10 +257,10 @@
                                     {{-- <a href="#" class="btn-custom btn-fullwidth text-light text-center"><b>Compartir</b></a> --}}
                                     <div class="col-md-12 text-right iconoespacio">
                                         <div class="row">
-                                            <div class="col-md-4">
+                                            <div class="col-md-5">
                                                 <label class="compartir compartirobra">Compartir obra</label>
                                             </div>
-                                            <div class="col-md-8 iconoespacioobra">
+                                            <div class="col-md-7 iconoespacioobra">
                                                 <a href="#"><i class="fa fa-whatsapp fa-lg iconoestilo"></i></a>
                                                 <a href="#"><i class="fa fa-twitter fa-lg iconoestilo"></i></a>
                                                 <a href="#"><i class="fa fa-facebook fa-lg iconoestilo"></i></a>

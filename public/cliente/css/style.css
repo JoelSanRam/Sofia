@@ -3749,7 +3749,13 @@ left: 0;
 	/* ================================================== */
 	.social-icons{
 	display:inline-block;
-	}
+    }
+    @media screen and (max-width: 480px) {
+        .social-icons{
+            margin-right: 95px;
+        }
+
+    }
 	.social-icons i{
 	text-shadow:none;
 	color: #fff;
@@ -8259,6 +8265,12 @@ ul#slide-list{
         height: 40px;
     }
 
+    @media screen and (max-width: 480px) {
+        .logofinal{
+            margin-left: 60px;
+        }
+    }
+
     .galeriatamanio{
         height: 300px;
     }
@@ -8297,7 +8309,7 @@ ul#slide-list{
 
     .espacioblog{
 
-        margin-left: 820px;
+        margin-left: 710px;
     }
 
     @media screen and (max-width: 480px) {
@@ -8328,7 +8340,7 @@ ul#slide-list{
     }
 
     .iconoespacioobra{
-        margin-left: -150px;
+        margin-left: -50px;
     }
 
     .acomodotexto{
