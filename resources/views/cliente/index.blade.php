@@ -11,7 +11,7 @@
                     <div class="col-md-6">
                         <div class="spacer-double"></div>
                         <h2 class="style-3">Arte <strong class="id-color">&amp;</strong> Letras</h2>
-                        <p class="lead"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                        <p class="lead indextexto">Es fascinante la exactitud de las palabras para abrazar perfectamente lo que sentimos. Pero luego lo que sentimos es tan grande o revuelto que las palabras no alcanzan. Y seguirá pasando que las palabras no alcancen. Ahí el pincel hace lo suyo. </p>
                         <div class="spacer-single"></div>
                         <a href="contact.html" class="btn-line black btn-big scroll-to">Más información</a>
                         <div class="spacer-double"></div>

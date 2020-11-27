@@ -4832,6 +4832,12 @@ p.intro{
 	line-height:1.7em;
 }
 
+@media screen and (max-width: 480px) {
+    .indextexto{
+        padding-right: 100px;
+    }
+}
+
 .table-bordered, .table-bordered td{
 border:solid 1px #404040;
 }
