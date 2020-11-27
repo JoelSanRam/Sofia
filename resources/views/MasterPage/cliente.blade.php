@@ -134,15 +134,15 @@
                     </div>
 
                     <div class="col-md-6 footerespacio">
-                        &copy; Sofía Coná 2020 – Desarrollado por  <span class="id-color">Búho
-                            Solutions</span>
+                        &copy; Sofía Coná 2020 – Desarrollado por  <a class="id-color" href="https://www.buho-solutions.com/">Búho
+                            Solutions</a>
                     </div>
 
                     <div class="col-md-3 text-right">
                         <div class="social-icons">
                             <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                            <a href="#"><i class="fa fa-whatsapp fa-lg"></i></a>
-                            <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                            <a href="https://wa.link/7t3opn"><i class="fa fa-whatsapp fa-lg"></i></a>
+                            <a href="https://www.instagram.com/sofiacona_/"><i class="fa fa-instagram fa-lg"></i></a>
                             <a href="{{ route('dashboard') }}"><i class="fa fa-user fa-lg"></i></a>
 
                         </div>

@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Blog sencillo</h1>
+                <h1>{{ $item->title }}</h1>
                 <ul class="crumb">
                     <li><a href="{{ route('home') }}" style="color: white">Inicio</a></li>
                     <li class="sep">/</li>
