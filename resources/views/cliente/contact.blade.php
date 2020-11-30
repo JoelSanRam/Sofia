@@ -8,7 +8,7 @@
             <div class="col-md-12">
                 <h1>Contacto</h1>
                 <ul class="crumb">
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html" style="color: white">Inicio</a></li>
                     <li class="sep">/</li>
                     <li>Contacto</li>
                 </ul>
