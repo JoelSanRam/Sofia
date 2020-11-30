@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="advanced search custom, agency, agent, business, clean, corporate, directory, google maps, homes, listing, membership packages, property, real estate, real estate agent, realestate agency, realtor">
-	<meta name="description" content="FindHouse - Real Estate HTML Template">
+	<meta name="description" content="Sofía Coná">
 	<meta name="CreativeLayers" content="ATFN">
 	<!-- css file -->
 	<link rel="stylesheet" href="{{ asset('admin/css/bootstrap.min.css')}}">
@@ -50,7 +50,7 @@
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                             @csrf
                         </form>
-		            </li>		        
+		            </li>
 		        </ul>
 		    </nav>
 		</div>
@@ -84,7 +84,7 @@
 		</nav>
 	</div>
 
-	
+
     <div class="dashboard_sidebar_menu dn-992">
 	    <ul class="sidebar-menu">
 	   		<li class="header">
