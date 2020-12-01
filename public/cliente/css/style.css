@@ -4732,7 +4732,7 @@ overflow:hidden;
 
 .call-to-action h2,
 .call-to-action h3{
-	margin:0;
+
 }
 
 /* ================================================== */
@@ -4830,12 +4830,6 @@ p.intro{
 	font-size:16px;
 	font-weight:500;
 	line-height:1.7em;
-}
-
-@media screen and (max-width: 480px) {
-    .indextexto{
-        padding-right: 100px;
-    }
 }
 
 .table-bordered, .table-bordered td{
@@ -8273,8 +8267,14 @@ ul#slide-list{
     }
 
     @media screen and (max-width: 480px) {
-        .logofinal{
+        .logofinal1{
             margin-left: 60px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .logofinal2{
+            margin-left: 70px;
         }
     }
 
@@ -8423,5 +8423,41 @@ ul#slide-list{
         .padingdetalleobra{
             padding-bottom: 0px;
 
+        }
+    }
+
+    @media screen and (max-width: 480px){
+        .espanconsalto{
+            display: block;
+            content: " ";
+        }
+    }
+
+    .imagenprincipalindex{
+
+        background: url(../images/background/bg-35.jpg)  repeat scroll 0% 0% / cover;
+
+    }
+
+    .pongamonos{
+        margin-bottom: 0px;
+    }
+
+    @media screen and (max-width: 480px){
+        .pongamonos{
+            margin-bottom: 15px;
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .indextexto{
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .espacioindexarriba{
+            margin-top: -85px;
         }
     }

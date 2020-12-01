@@ -88,7 +88,7 @@
                         <!-- logo begin -->
                         <div id="logo">
                             <a href="index.html">
-                                <img class="logo logofinal" src="{{ asset('cliente/images/Recurso 1.svg')}}" alt="">
+                                <img class="logo logofinal logofinal1" src="{{ asset('cliente/images/Recurso 1.svg')}}" alt="">
                             </a>
                         </div>
                         <!-- logo close -->
@@ -130,11 +130,11 @@
             <div class="container">
                 <div class="row align-items-middle">
                     <div class="col-md-3">
-                        <img src="{{ asset('cliente/images/Recurso 1.svg')}}" class="logo-small logofinal" alt=""><br>
+                        <img src="{{ asset('cliente/images/Recurso 1.svg')}}" class="logo-small logofinal logofinal2" alt=""><br>
                     </div>
 
                     <div class="col-md-6 footerespacio">
-                        &copy; Sofía Coná 2020 – Desarrollado por  <a class="id-color" href="https://www.buho-solutions.com/">Búho
+                        &copy; Sofía Coná 2020 – Desarrollado por  <a class="id-color espanconsalto" href="https://www.buho-solutions.com/">Búho
                             Solutions</a>
                     </div>
 
