@@ -29,7 +29,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <img src="{{ asset('cliente/images/misc/pic_13.jpg')}}" alt="" class="img-responsive wow fadeInUp" data-wow-duration="1.5s">
+                    <img src="{{ asset('cliente/images/misc/sofia.png')}}" alt="" class="img-responsive wow fadeInUp" data-wow-duration="1.5s">
                 </div>
 
                 <div class="col-md-6 wow fadeInUp indextexto">
