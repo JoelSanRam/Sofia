@@ -64,7 +64,7 @@
                 <!-- gallery item -->
                 <div class="item ">
                     <div class="picframe">
-                        <a class="" href="project-details-1.html">
+                        <a class="" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
@@ -80,7 +80,7 @@
                 <!-- gallery item -->
                 <div class="item">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="project-details-2.html">
+                        <a class="simple-ajax-popup-align-top" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
@@ -97,7 +97,7 @@
                 <!-- gallery item -->
                 <div class="item">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="project-details-3.html">
+                        <a class="simple-ajax-popup-align-top" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
@@ -114,7 +114,7 @@
                 <!-- gallery item -->
                 <div class="item">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="project-details-youtube.html">
+                        <a class="simple-ajax-popup-align-top" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
@@ -130,7 +130,7 @@
                 <!-- gallery item -->
                 <div class="item">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="project-details-vimeo.html">
+                        <a class="simple-ajax-popup-align-top" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
@@ -146,7 +146,7 @@
                 <!-- gallery item -->
                 <div class="item">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="project-details.html">
+                        <a class="simple-ajax-popup-align-top" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
@@ -163,7 +163,7 @@
                 <!-- gallery item -->
                 <div class="item office">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="project-details.html">
+                        <a class="simple-ajax-popup-align-top" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
