@@ -104,7 +104,7 @@
 
 									<li><a href="{{ route('proyectos') }}">Obras</a></li>
 
-                                    <li><a href="{{ route('blog') }}">Blog</a></li>
+                                    <li><a href="{{ route('blog') }}">Tinta Mostaza</a></li>
 
                                     <li><a href="{{ route('contacto') }}">Contacto</a></li>
 
@@ -140,7 +140,7 @@
 
                     <div class="col-md-3 text-right">
                         <div class="social-icons">
-                            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                            <a href="https://www.facebook.com/SOF%C3%8DA-CON%C3%81-609377649742470/"><i class="fa fa-facebook fa-lg"></i></a>
                             <a href="https://wa.link/7t3opn"><i class="fa fa-whatsapp fa-lg"></i></a>
                             <a href="https://www.instagram.com/sofiacona_/"><i class="fa fa-instagram fa-lg"></i></a>
                             <a href="{{ route('dashboard') }}"><i class="fa fa-user fa-lg"></i></a>

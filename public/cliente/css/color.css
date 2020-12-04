@@ -107,7 +107,7 @@ a.btn-line:after,
 .team-list .social a,
 .de_contact_info i,
 .de_count,
-.dark .btn-line:hover:after, .dark a.btn-line:hover:after, .dark a.btn-line.hover:after,
+.dark .btn-line:hover:after, .dark , .dark a.btn-line.hover:after,
 a.btn-text:after,
 .separator span  i,
 address span strong,
@@ -129,12 +129,16 @@ footer a:hover,
 .picframe .project-name,
 blockquote.testimonial-big:before,
 .btn.btn-link,
-.de_light a.btn-line:hover,
+.de_light,
 .schedule-item .sc-name span,
 .de_tab.tab_style_4 .de_nav li span,
 .list-inline-style-1 li:before
 {
 	color:var(--primary-color-1);
+}
+
+a.btn-line:hover:after,  a.btn-line:hover{
+    color: white;
 }
 
 .id-color-2,

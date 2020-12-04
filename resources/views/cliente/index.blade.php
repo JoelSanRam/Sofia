@@ -35,9 +35,15 @@
                 <div class="col-md-6 wow fadeInUp indextexto">
                     <h2>¿Quién soy yo?</h2>
 
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="lead">Me gusta el amarillo, soy casi adicta al café y hay palabras que, bien acomodadas, me
+                        hacen llorar. Disfruto las noches y más sin tienen estrellas o una luna bien grandota. De
+                        chiquita mi abuela me regaló la luna, por eso creo que es mía, aunque sé que no. Nací en
+                        un país lleno de creatividad y en una familia que me ayudó a desarrollar la mía. A veces
+                        quiero controlarlo todo; tal vez por eso me gusta el mar, que no se deja. Tal vez también
+                        por eso pinto, que ahí no controlo. Creo que todos tenemos mucho adentro y necesitamos
+                        algo para no explotar. Lo mío es pintar, ¿y lo tuyo?</p>
 
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+
 
                     <a href="contact.html" class="btn-custom">Leer más</a>
                 </div>
@@ -214,7 +220,7 @@
                         <div class="col-md-6 wow fadeIn" data-wow-delay=".25s">
                             <div class="de_count">
                                 <h3 class="timer" data-to="128" data-speed="2500">0</h3>
-                                <span>Proyectos realizados</span>
+                                <span>Borradores escritos</span>
                             </div>
                         </div>
 

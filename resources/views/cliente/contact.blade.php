@@ -26,7 +26,7 @@
         <div class="row">
 
             <div class="col-md-8">
-                <h3>Envíame un mensaje</h3>
+                <h3>¡Escríbeme algo! </h3>
                 <form id="contactForm" method="POST">
                     @csrf
                     <div class="row">
@@ -69,12 +69,12 @@
                 <div class="widget widget_text">
                     <h3>Información de contacto</h3>
                     <address>
-                        <span>100 S Main St, Los Angeles, CA</span>
-                        <span><strong>Teléfono:</strong>(208) 333 9296</span>
-                        <span><strong>Fax:</strong>(208) 333 9298</span>
-                        <span><strong>Email:</strong><a href="mailto:contact@example.com">contact@example.com</a></span>
-                        <span><strong>Web:</strong><a href="#test">http://example.com</a></span>
-                        <span><strong>Horarios</strong>Sunday - Friday 08:00 - 18:00</span>
+                        <span>Vivo en Mérida, Yucatán</span>
+                        <span><strong>Teléfono:</strong>(+52) 999 908 3814 </span>
+
+                        <span><strong>Email:</strong><a href="mailto:hola@sofíacona.com ">hola@sofíacona.com </a></span>
+
+                        <span><strong>Horarios</strong>¡Escríbeme a cualquier hora! Yo intentaré estar o responderte lo antes posible.</span>
                     </address>
                 </div>
 
