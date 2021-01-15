@@ -24,7 +24,7 @@
             <div class="col-md-8">
                 <div class="blog-read">
                     <div class="post-image">
-                        <img src="{{ asset('posts/' . $item->image) }}" alt="" style="height: 300px"/>
+                        <img src="{{ asset('posts/' . $item->image) }}" alt="" />
                     </div>
                         <div class="post-content">
                             <div class="post-image">

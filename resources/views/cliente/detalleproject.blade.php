@@ -79,7 +79,7 @@
                         <!-- logo begin -->
                         <div id="logo">
                             <a href="{{ route('home') }}">
-                                <img class="logo logofinal1 logofinal1" src="{{ asset('cliente/images/Recurso 1.svg')}}" alt="">
+                                <img class="logo logofinal logofinal1" src="{{ asset('cliente/images/Recurso 1.svg')}}" alt="">
                             </a>
                         </div>
                         <!-- logo close -->
@@ -95,7 +95,7 @@
 
                                     <li><a href="{{ route('proyectos') }}">Obras</a></li>
 
-                                    <li><a href="{{ route('blog') }}">Blog</a></li>
+                                    <li><a href="{{ route('blog') }}">Tinta mostaza</a></li>
 
                                     <li><a href="{{ route('contacto') }}">Contacto</a></li>
 								</ul>
