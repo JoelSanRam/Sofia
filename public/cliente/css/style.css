@@ -8272,12 +8272,6 @@ ul#slide-list{
         }
     }
 
-    @media screen and (max-width: 480px) {
-        .logofinal2{
-            margin-left: 70px;
-        }
-    }
-
     .galeriatamanio{
         height: 245px;
     }

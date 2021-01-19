@@ -126,11 +126,11 @@
        <!-- content close-->
 
         <!-- footer begin -->
-        <footer class="style-2 light">
+        <footer class="style-2 light footerespacio">
             <div class="container">
                 <div class="row align-items-middle">
                     <div class="col-md-3">
-                        <img src="{{ asset('cliente/images/Recurso 1.svg')}}" class="logo-small logofinal logofinal2" alt=""><br>
+                        <img src="{{ asset('cliente/images/Recurso 1.svg')}}" class="logo-small logofinal" alt=""><br>
                     </div>
 
                     <div class="col-md-6 footerespacio">
