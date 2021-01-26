@@ -1,19 +1,123 @@
 @extends('MasterPage.cliente')
 @section('cliente')
-<div id="content" class="no-bottom no-top">
 
-    <!-- section begin -->
+
+ <!-- content begin -->
+ 
+ <div id="content" class="no-bottom no-top ">
+    <section id="section-slider" class="lead fullwidthbanner-container text-white" aria-label="section-slider">
+        <div id="slider-revolution">
+            <ul>
+                <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
+                    <!--  BACKGROUND IMAGE -->
+                    <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/BN/1.jpg')}}">
+                    <div class="tp-caption size-72 font-weight-thin " style="color: black;" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                        TEXTO
+                    </div>
+                    <div class="tp-caption size-72 font-weight-bold " style="color: black;"data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                        MUESTRA 1
+                    </div>
+                    <div class="tp-caption size-20 ls-20px sft" style="color: black;" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
+                        SUBTITULO
+                    </div>
+                  
+                </li>
+
+                <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
+                    <!--  BACKGROUND IMAGE -->
+                    <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/BN/2.jpg')}}">
+                    <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                        TEXTO
+                    </div>
+                    <div class="tp-caption size-72 font-weight-bold text-white" data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                        MUESTRA 2
+                    </div>
+                    <div class="tp-caption size-20 ls-20px sft" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
+                        SUBTITULO
+                    </div>
+
+                </li>
+                <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
+                    <!--  BACKGROUND IMAGE -->
+                    <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/BN/3.jpg')}}">
+                    <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                        TEXTO
+                    </div>
+                    <div class="tp-caption size-72 font-weight-bold text-white" data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                        MUESTRA 3
+                    </div>
+                    <div class="tp-caption size-20 ls-20px sft" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
+                        SUBTITULO
+                    </div>
+
+                    <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
+                        <!--  BACKGROUND IMAGE -->
+                        <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/BN/4.jpg')}}">
+                        <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                            TEXTO
+                        </div>
+                        <div class="tp-caption size-72 font-weight-bold text-white" data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                            MUESTRA 4
+                        </div>
+                        <div class="tp-caption size-20 ls-20px sft" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
+                            SUBTITULO
+                        </div>
+    
+                    </li>
+                    
+                    <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
+                        <!--  BACKGROUND IMAGE -->
+                        <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/BN/5.jpg')}}">
+                        <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                            TEXTO
+                        </div>
+                        <div class="tp-caption size-72 font-weight-bold text-white" data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                            MUESTRA 5
+                        </div>
+                        <div class="tp-caption size-20 ls-20px sft" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
+                            SUBTITULO
+                        </div>
+    
+                    </li>
+
+                </li>
+                
+            </ul>
+        </div>
+    </section>
+    
+         <!-- section begin -->
     <section id="section-welcome" class="espacioindexarriba">
 
-        <div class="center-y ">
+        <div class="">
             <div class="container">
-                <div class="row">
+                <div class="row ">
                     <div class="col-md-6 indextexto">
                         <div class="spacer-double"></div>
                         <h2 class="style-3">Arte <strong class="id-color espanconsalto">&amp;</strong> Letras</h2>
-                        <p class="lead indextexto">Es fascinante la exactitud de las palabras para abrazar perfectamente lo que sentimos. Pero luego lo que sentimos es tan grande o revuelto que las palabras no alcanzan. Y seguirá pasando que las palabras no alcancen. Ahí el pincel hace lo suyo. </p>
+                        <p class="indextexto">Es fascinante la exactitud de las palabras para abrazar perfectamente lo que sentimos. Pero luego lo que sentimos es tan grande o revuelto que las palabras no alcanzan. Y seguirá pasando que las palabras no alcancen. Ahí el pincel hace lo suyo. </p>
                         <div class="spacer-single"></div>
-                        <a href="contact.html" class="btn-line black btn-big scroll-to">Más información</a>
+                        <a href="" class="btn-line black btn-big scroll-to">Más información</a>
                         <div class="spacer-double"></div>
                     </div>
                 </div>
@@ -36,7 +140,7 @@
                     <h2>¿Quién soy yo?</h2>
 
                     <p class="lead">Me gusta el amarillo, soy casi adicta al café y hay palabras que, bien acomodadas, me
-                        hacen llorar. Disfruto las noches y más sin tienen estrellas o una luna bien grandota. De
+                        hacen llorar. Disfruto las noches y más si tienen estrellas o una luna bien grandota. De
                         chiquita mi abuela me regaló la luna, por eso creo que es mía, aunque sé que no. Nací en
                         un país lleno de creatividad y en una familia que me ayudó a desarrollar la mía. A veces
                         quiero controlarlo todo; tal vez por eso me gusta el mar, que no se deja. Tal vez también
@@ -71,7 +175,7 @@
                                 </span>
                             </span>
                         </a>
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 6-20.jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-01-min.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -88,7 +192,7 @@
                             </span>
                         </a>
 
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 7-20.jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-03-min.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -105,7 +209,7 @@
                             </span>
                         </a>
 
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 1-20.jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-02-min.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -121,7 +225,7 @@
                                 </span>
                             </span>
                         </a>
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 3-20.jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-04-min.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -137,7 +241,7 @@
                                 </span>
                             </span>
                         </a>
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 2-20.jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-07-min.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -153,7 +257,7 @@
                                 </span>
                             </span>
                         </a>
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 4-20.jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-05-min.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -171,7 +275,7 @@
                             </span>
                         </a>
 
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 8-20.jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-06-min.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -189,7 +293,7 @@
                             </span>
                         </a>
 
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 5-20.jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-08-min.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->

@@ -114,64 +114,7 @@
         <!-- content begin -->
         <div id="content" class="no-bottom no-top">
 
-            <!-- section begin -->
-            <section id="section-welcome" class="full-height text-light" data-bgimage="url({{ asset('obras/' . $item->cover_image) }})">
-
-                <div class="center-y">
-                    <div class="container">
-						<div class="row">
-							<div class="col-md-12 text-center">
-								<div class="spacer-double"></div>
-
-								<div class="spacer-double"></div>
-							</div>
-						</div>
-					</div>
-                </div>
-
-
-            </section>
-            <!-- section close -->
-
-            <section id="section-gallery-carousel" aria-label="section" class="no-top no-bottom text-light bg-color galeriatamanio">
-				<div class="container-fluid">
-					<div class="row align-items-center no-gutters">
-						<div class="col-md-3 text-center">
-							<div class="spacer-single"></div>
-							<h3 class="no-bottom">Galería</h3>
-							<div class="spacer-single"></div>
-						</div>
-
-						<div class="col-md-9">
-							<div class="owl-custom-nav">
-								<a class="btn-next"></a>
-								<a class="btn-prev"></a>
-							</div>
-
-							<div id="gallery-carousel-3" class="zoom-gallery owl-carousel owl-theme owl-slide">
-
-    							@foreach($images as $image)
-        							<div class="item s2 galeriatamanio">
-        								<div class="picframe galeriatamanio">
-        									<a href="{{ asset('obras/' . $image->filename) }}" >
-        										<span class="overlay-v">
-        											<span class="pf_text">
-
-        											</span>
-        										</span>
-        										<img src="{{ asset('obras/' . $image->filename) }}" />
-        									</a>
-        								</div>
-        							</div>
-    							@endforeach
-
-						</div>
-					</div>
-				</div>
-			</div>
-			</section>
-
-			<section>
+            <section>
 				<div class="container">
                     <h2 class="style-3 titulopequenioobra">{{ $item->name }}</h2>
 					<div class="row">
@@ -241,8 +184,48 @@
 			</section>
 
 
+            <section id="section-gallery-carousel" aria-label="section" class="no-top no-bottom text-light bg-color galeriatamanio">
+				<div class="container-fluid">
+					<div class="row align-items-center no-gutters" style="background-color: #d2d2d2">
+						{{-- <div class="col-md-3 text-center">
+							<div class="spacer-single"></div>
+							<h3 class="no-bottom" style="color:black ">Galería</h3>
+							<div class="spacer-single"></div>
+						</div> --}}
+
+						<div class="col-md-12">
+							<div class="owl-custom-nav">
+								<a class="btn-next"></a>
+								<a class="btn-prev"></a>
+							</div>
+
+							<div id="gallery-carousel-4" class="zoom-gallery owl-carousel owl-theme owl-slide">
+
+    							@foreach($images as $image)
+        							<div class="item s2 galeriatamanio">
+        								<div class="picframe galeriatamanio">
+        									<a href="{{ asset('obras/' . $image->filename) }}" >
+        										<span class="overlay-v">
+        											<span class="pf_text">
+
+        											</span>
+        										</span>
+        										<img src="{{ asset('obras/' . $image->filename) }}" />
+        									</a>
+        								</div>
+        							</div>
+    							@endforeach
+
+						</div>
+					</div>
+				</div>
+			</div>
+			</section>
+
+			
+
             <!-- footer begin -->
-			<footer class="style-2 light">
+			<footer class="style-2 light footerespacio">
                 <div class="container">
                     <div class="row align-items-middle">
                         <div class="col-md-3">

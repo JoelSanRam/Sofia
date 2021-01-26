@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Contacto</h1>
+                <h1 style="color: white">Contacto</h1>
                 <ul class="crumb">
                     <li><a href="index.html" style="color: white">Inicio</a></li>
                     <li class="sep">/</li>

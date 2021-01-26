@@ -379,8 +379,7 @@ overflow:visible;
 
 	/* subheader */
 	#subheader{
-	padding-bottom:70px;
-	background:#222;
+		padding:2%;
 	}
 	#subheader{
 	-webkit-background-size: 100% auto !important;
@@ -8224,7 +8223,7 @@ ul#slide-list{
 	/* --------------------------------------------------
 	design for 480px
 	/* -------------------------------------------------- */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	@media only screen and (min-width: 670px) and (max-width: 767px) {
 	.container{padding-left:30px; padding-right:30px;}
 	.feature-box-image,.pricing-box{margin-bottom:30px;}
 
