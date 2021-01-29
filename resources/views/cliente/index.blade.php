@@ -10,18 +10,18 @@
             <ul>
                 <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
                     <!--  BACKGROUND IMAGE -->
-                    <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/BN/1.jpg')}}">
-                    <div class="tp-caption size-72 font-weight-thin " style="color: black;" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                    <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/COLOR/1.jpg')}}">
+                    <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
                         TEXTO
                     </div>
-                    <div class="tp-caption size-72 font-weight-bold " style="color: black;"data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                    <div class="tp-caption size-72 font-weight-bold text-white" data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
                         MUESTRA 1
                     </div>
-                    <div class="tp-caption size-20 ls-20px sft" style="color: black;" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
+                    <div class="tp-caption size-20 ls-20px sft" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
                         SUBTITULO
                     </div>
                   
@@ -29,7 +29,7 @@
 
                 <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
                     <!--  BACKGROUND IMAGE -->
-                    <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/BN/2.jpg')}}">
+                    <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/COLOR/2.jpg')}}">
                     <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
@@ -47,7 +47,7 @@
                 </li>
                 <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
                     <!--  BACKGROUND IMAGE -->
-                    <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/BN/3.jpg')}}">
+                    <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/COLOR/3.jpg')}}">
                     <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
@@ -64,7 +64,7 @@
 
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
                         <!--  BACKGROUND IMAGE -->
-                        <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/BN/4.jpg')}}">
+                        <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/COLOR/4.jpg')}}">
                         <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                             data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
@@ -83,7 +83,7 @@
                     
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
                         <!--  BACKGROUND IMAGE -->
-                        <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/BN/5.jpg')}}">
+                        <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/COLOR/5.jpg')}}">
                         <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                             data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
@@ -117,7 +117,7 @@
                         <h2 class="style-3">Arte <strong class="id-color espanconsalto">&amp;</strong> Letras</h2>
                         <p class="indextexto">Es fascinante la exactitud de las palabras para abrazar perfectamente lo que sentimos. Pero luego lo que sentimos es tan grande o revuelto que las palabras no alcanzan. Y seguirá pasando que las palabras no alcancen. Ahí el pincel hace lo suyo. </p>
                         <div class="spacer-single"></div>
-                        <a href="" class="btn-line black btn-big scroll-to">Más información</a>
+                        <a href="{{route('blog')}}" class="btn-line black btn-big scroll-to">Más información</a>
                         <div class="spacer-double"></div>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
 
 
 
-                    <a href="contact.html" class="btn-custom">Leer más</a>
+                    <a href="{{route('blog')}}" class="btn-custom">Leer más</a>
                 </div>
 
                 <div class="clearfix"></div>
@@ -184,14 +184,13 @@
                 <!-- gallery item -->
                 <div class="item">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="#">
+                        <a class="" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
                                 </span>
                             </span>
                         </a>
-
                         <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-03-min.jpg')}}" alt="" />
                     </div>
                 </div>
@@ -201,7 +200,7 @@
                 <!-- gallery item -->
                 <div class="item">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="#">
+                        <a class="" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
@@ -218,7 +217,7 @@
                 <!-- gallery item -->
                 <div class="item">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="#">
+                        <a class="" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
@@ -234,7 +233,7 @@
                 <!-- gallery item -->
                 <div class="item">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="#">
+                        <a class="{{-- simple-ajax-popup-align-top --}}" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
@@ -250,7 +249,7 @@
                 <!-- gallery item -->
                 <div class="item">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="#">
+                        <a class="{{-- simple-ajax-popup-align-top --}}" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
@@ -267,7 +266,7 @@
                 <!-- gallery item -->
                 <div class="item office">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="#">
+                        <a class="{{-- simple-ajax-popup-align-top --}}" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
@@ -285,7 +284,7 @@
                 <!-- gallery item -->
                 <div class="item residential">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top">
+                        <a class="{{-- simple-ajax-popup-align-top --}}">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>

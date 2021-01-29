@@ -158,7 +158,7 @@
 					<div class="row mt50">
 						<div class="col-lg-12">
 							<div class="copyright-widget text-center">
-								<span style="font-size: 17px; text-align: center; display: block; color: #000;">&copy; Sofía Coná 2020 – Desarrollado por  <a style="color: #000;" href="https://www.buho-solutions.com/">Búho Solutions</a></span>
+								<span style="font-size: 17px; text-align: center; display: block; color: #000;">&copy; Sofía Coná 2021 – Desarrollado por  <a style="color: #000;" href="https://www.buho-solutions.com/">Búho Solutions</a></span>
 							</div>
 						</div>
 					</div>

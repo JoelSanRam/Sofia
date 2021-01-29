@@ -112,7 +112,7 @@
                     </div>
 
                     <div class="col-md-6 footerespacio">
-                        &copy; Sofía Coná 2020 – Desarrollado por  <a class="id-color espanconsalto" href="https://www.buho-solutions.com/">Búho
+                        &copy; Sofía Coná 2021 – Desarrollado por  <a class="id-color espanconsalto" href="https://www.buho-solutions.com/">Búho
                             Solutions</a>
                     </div>
 
