@@ -1,15 +1,15 @@
 @extends('MasterPage.cliente')
 @section('cliente')
 
-<section id="subheader" data-bgimage="url({{ asset('cliente/images/background/Recurso10-20.jpg')}})" data-stellar-background-ratio=".2">
+<section id="subheader" data-bgimage="url({{ asset('cliente/images/background/1.jpg')}})" data-stellar-background-ratio=".2">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Blog</h1>
+                <h1 style="color: white">Algo así como un blog</h1>
                 <ul class="crumb">
                     <li><a href="{{ route('home') }}" style="color: white">Inicio</a></li>
                     <li class="sep">/</li>
-                    <li>Blog</li>
+                    <li style="color: white">Blog</li>
                 </ul>
             </div>
         </div>

@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="{{ asset('cliente/css/owl.transitions.css')}}" type="text/css">
     <link rel="stylesheet" href="{{ asset('cliente/css/magnific-popup.css')}}" type="text/css">
     <link rel="stylesheet" href="{{ asset('cliente/css/style.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('cliente/demo/demo.css')}}" type="text/css">
+    {{-- <link rel="stylesheet" href="{{ asset('cliente/demo/demo.css')}}" type="text/css"> --}}
 
     <!-- custom background -->
     <link rel="stylesheet" href="{{ asset('cliente/css/bg.css')}}" type="text/css">
@@ -39,13 +39,10 @@
     <link rel="stylesheet" href="{{ asset('cliente/fonts/elegant_font/HTML_CSS/style.css')}}" type="text/css">
     <link rel="stylesheet" href="{{ asset('cliente/fonts/et-line-font/style.css')}}" type="text/css">
 
-    <!-- revolution slider -->
-    <link rel="stylesheet" href="{{ asset('cliente/rs-plugin/css/settings.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('cliente/css/rev-settings.css')}}" type="text/css">
 
     <!-- RS5.0 Stylesheet -->
     <link rel="stylesheet" href="{{ asset('cliente/revolution/css/settings.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('cliente/revolution/css/layers.cs')}}s" type="text/css">
+    <link rel="stylesheet" href="{{ asset('cliente/revolution/css/layers.css')}}" type="text/css">
     <link rel="stylesheet" href="{{ asset('cliente/revolution/css/navigation.css')}}" type="text/css">
     <link rel="stylesheet" href="{{ asset('cliente/css/rev-settings.css')}}" type="text/css">
 
@@ -62,33 +59,14 @@
     <div id="wrapper">
 
         <!-- header begin -->
-        <header class="header-light scroll-light autoshow">
-            <div class="info">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="column">Working Hours Monday - Friday <span class="id-color"><strong>08:00-16:00</strong></span></div>
-                            <div class="column">Toll Free <span class="id-color"><strong>1800.899.900</strong></span></div>
-                            <!-- social icons -->
-                            <div class="column social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-rss"></i></a>
-                                <a href="#"><i class="fa fa-envelope-o"></i></a>
-                            </div>
-                            <!-- social icons close -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+        <header id="header"  class="header-light scroll-light autoshow ">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <!-- logo begin -->
                         <div id="logo">
-                            <a href="index.html">
-                                <img class="logo logofinal" src="{{ asset('cliente/images/Recurso 1.svg')}}" alt="">
+                            <a href="{{ route('home') }}">
+                                <img id="imgLogo" class="logo logofinal logofinal1" src="{{ asset('cliente/images/Recurso 1.svg')}}" alt="">
                             </a>
                         </div>
                         <!-- logo close -->
@@ -104,7 +82,7 @@
 
 									<li><a href="{{ route('proyectos') }}">Obras</a></li>
 
-                                    <li><a href="{{ route('blog') }}">Blog</a></li>
+                                    <li><a href="{{ route('blog') }}">Tinta Mostaza</a></li>
 
                                     <li><a href="{{ route('contacto') }}">Contacto</a></li>
 
@@ -126,7 +104,7 @@
        <!-- content close-->
 
         <!-- footer begin -->
-        <footer class="style-2 light">
+        <footer class="style-2 light footerespacio">
             <div class="container">
                 <div class="row align-items-middle">
                     <div class="col-md-3">
@@ -134,15 +112,15 @@
                     </div>
 
                     <div class="col-md-6 footerespacio">
-                        &copy; Sofía Coná 2020 – Desarrollado por  <span class="id-color">Búho
-                            Solutions</span>
+                        &copy; Sofía Coná 2021 – Desarrollado por  <a class="id-color espanconsalto" href="https://www.buho-solutions.com/">Búho
+                            Solutions</a>
                     </div>
 
                     <div class="col-md-3 text-right">
                         <div class="social-icons">
-                            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                            <a href="#"><i class="fa fa-whatsapp fa-lg"></i></a>
-                            <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                            <a href="https://www.facebook.com/SOF%C3%8DA-CON%C3%81-609377649742470/"><i class="fa fa-facebook fa-lg"></i></a>
+                            <a href="https://wa.link/7t3opn"><i class="fa fa-whatsapp fa-lg"></i></a>
+                            <a href="https://www.instagram.com/sofiacona_/"><i class="fa fa-instagram fa-lg"></i></a>
                             <a href="{{ route('dashboard') }}"><i class="fa fa-user fa-lg"></i></a>
 
                         </div>
@@ -155,7 +133,6 @@
         </footer>
         <!-- footer close -->
         </div>
-
 
 
 
@@ -186,14 +163,72 @@
     <script type="text/javascript" src="{{ asset('cliente/rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
 
     <!-- RS5.0 Extensions Files -->
-    <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.video.min.js')}}"></script>
-    <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
-    <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
-    <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.navigation.min.js')}}"></script>
-    <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.actions.min.js')}}"></script>
-    <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
-    <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.migration.min.js')}}"></script>
-    <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script>
+   {{--  <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.video.min.js')}}"></script> --}}
+    {{-- <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.slideanims.min.js')}}"></script> --}}
+   {{--  <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.layeranimation.min.js')}}"></script> --}}
+    {{-- <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.navigation.min.js')}}"></script> --}}
+    {{-- <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.actions.min.js')}}"></script> --}}
+    {{-- <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.kenburn.min.js')}}"></script> --}}
+    {{-- <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.migration.min.js')}}"></script> --}}
+   {{--  <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script> --}}
+   
+   <script>
+        jQuery(document).ready(function() {
+            // revolution slider
+            jQuery("#slider-revolution").revolution({
+                sliderType: "standard",
+                sliderLayout: "fullscreen",
+                delay: 5000,
+                navigation: {
+                    arrows: {
+                        enable: true
+                    },
+                    bullets: {
+                        enable: false,
+                        style: 'hermes'
+                    },
+
+                },
+                parallax: {
+                    type: "mouse",
+                    origo: "slidercenter",
+                    speed: 2000,
+                    levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
+                },
+                responsiveLevels:[1920,1380,1240],
+				gridwidth:[1360,1200,940],
+                spinner: "off",
+                gridheight: 700,
+                disableProgressBar: "on"
+            });
+        });
+    </script>
+    <script>
+        $(window).on("load", function(){
+          $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+          $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
+        });
+        </script>
+
+{{-- <script>
+        $(document).ready(function(){
+            var $cabecera = $('#header');
+            var $logo = $('#logo');
+            var $previousScroll = 0;
+            var logo2 = "{{ asset('cliente/images/Recurso 1.svg')}}";
+            var logo1 = document.getElementById(imgLogo).src;
+
+            $(window).scroll(function(event){
+            var scroll = $(this).scrollTop();
+            if (scroll > previousScroll && scroll > 200){
+                document.getElementById('imgLogo').src = logo2;
+            } else {
+                document.getElementById('imgLogo').src = logo1; 
+            }
+            previousScroll = scroll;    });
+        
+        });
+  </script> --}}
 
 </body>
 </html>

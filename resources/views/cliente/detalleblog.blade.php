@@ -1,13 +1,13 @@
 @extends('MasterPage.cliente')
 @section('cliente')
 
-<section id="subheader" data-bgimage="url({{ asset('cliente/images/background/subheader-8.jpg')}})" data-stellar-background-ratio=".2">
+<section id="subheader" data-bgimage="url({{ asset('cliente/images/background/1.jpg')}})" data-stellar-background-ratio=".2">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Blog sencillo</h1>
+                <h1>{{ $item->title }}</h1>
                 <ul class="crumb">
-                    <li><a href="{{ route('home') }}">Inicio</a></li>
+                    <li><a href="{{ route('home') }}" style="color: white">Inicio</a></li>
                     <li class="sep">/</li>
                     <li>Detalle de artículo</li>
                 </ul>
@@ -24,7 +24,7 @@
             <div class="col-md-8">
                 <div class="blog-read">
                     <div class="post-image">
-                        <img src="{{ asset('posts/' . $item->image) }}" alt="" style="height: 300px"/>
+                        <img src="{{ asset('posts/' . $item->image) }}" alt="" />
                     </div>
                         <div class="post-content">
                             <div class="post-image">
@@ -39,12 +39,11 @@
                             <div class="post-text">
                                 <div class="info-text">
                                     {{-- <a href="#" class="btn-custom btn-fullwidth text-light text-center"><b>Compartir</b></a> --}}
-                                    <div class="col-md-12 text-right iconoespacio">
+                                    <div class="col-md-12">
                                         <div class="row">
-                                            <div class="col-md-4 tituloblog"><h3><a href="#">{{ $item->title }}</a></h3></div>
-
-                                            <div class="col-md4"></div>
-
+                                            <div class="col-md-12 tituloblog">
+                                                <h3><a href="#">{{ $item->title }}</a></h3>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -55,17 +54,19 @@
                                 <p>
                                     {!! $item->body !!}
                                 </p>
-                            </div>
-                           <div class="row">
-                                <div class="col-md-12  espacioblog" background-color:#00FF00>
-                                    <div class="a2a_kit a2a_kit_size_16 a2a_default_style" data-a2a-icon-color="#FAB702">
+                                <div class="row ">
+                                    <div class="col-md-12  espacioblog" background-color:#00FF00>
                                         <label class="compartir margencompartirblog">Compartir artículo</label>
-                                        <a class="a2a_button_facebook "></a>
-                                        <a class="a2a_button_twitter "></a>
-                                        <a class="a2a_button_whatsapp "></a>
+                                        <div class="a2a_kit a2a_kit_size_16 a2a_default_style" data-a2a-icon-color="#FAB702">
+
+                                            <a class="a2a_button_facebook "></a>
+                                            <a class="a2a_button_twitter "></a>
+                                            <a class="a2a_button_whatsapp "></a>
+                                        </div>
                                     </div>
-                                </div>
-                           </div>
+                               </div>
+                            </div>
+
                         </div>
 
                     <div class="spacer-single"></div>

@@ -6,11 +6,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Obras</h1>
+                <h1 style="color: white">Obras</h1>
                 <ul class="crumb">
                     <li><a href="{{ route('home') }}" style="color: white">Inicio</a></li>
                     <li class="sep">/</li>
-                    <li>Obras</li>
+                    <li style="color: white">Obras</li>
                 </ul>
             </div>
         </div>

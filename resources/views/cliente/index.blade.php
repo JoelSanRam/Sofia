@@ -1,19 +1,123 @@
 @extends('MasterPage.cliente')
 @section('cliente')
-<div id="content" class="no-bottom no-top">
 
-    <!-- section begin -->
-    <section id="section-welcome" data-bgimage="url({{ asset('cliente/images/background/bg-35.jpg')}}">
 
-        <div class="center-y">
+ <!-- content begin -->
+ 
+ <div id="content" class="no-bottom no-top ">
+    <section id="section-slider" class="lead fullwidthbanner-container text-white" aria-label="section-slider">
+        <div id="slider-revolution">
+            <ul>
+                <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
+                    <!--  BACKGROUND IMAGE -->
+                    <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/COLOR/1.jpg')}}">
+                    <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                        TEXTO
+                    </div>
+                    <div class="tp-caption size-72 font-weight-bold text-white" data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                        MUESTRA 1
+                    </div>
+                    <div class="tp-caption size-20 ls-20px sft" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
+                        SUBTITULO
+                    </div>
+                  
+                </li>
+
+                <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
+                    <!--  BACKGROUND IMAGE -->
+                    <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/COLOR/2.jpg')}}">
+                    <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                        TEXTO
+                    </div>
+                    <div class="tp-caption size-72 font-weight-bold text-white" data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                        MUESTRA 2
+                    </div>
+                    <div class="tp-caption size-20 ls-20px sft" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
+                        SUBTITULO
+                    </div>
+
+                </li>
+                <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
+                    <!--  BACKGROUND IMAGE -->
+                    <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/COLOR/3.jpg')}}">
+                    <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                        TEXTO
+                    </div>
+                    <div class="tp-caption size-72 font-weight-bold text-white" data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                        MUESTRA 3
+                    </div>
+                    <div class="tp-caption size-20 ls-20px sft" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
+                        SUBTITULO
+                    </div>
+
+                    <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
+                        <!--  BACKGROUND IMAGE -->
+                        <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/COLOR/4.jpg')}}">
+                        <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                            TEXTO
+                        </div>
+                        <div class="tp-caption size-72 font-weight-bold text-white" data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                            MUESTRA 4
+                        </div>
+                        <div class="tp-caption size-20 ls-20px sft" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
+                            SUBTITULO
+                        </div>
+    
+                    </li>
+                    
+                    <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
+                        <!--  BACKGROUND IMAGE -->
+                        <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/COLOR/5.jpg')}}">
+                        <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                            TEXTO
+                        </div>
+                        <div class="tp-caption size-72 font-weight-bold text-white" data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+                            MUESTRA 5
+                        </div>
+                        <div class="tp-caption size-20 ls-20px sft" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
+                            SUBTITULO
+                        </div>
+    
+                    </li>
+
+                </li>
+                
+            </ul>
+        </div>
+    </section>
+    
+         <!-- section begin -->
+    <section id="section-welcome" class="espacioindexarriba">
+
+        <div class="">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
+                <div class="row ">
+                    <div class="col-md-6 indextexto">
                         <div class="spacer-double"></div>
-                        <h2 class="style-3">Arte <strong class="id-color">&amp;</strong> Letras</h2>
-                        <p class="lead"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                        <h2 class="style-3">Arte <strong class="id-color espanconsalto">&amp;</strong> Letras</h2>
+                        <p class="indextexto">Es fascinante la exactitud de las palabras para abrazar perfectamente lo que sentimos. Pero luego lo que sentimos es tan grande o revuelto que las palabras no alcanzan. Y seguirá pasando que las palabras no alcancen. Ahí el pincel hace lo suyo. </p>
                         <div class="spacer-single"></div>
-                        <a href="contact.html" class="btn-line black btn-big scroll-to">Más información</a>
+                        <a href="{{route('blog')}}" class="btn-line black btn-big scroll-to">Más información</a>
                         <div class="spacer-double"></div>
                     </div>
                 </div>
@@ -29,17 +133,23 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <img src="{{ asset('cliente/images/misc/pic_13.jpg')}}" alt="" class="img-responsive wow fadeInUp" data-wow-duration="1.5s">
+                    <img src="{{ asset('cliente/images/misc/sofia.png')}}" alt="" class="img-responsive wow fadeInUp" data-wow-duration="1.5s">
                 </div>
 
-                <div class="col-md-6 wow fadeInUp">
+                <div class="col-md-6 wow fadeInUp indextexto">
                     <h2>¿Quién soy yo?</h2>
 
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="lead">Me gusta el amarillo, soy casi adicta al café y hay palabras que, bien acomodadas, me
+                        hacen llorar. Disfruto las noches y más si tienen estrellas o una luna bien grandota. De
+                        chiquita mi abuela me regaló la luna, por eso creo que es mía, aunque sé que no. Nací en
+                        un país lleno de creatividad y en una familia que me ayudó a desarrollar la mía. A veces
+                        quiero controlarlo todo; tal vez por eso me gusta el mar, que no se deja. Tal vez también
+                        por eso pinto, que ahí no controlo. Creo que todos tenemos mucho adentro y necesitamos
+                        algo para no explotar. Lo mío es pintar, ¿y lo tuyo?</p>
 
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 
-                    <a href="contact.html" class="btn-custom">Leer más</a>
+
+                    <a href="{{route('blog')}}" class="btn-custom">Leer más</a>
                 </div>
 
                 <div class="clearfix"></div>
@@ -58,14 +168,14 @@
                 <!-- gallery item -->
                 <div class="item ">
                     <div class="picframe">
-                        <a class="" href="project-details-1.html">
+                        <a class="" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
                                 </span>
                             </span>
                         </a>
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 6-20.jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-01-min.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -74,15 +184,14 @@
                 <!-- gallery item -->
                 <div class="item">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="project-details-2.html">
+                        <a class="" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
                                 </span>
                             </span>
                         </a>
-
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 7-20.jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-03-min.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -91,7 +200,7 @@
                 <!-- gallery item -->
                 <div class="item">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="project-details-3.html">
+                        <a class="" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
@@ -99,7 +208,7 @@
                             </span>
                         </a>
 
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 1-20.jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-02-min.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -108,14 +217,14 @@
                 <!-- gallery item -->
                 <div class="item">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="project-details-youtube.html">
+                        <a class="" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
                                 </span>
                             </span>
                         </a>
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 3-20.jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-04-min.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -124,14 +233,14 @@
                 <!-- gallery item -->
                 <div class="item">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="project-details-vimeo.html">
+                        <a class="{{-- simple-ajax-popup-align-top --}}" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
                                 </span>
                             </span>
                         </a>
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 2-20.jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-07-min.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -140,14 +249,14 @@
                 <!-- gallery item -->
                 <div class="item">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="project-details.html">
+                        <a class="{{-- simple-ajax-popup-align-top --}}" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
                                 </span>
                             </span>
                         </a>
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 4-20.jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-05-min.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -157,7 +266,7 @@
                 <!-- gallery item -->
                 <div class="item office">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top" href="project-details.html">
+                        <a class="{{-- simple-ajax-popup-align-top --}}" href="#">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
@@ -165,7 +274,7 @@
                             </span>
                         </a>
 
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 8-20.jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-06-min.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -175,7 +284,7 @@
                 <!-- gallery item -->
                 <div class="item residential">
                     <div class="picframe">
-                        <a class="simple-ajax-popup-align-top">
+                        <a class="{{-- simple-ajax-popup-align-top --}}">
                             <span class="overlay">
                                 <span class="pf_title">
                                     <span class="project-name"></span>
@@ -183,7 +292,7 @@
                             </span>
                         </a>
 
-                        <img src="{{ asset('cliente/images/portfolio-multipurpose/Recurso 5-20.jpg')}}" alt="" />
+                        <img src="{{ asset('cliente/images/portfolio-multipurpose/MPF Coná-08-min.jpg')}}" alt="" />
                     </div>
                 </div>
                 <!-- close gallery item -->
@@ -214,7 +323,7 @@
                         <div class="col-md-6 wow fadeIn" data-wow-delay=".25s">
                             <div class="de_count">
                                 <h3 class="timer" data-to="128" data-speed="2500">0</h3>
-                                <span>Proyectos realizados</span>
+                                <span>Borradores escritos</span>
                             </div>
                         </div>
 
@@ -250,7 +359,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-8">
-                    <h3 class="size-2">¡Pongamonos en contacto!</h3>
+                    <h3 class="size-2 pongamonos">¡Pongámonos en contacto!</h3>
                 </div>
 
                 <div class="col-md-4 text-right">

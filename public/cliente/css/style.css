@@ -379,8 +379,7 @@ overflow:visible;
 
 	/* subheader */
 	#subheader{
-	padding-bottom:70px;
-	background:#222;
+		padding:2%;
 	}
 	#subheader{
 	-webkit-background-size: 100% auto !important;
@@ -1288,7 +1287,7 @@ footer {
 	}
 
 	footer.light a{
-		color:#606060 !important;
+		color:#FAB702 !important;
 		text-decoration:none;
 	}
 
@@ -4732,7 +4731,7 @@ overflow:hidden;
 
 .call-to-action h2,
 .call-to-action h3{
-	margin:0;
+
 }
 
 /* ================================================== */
@@ -8224,7 +8223,7 @@ ul#slide-list{
 	/* --------------------------------------------------
 	design for 480px
 	/* -------------------------------------------------- */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	@media only screen and (min-width: 670px) and (max-width: 767px) {
 	.container{padding-left:30px; padding-right:30px;}
 	.feature-box-image,.pricing-box{margin-bottom:30px;}
 
@@ -8267,7 +8266,7 @@ ul#slide-list{
     }
 
     @media screen and (max-width: 480px) {
-        .logofinal{
+        .logofinal1{
             margin-left: 60px;
         }
     }
@@ -8286,7 +8285,7 @@ ul#slide-list{
 
     .compartirobra{
         margin-left: -15px;
-        margin-right: 15px;
+        margin-right: 0px;
         padding-left: 0px
     }
 
@@ -8298,7 +8297,7 @@ ul#slide-list{
     }
 
     .margencompartirblog{
-        margin-left: -190px;
+        margin-left: 0px;
     }
 
     .compartirblog{
@@ -8310,7 +8309,11 @@ ul#slide-list{
 
     .espacioblog{
 
-        margin-left: 710px;
+        margin-left: 0px;
+    }
+
+    .rowderecha{
+        text-align: left;
     }
 
     @media screen and (max-width: 480px) {
@@ -8323,14 +8326,14 @@ ul#slide-list{
     @media screen and (max-width: 480px) {
         .espacioblog{
             margin-right: 0px;
-            margin-left: 240px;
+            margin-left: 0px;
             margin-bottom: -10px;
         }
     }
 
     .tituloblog{
-        margin-left: -25px;
-        margin-right: 25px;
+        margin-left: -15px;
+        text-align: left;
     }
 
     @media screen and (max-width: 480px) {
@@ -8341,7 +8344,7 @@ ul#slide-list{
     }
 
     .iconoespacioobra{
-        margin-left: -50px;
+        margin-left: -15px;
     }
 
     .acomodotexto{
@@ -8350,13 +8353,13 @@ ul#slide-list{
 
     @media screen and (max-width: 480px) {
         .compartirobra{
-            margin-right: 60px;
+            margin-left: 53px;
         }
     }
 
     @media screen and (max-width: 480px) {
         .iconoespacioobra{
-            margin-left: -50px;
+            margin-left: 75px;
             margin-bottom: 0px;
         }
     }
@@ -8413,5 +8416,41 @@ ul#slide-list{
         .padingdetalleobra{
             padding-bottom: 0px;
 
+        }
+    }
+
+    @media screen and (max-width: 480px){
+        .espanconsalto{
+            display: block;
+            content: " ";
+        }
+    }
+
+    .imagenprincipalindex{
+
+        background: url(../images/background/bg-35.jpg)  repeat scroll 0% 0% / cover;
+
+    }
+
+    .pongamonos{
+        margin-bottom: 0px;
+    }
+
+    @media screen and (max-width: 480px){
+        .pongamonos{
+            margin-bottom: 15px;
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .indextexto{
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .espacioindexarriba{
+            margin-top: -85px;
         }
     }

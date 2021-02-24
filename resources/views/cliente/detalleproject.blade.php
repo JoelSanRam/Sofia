@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Sofía Coná | Detalle de obra</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Archi is best selling interior design website template with responsive stunning design">
+    <meta name="description" content="Sofía Coná">
     <meta name="keywords" content="architecture,building,business,bootstrap,creative,exterior design,furniture design,gallery,garden design,house,interior design,landscape design,multipurpose,onepage,portfolio,studio">
     <meta name="author" content="">
 
@@ -78,8 +78,8 @@
                     <div class="col-md-12">
                         <!-- logo begin -->
                         <div id="logo">
-                            <a href="index.html">
-                                <img class="logo logofinal" src="{{ asset('cliente/images/Recurso 1.svg')}}" alt="">
+                            <a href="{{ route('home') }}">
+                                <img class="logo logofinal logofinal1" src="{{ asset('cliente/images/Recurso 1.svg')}}" alt="">
                             </a>
                         </div>
                         <!-- logo close -->
@@ -95,7 +95,7 @@
 
                                     <li><a href="{{ route('proyectos') }}">Obras</a></li>
 
-                                    <li><a href="{{ route('blog') }}">Blog</a></li>
+                                    <li><a href="{{ route('blog') }}">Tinta mostaza</a></li>
 
                                     <li><a href="{{ route('contacto') }}">Contacto</a></li>
 								</ul>
@@ -114,111 +114,7 @@
         <!-- content begin -->
         <div id="content" class="no-bottom no-top">
 
-            <!-- section begin -->
-            <section id="section-welcome" class="full-height text-light" data-bgimage="url({{ asset('obras/' . $item->cover_image) }})">
-
-                <div class="center-y">
-                    <div class="container">
-						<div class="row">
-							<div class="col-md-12 text-center">
-								<div class="spacer-double"></div>
-
-								<div class="spacer-double"></div>
-							</div>
-						</div>
-					</div>
-                </div>
-
-
-            </section>
-            <!-- section close -->
-
-            <section id="section-gallery-carousel" aria-label="section" class="no-top no-bottom text-light bg-color galeriatamanio">
-				<div class="container-fluid">
-					<div class="row align-items-center no-gutters">
-						<div class="col-md-3 text-center">
-							<div class="spacer-single"></div>
-							<h3 class="no-bottom">Galería</h3>
-							<div class="spacer-single"></div>
-						</div>
-
-						<div class="col-md-9">
-							<div class="owl-custom-nav">
-								<a class="btn-next"></a>
-								<a class="btn-prev"></a>
-							</div>
-
-							<div id="gallery-carousel-3" class="owl-carousel owl-theme owl-slide galeriatamanio">
-
-							@foreach($images as $image)
-							<div class="item s2 galeriatamanio">
-								<div class="picframe galeriatamanio">
-									<a class="image-popup-no-margins" href="{{ asset('obras/' . $image->filename) }}" >
-										<span class="overlay-v">
-											<span class="pf_text">
-
-											</span>
-										</span>
-										<img src="{{ asset('obras/' . $image->filename) }}" />
-									</a>
-								</div>
-							</div>
-							@endforeach
-
-                            {{--
-							<!-- gallery item -->
-							<div class="item s2">
-								<div class="picframe galeriatamanio">
-									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/noesunjuego.png')}}">
-										<span class="overlay-v">
-											<span class="pf_text">
-
-											</span>
-										</span>
-										<img src="{{ asset('cliente/images-architect/noesunjuego.png')}}" alt="" />
-									</a>
-								</div>
-							</div>
-							<!-- close gallery item -->
-
-							<!-- gallery item -->
-							<div class="item s2">
-								<div class="picframe galeriatamanio">
-									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/noesunjuego_sfondo.png')}}">
-										<span class="overlay-v">
-											<span class="pf_text">
-
-											</span>
-										</span>
-										<img src="{{ asset('cliente/images-architect/noesunjuego_sfondo.png')}}" alt="" />
-									</a>
-								</div>
-							</div>
-							<!-- close gallery item -->
-
-							<!-- gallery item -->
-							<div class="item s2">
-								<div class="picframe galeriatamanio">
-									<a class="image-popup-no-margins" href="{{ asset('cliente/images-architect/bg/noesunjuego_sombra.png')}}">
-										<span class="overlay-v">
-											<span class="pf_text">
-
-											</span>
-										</span>
-										<img src="{{ asset('cliente/images-architect/bg/noesunjuego_sombra.png')}}" alt="" />
-									</a>
-								</div>
-							</div>
-							<!-- close gallery item -->
-                            --}}
-
-						</div>
-					</div>
-				</div>
-			</div>
-			</section>
-
-			<section>
+            <section>
 				<div class="container">
                     <h2 class="style-3 titulopequenioobra">{{ $item->name }}</h2>
 					<div class="row">
@@ -255,16 +151,18 @@
                                 <br>
                                 <div class="info-text">
                                     {{-- <a href="#" class="btn-custom btn-fullwidth text-light text-center"><b>Compartir</b></a> --}}
-                                    <div class="col-md-12 text-right iconoespacio">
+                                    <div class="col-md-12  iconoespacio">
                                         <div class="row">
-                                            <div class="col-md-5">
+                                            <div class="col-md-6">
                                                 <label class="compartir compartirobra">Compartir obra</label>
+                                                <div class="a2a_kit a2a_kit_size_16 a2a_default_style iconoespacioobra" data-a2a-icon-color="#FAB702">
+
+                                                    <a class="a2a_button_facebook "></a>
+                                                    <a class="a2a_button_twitter "></a>
+                                                    <a class="a2a_button_whatsapp "></a>
+                                                </div>
                                             </div>
-                                            <div class="col-md-7 iconoespacioobra">
-                                                <a href="#"><i class="fa fa-whatsapp fa-lg iconoestilo"></i></a>
-                                                <a href="#"><i class="fa fa-twitter fa-lg iconoestilo"></i></a>
-                                                <a href="#"><i class="fa fa-facebook fa-lg iconoestilo"></i></a>
-                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -286,25 +184,65 @@
 			</section>
 
 
+            <section id="section-gallery-carousel" aria-label="section" class="no-top no-bottom text-light bg-color galeriatamanio">
+				<div class="container-fluid">
+					<div class="row align-items-center no-gutters" style="background-color: #d2d2d2">
+						{{-- <div class="col-md-3 text-center">
+							<div class="spacer-single"></div>
+							<h3 class="no-bottom" style="color:black ">Galería</h3>
+							<div class="spacer-single"></div>
+						</div> --}}
+
+						<div class="col-md-12">
+							<div class="owl-custom-nav">
+								<a class="btn-next"></a>
+								<a class="btn-prev"></a>
+							</div>
+
+							<div id="gallery-carousel-4" class="zoom-gallery owl-carousel owl-theme owl-slide">
+
+    							@foreach($images as $image)
+        							<div class="item s2 galeriatamanio">
+        								<div class="picframe galeriatamanio">
+        									<a href="{{ asset('obras/' . $image->filename) }}" >
+        										<span class="overlay-v">
+        											<span class="pf_text">
+
+        											</span>
+        										</span>
+        										<img src="{{ asset('obras/' . $image->filename) }}" />
+        									</a>
+        								</div>
+        							</div>
+    							@endforeach
+
+						</div>
+					</div>
+				</div>
+			</div>
+			</section>
+
+			
+
             <!-- footer begin -->
-			<footer class="style-2 light">
+			<footer class="style-2 light footerespacio">
                 <div class="container">
                     <div class="row align-items-middle">
                         <div class="col-md-3">
-                            <img src="{{ asset('cliente/images/Recurso 1.svg')}}" class="logo-small logofinal" alt=""><br>
+                            <img src="{{ asset('cliente/images/Recurso 1.svg')}}" class="logo-small logofinal logofinal2" alt=""><br>
                         </div>
 
                         <div class="col-md-6 footerespacio">
-                            &copy; Sofía Coná 2020 – Desarrollado por  <span class="id-color">Búho
-                                Solutions</span>
+                            &copy; Sofía Coná 2020 – Desarrollado por  <a class="id-color" href="https://www.buho-solutions.com/">Búho
+                                Solutions</a>
                         </div>
 
                         <div class="col-md-3 text-right">
                             <div class="social-icons">
                                 <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-whatsapp fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-user fa-lg"></i></a>
+                                <a href="https://wa.link/7t3opn"><i class="fa fa-whatsapp fa-lg"></i></a>
+                                <a href="https://www.instagram.com/sofiacona_/"><i class="fa fa-instagram fa-lg"></i></a>
+                                <a href="{{ route('dashboard') }}"><i class="fa fa-user fa-lg"></i></a>
 
                             </div>
                         </div>
@@ -320,6 +258,8 @@
 
     <!-- Javascript Files
     ================================================== -->
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+
     <script src="{{ asset('cliente/js/jquery.min.js')}}"></script>
     <script src="{{ asset('cliente/js/jpreLoader.js')}}"></script>
     <script src="{{ asset('cliente/js/bootstrap.min.js')}}"></script>

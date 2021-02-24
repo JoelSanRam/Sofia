@@ -463,7 +463,7 @@ jQuery(document).ready(function () {
 
             if (mq.matches) {
                 jQuery("header").addClass("clone", 1000, "easeOutBounce");
-
+               
                 // header autoshow on scroll begin
                 var $document = $(document);
                 var vscroll = 0;
@@ -486,10 +486,10 @@ jQuery(document).ready(function () {
                 var header_mt = screen_height - header_height;
                 var header_mt_half = header_mt / 2;
 
-                if ($document.scrollTop() >= header_mt) {
+                if ($document.scrollTop() >= header_mt) {  
                     jQuery('.header-bottom').css("position", "fixed");
                     jQuery('.header-bottom').css("top", "0");
-                } else if ($document.scrollTop() <= header_mt) {
+                } else if ($document.scrollTop() <= header_mt) {       
                     jQuery('.header-bottom').css("position", "absolute");
                     jQuery('.header-bottom').css("top", header_mt);
                 }
@@ -502,12 +502,12 @@ jQuery(document).ready(function () {
                     jQuery('.header-center').css("top", header_mt_half);
                 }
                 // header bottom on scroll close
-
+                
 
                 // side header on scroll begin
                 if (jQuery("header").hasClass("side-header")) {
                     if (jQuery(document).scrollTop() >= h) {
-                        jQuery('#de-sidebar').css("position", "fixed");
+                        jQuery('#de-sidebar').css("position", "fixed");               
                         if (parseInt(sh) > parseInt(dh)) {
                             jQuery('#de-sidebar').css("top", -h);
                         }
