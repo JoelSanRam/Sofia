@@ -3,7 +3,7 @@
 
 
  <!-- content begin -->
- 
+
  <div id="content" class="no-bottom no-top ">
     <section id="section-slider" class="lead fullwidthbanner-container text-white" aria-label="section-slider">
         <div id="slider-revolution">
@@ -14,17 +14,17 @@
                     <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
-                        TEXTO
+
                     </div>
                     <div class="tp-caption size-72 font-weight-bold text-white" data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
-                        MUESTRA 1
+
                     </div>
                     <div class="tp-caption size-20 ls-20px sft" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
-                        SUBTITULO
+
                     </div>
-                  
+
                 </li>
 
                 <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
@@ -33,15 +33,15 @@
                     <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
-                        TEXTO
+
                     </div>
                     <div class="tp-caption size-72 font-weight-bold text-white" data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
-                        MUESTRA 2
+
                     </div>
                     <div class="tp-caption size-20 ls-20px sft" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
-                        SUBTITULO
+
                     </div>
 
                 </li>
@@ -51,15 +51,15 @@
                     <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
-                        TEXTO
+
                     </div>
                     <div class="tp-caption size-72 font-weight-bold text-white" data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                         data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
-                        MUESTRA 3
+
                     </div>
                     <div class="tp-caption size-20 ls-20px sft" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
-                        SUBTITULO
+
                     </div>
 
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
@@ -68,44 +68,44 @@
                         <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                             data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
-                            TEXTO
+
                         </div>
                         <div class="tp-caption size-72 font-weight-bold text-white" data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                             data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
-                            MUESTRA 4
+
                         </div>
                         <div class="tp-caption size-20 ls-20px sft" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
-                            SUBTITULO
+
                         </div>
-    
+
                     </li>
-                    
+
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
                         <!--  BACKGROUND IMAGE -->
                         <img alt="" class="rev-slidebg" data-bgparallax="0" src="{{ asset('cliente/images/slides/COLOR/5.jpg')}}">
                         <div class="tp-caption size-72 font-weight-thin text-white" data-x="0" data-y="290" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                             data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
-                            TEXTO
+
                         </div>
                         <div class="tp-caption size-72 font-weight-bold text-white" data-x="0" data-y="370" data-height="none" data-whitespace="nowrap"  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                             data-speed="1200" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
-                            MUESTRA 5
+
                         </div>
                         <div class="tp-caption size-20 ls-20px sft" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
-                            SUBTITULO
+
                         </div>
-    
+
                     </li>
 
                 </li>
-                
+
             </ul>
         </div>
     </section>
-    
+
          <!-- section begin -->
     <section id="section-welcome" class="espacioindexarriba">
 
@@ -137,7 +137,7 @@
                 </div>
 
                 <div class="col-md-6 wow fadeInUp indextexto">
-                    <h2>¿Quién soy yo?</h2>
+                    <h2>Sobre mí</h2>
 
                     <p class="lead">Me gusta el amarillo, soy casi adicta al café y hay palabras que, bien acomodadas, me
                         hacen llorar. Disfruto las noches y más si tienen estrellas o una luna bien grandota. De
@@ -159,7 +159,7 @@
     <!-- section close -->
 
     <div class="titulo">
-        <h2 class="style-6 ultimasobrasindex">Mis últimos <strong class="id-color"></strong> proyectos</h2>
+        <h2 class="style-6 ultimasobrasindex">Un poco de <strong class="id-color"></strong> mis favoritos</h2>
     </div>
     <section class="no-top no-bottom">
         <div class="grid" data-col="3" data-gridspace="10" data-ratio="466/700">

@@ -170,8 +170,8 @@
                     </div>
 
 						<div class="col-md-8 wow fadeInRight" data-wow-delay=".4s">
-							<h3>Descripción del proyecto</h3>
-							<p>
+
+							<p class="estilosofia">
 								{{ $item->description }}
 							</p>
 							<div class="spacer10"></div>
@@ -222,7 +222,7 @@
 			</div>
 			</section>
 
-			
+
 
             <!-- footer begin -->
 			<footer class="style-2 light footerespacio">
@@ -240,7 +240,7 @@
                         <div class="col-md-3 text-right">
                             <div class="social-icons">
                                 <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                <a href="https://wa.link/7t3opn"><i class="fa fa-whatsapp fa-lg"></i></a>
+                                <a href="https://wa.link/jhec1x"><i class="fa fa-whatsapp fa-lg"></i></a>
                                 <a href="https://www.instagram.com/sofiacona_/"><i class="fa fa-instagram fa-lg"></i></a>
                                 <a href="{{ route('dashboard') }}"><i class="fa fa-user fa-lg"></i></a>
 

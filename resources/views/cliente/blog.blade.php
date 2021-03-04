@@ -26,10 +26,8 @@
                 <div class="widget widget-text">
                     <h4>Acerca de mi</h4>
                     <div class="small-border"></div>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
-                    ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                    magni
+                    No recuerdo cuándo comencé a escribir. En algún momento Tinta Mostaza se volvió un proyecto en donde exponía mi opinión sobre temas sociales, ambientales, históricos –soy fanática de la historia- y de contexto actual. Era un poco de todo. Hoy me gusta escribir sin planear mucho sobre qué y cada día descubro más pasión en la magia de las letras. Te comparto esta pasión y agradezco tu tiempo de lectura.
+
                 </div>
 
             </div>
@@ -40,7 +38,7 @@
                     <li>
                         <div class="post-content">
                             <div class="post-image">
-                                <img src="{{ asset('posts/' . $item->image) }}" alt="{{ $item->title }}" style="height: 300px;" />
+                                <img src="{{ asset('posts/' . $item->image) }}" alt="{{ $item->title }}" class="imagenblog" />
                             </div>
 
 

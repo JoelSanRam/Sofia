@@ -5365,7 +5365,17 @@ display: table-cell;
 font-size:11px;
 text-transform:uppercase;
 letter-spacing:5px;
-margin-top: auto;
+
+}
+
+.project-name2{
+    margin-top: -30px;
+}
+
+@media only screen and (max-width : 480px) {
+    .project-name2{
+        margin-top: auto;
+    }
 }
 
 .de-gallery .overlay .icon {
@@ -8269,6 +8279,13 @@ ul#slide-list{
         .logofinal1{
             margin-left: 60px;
         }
+        .imagenblog{
+            height: 130px;
+        }
+    }
+
+    .imagenblog{
+        height: 300px;
     }
 
     .galeriatamanio{
@@ -8453,4 +8470,9 @@ ul#slide-list{
         .espacioindexarriba{
             margin-top: -85px;
         }
+    }
+
+    .estilosofia{
+        font-style: italic;
+        font-size: 20px;
     }

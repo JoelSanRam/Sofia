@@ -5,7 +5,7 @@
     <title>Sofía Coná</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Hola, mi nombre es Sofía, me encanta pintar y escribir, creo que todos tenemos mucho adentro y necesitamos algo para no explotar. Lo mío es pintar, ¿y lo tuyo?">
-    <meta name="keywords" content="architecture,building,business,bootstrap,creative,exterior design,furniture design,gallery,garden design,house,interior design,landscape design,multipurpose,onepage,portfolio,studio">
+    <meta name="keywords" content="Hola, mi nombre es Sofía, me encanta pintar y escribir, creo que todos tenemos mucho adentro y necesitamos algo para no explotar. Lo mío es pintar, ¿y lo tuyo?">
     <meta name="author" content="">
 
 
@@ -119,7 +119,7 @@
                     <div class="col-md-3 text-right">
                         <div class="social-icons">
                             <a href="https://www.facebook.com/SOF%C3%8DA-CON%C3%81-609377649742470/"><i class="fa fa-facebook fa-lg"></i></a>
-                            <a href="https://wa.link/7t3opn"><i class="fa fa-whatsapp fa-lg"></i></a>
+                            <a href="https://wa.link/jhec1x"><i class="fa fa-whatsapp fa-lg"></i></a>
                             <a href="https://www.instagram.com/sofiacona_/"><i class="fa fa-instagram fa-lg"></i></a>
                             <a href="{{ route('dashboard') }}"><i class="fa fa-user fa-lg"></i></a>
 
@@ -171,7 +171,7 @@
     {{-- <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.kenburn.min.js')}}"></script> --}}
     {{-- <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.migration.min.js')}}"></script> --}}
    {{--  <script src="{{ asset('cliente/revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script> --}}
-   
+
    <script>
         jQuery(document).ready(function() {
             // revolution slider
@@ -223,10 +223,10 @@
             if (scroll > previousScroll && scroll > 200){
                 document.getElementById('imgLogo').src = logo2;
             } else {
-                document.getElementById('imgLogo').src = logo1; 
+                document.getElementById('imgLogo').src = logo1;
             }
             previousScroll = scroll;    });
-        
+
         });
   </script> --}}
 
