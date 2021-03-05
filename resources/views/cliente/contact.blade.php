@@ -1,4 +1,7 @@
 @extends('MasterPage.cliente')
+@section('title')
+| Contacto
+@endsection
 @section('cliente')
 
 <!-- subheader -->
@@ -8,7 +11,7 @@
             <div class="col-md-12">
                 <h1 style="color: white">Contacto</h1>
                 <ul class="crumb">
-                    <li><a href="index.html" style="color: white">Inicio</a></li>
+                    <li><a href="{{ route('home')}}" style="color: white">Inicio</a></li>
                     <li class="sep">/</li>
                     <li>Contacto</li>
                 </ul>

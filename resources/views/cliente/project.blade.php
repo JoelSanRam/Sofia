@@ -1,4 +1,7 @@
 @extends('MasterPage.cliente')
+@section('title')
+| Obras
+@endsection
 @section('cliente')
 
 <!-- subheader -->

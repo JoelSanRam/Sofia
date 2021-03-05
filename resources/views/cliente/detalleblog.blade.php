@@ -1,5 +1,9 @@
 @extends('MasterPage.cliente')
+@section('title')
+| {{$item->title}}
+@endsection
 @section('cliente')
+
 
 <section id="subheader" data-bgimage="url({{ asset('cliente/images/background/1.jpg')}})" data-stellar-background-ratio=".2">
     <div class="container">
@@ -9,7 +13,7 @@
                 <ul class="crumb">
                     <li><a href="{{ route('home') }}" style="color: white">Inicio</a></li>
                     <li class="sep">/</li>
-                    <li>Detalle de artículo</li>
+                    <li>{{$item->title}}</li>
                 </ul>
             </div>
         </div>

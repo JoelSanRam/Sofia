@@ -1,4 +1,7 @@
 @extends('MasterPage.cliente')
+@section('title')
+| Blog
+@endsection
 @section('cliente')
 
 <section id="subheader" data-bgimage="url({{ asset('cliente/images/background/1.jpg')}})" data-stellar-background-ratio=".2">

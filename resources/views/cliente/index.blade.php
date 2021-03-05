@@ -1,4 +1,7 @@
 @extends('MasterPage.cliente')
+@section('title')
+| Inicio
+@endsection
 @section('cliente')
 
 

@@ -27,7 +27,7 @@ class DataController extends Controller
 
     public function blog()
     {
-    	$items = Post::paginate(2);
+    	$items = Post::paginate(8);
     	return view('cliente.blog', compact('items'));
     }
 

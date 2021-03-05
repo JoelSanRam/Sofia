@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Sofía Coná</title>
+    <title>Sofía Coná @yield('title') </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Artista mexicana. Pinto, escribo y te lo comparto.">
     <meta name="keywords" content="Hola, mi nombre es Sofía, me encanta pintar y escribir, creo que todos tenemos mucho adentro y necesitamos algo para no explotar. Lo mío es pintar, ¿y lo tuyo?">
