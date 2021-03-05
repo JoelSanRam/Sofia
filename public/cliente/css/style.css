@@ -8280,7 +8280,7 @@ ul#slide-list{
             margin-left: 60px;
         }
         .imagenblog{
-            height: 130px;
+            height: 130px !important;
         }
     }
 
